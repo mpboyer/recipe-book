@@ -16,3 +16,8 @@ function inputAllFiles(dirname)
 
 	out:close()
 end
+
+function cleanupTempFile(dirname)
+	local path = "Recettes/" .. dirname .. "/main.tmp"
+	os.remove(path)
+end

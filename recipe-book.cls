@@ -48,6 +48,7 @@
 \RequirePackage{lettrine}
 
 \addto\captionsfrench{\renewcommand{\contentsname}{\color{black}À Table~!}}
+\addto\captionsfrench{\renewcommand{\indexname}{\color{black}Index}}
 
 \RequirePackage{enumitem}
 \RequirePackage{titlesec}
@@ -105,25 +106,58 @@
 	\def\s@p{}%
 	\ifx\relax#1\relax
 	\else
-		\s@p\people{#1}\def\s@p{\thesep}\fi%
+		\s@p\people{#1}\def\s@p{\thesep}
+		\index{Pour!#1 personnes}
+	\fi%
 	\ifx\relax#2\relax
 	\else
-		\s@p\preptime{#2}\def\s@p{\thesep}\fi%
+		\s@p\preptime{#2}\def\s@p{\thesep}
+		\index{Temps de Préparation!#2}
+	\fi%
 	\ifx\relax#3\relax
 	\else
-		\s@p\cooktime{#3}\def\s@p{\thesep}\fi%
+		\s@p\cooktime{#3}\def\s@p{\thesep}
+		\index{Temps de Cuisson!#3}
+	\fi%
 	\ifx\relax#4\relax
 	\else
-		\s@p\baketime{#4}\def\s@p{\thesep}\fi%
+		\s@p\baketime{#4}\def\s@p{\thesep}
+		\index{Temps au Four!#4}
+	\fi%
 	\ifx\relax#5\relax
 	\else
-		\s@p\cooltime{#5}\def\s@p{\thesep}\fi%
+		\s@p\cooltime{#5}\def\s@p{\thesep}
+		\index{Temps de Repos!#5}
+	\fi%
 	\ifx\relax#6\relax
 	\else
-		\s@p\robot{#6}\def\s@p{\thesep}\fi%
+		\s@p\robot{#6}\def\s@p{\thesep}
+		\index{Ustensiles!#6}
+	\fi%
 }
 \makeatother
 
+\RequirePackage{expl3}
+\ExplSyntaxOn
+\NewDocumentCommand{\tabletoindex}{m}
+{
+	\seq_set_split:Nnn \l_tmpa_seq { \\ } { #1 } % split by row
+	\seq_map_inline:Nn \l_tmpa_seq
+	{
+		\__process_table_line:n { ##1 }
+	}
+}
+
+% Process each row, split by &, and write an \index command
+\cs_new_protected:Nn \__process_table_line:n
+{
+	\tl_if_blank:nTF { #1 } { } % skip blank lines
+	{
+		\seq_set_split:Nnn \l_tmpb_seq { & } { #1 }
+		\index{\seq_item:Nn \l_tmpb_seq {1}!\seq_item:Nn \l_tmpb_seq {2}}
+	}
+}
+\ExplSyntaxOff
 
 \def\recipe#1#2{%
 	\vspace{3em}\noindent
@@ -134,6 +168,7 @@
 		\begin{NiceTabular}[width=\linewidth]{X[r, m]X[l, m]}
 			#1
 		\end{NiceTabular}
+		\tabletoindex{#1}
 	\end{minipage}
 	\begin{minipage}[t]{.01\textwidth}
 
@@ -214,6 +249,7 @@
 
 \newcommand{\inputAllFiles}[1]{%
 	\directlua{inputAllFiles("#1")}%
-	\InputIfFileExists{Recettes/#1/main.tmp}{}{}
+	\InputIfFileExists{Recettes/#1/main.tmp}{}{}%
+	\directlua{cleanupTempFile("#1")}%
 }
 

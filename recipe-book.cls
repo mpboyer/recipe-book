@@ -18,7 +18,7 @@
 \RequirePackage[hidelinks, colorlinks=false]{hyperref}
 \RequirePackage{xcolor}
 \definecolor{vulm}{HTML}{7d1dd3}
-\definecolor{pagecolor}{HTML}{f1f1f1}
+\definecolor{pagecolor}{HTML}{f9f9f9}
 \pagecolor{pagecolor}
 \RequirePackage{imakeidx}
 \RequirePackage{titletoc}
@@ -41,6 +41,9 @@
 \RequirePackage{wrapfig}
 \RequirePackage{floatrow}
 \RequirePackage{tikz}
+\usetikzlibrary{shadows, decorations, decorations.pathmorphing, decorations.text, calc,
+	patterns, decorations.pathmorphing, shapes.geometric}
+
 \RequirePackage{eso-pic}
 \RequirePackage{transparent}
 
@@ -60,29 +63,39 @@
 	\vspace*{-40pt}%
 	\Huge\bfseries% title font
 	\filright%
-}[\vspace{1ex}%
+}[\vspace{1em}%
 	\minitoc
-	\vspace{2ex}
 ]
 
 \setcounter{minitocdepth}{2}
 \renewcommand{\mtctitle}{}
 \dominitoc
 
+\def\divider{
+	\noindent
+	\begin{tikzpicture}[line width=0.4mm]
+		% Light, thin horizontal line
+		\draw[opacity=0.5] (0,0) -- (\textwidth,0);
+	\end{tikzpicture}
+	\par
+	\vspace{2em}
+}
+
 \newcommand*{\recette}[1]%
 {%
 	\section{#1}
-	\index{#1}
+	\index{Recette!#1}
+	\divider
 }
 
 \RequirePackage{units}
 \RequirePackage{tabulary}
 
-\def\textemoji#1{\raisebox{2pt}{\emoji{#1}}}
+\def\textemoji#1{\raisebox{2pt}{\emoji{#1}}\kern1pt}
 \def\preptime#1{\textemoji{cook}~Préparation~:~#1}
 \def\cooktime#1{\textemoji{cooking}~Cuisson~:~#1}
 \def\baketime#1{\textemoji{baguette-bread}~Four~:~#1}
-\def\people#1{\textemoji{fork-and-knife-with-plate}~Pour~#1~couverts}
+\def\people#1{\raisebox{-1pt}{\textemoji{fork-and-knife-with-plate}}~Pour~#1~couverts}
 \def\cooltime#1{\textemoji{snowflake}~Frigo~:~#1}
 \def\robot#1{\textemoji{robot}~Ustensiles~:~#1}
 
@@ -99,41 +112,51 @@
 }
 
 
-\def\thesep{ | }
+\def\thesep{\kern1pt | \kern1pt}
 \makeatletter
+\def\thetitle{\@title}
+\def\theauthor{\@author}
+%
 \newcommand{\params}[6]{%
 	\noindent
-	\def\s@p{}%
-	\ifx\relax#1\relax
-	\else
-		\s@p\people{#1}\def\s@p{\thesep}
-		\index{Pour!#1 personnes}
-	\fi%
-	\ifx\relax#2\relax
-	\else
-		\s@p\preptime{#2}\def\s@p{\thesep}
-		\index{Temps de Préparation!#2}
-	\fi%
-	\ifx\relax#3\relax
-	\else
-		\s@p\cooktime{#3}\def\s@p{\thesep}
-		\index{Temps de Cuisson!#3}
-	\fi%
-	\ifx\relax#4\relax
-	\else
-		\s@p\baketime{#4}\def\s@p{\thesep}
-		\index{Temps au Four!#4}
-	\fi%
-	\ifx\relax#5\relax
-	\else
-		\s@p\cooltime{#5}\def\s@p{\thesep}
-		\index{Temps de Repos!#5}
-	\fi%
-	\ifx\relax#6\relax
-	\else
-		\s@p\robot{#6}\def\s@p{\thesep}
-		\index{Ustensiles!#6}
-	\fi%
+	\begin{tikzpicture}
+		\draw (2.5, -.6) -- (0, -.6) -- (0, .6) -- (2.5, .6);
+		\draw[dashed] (2.5, -.6) -- (5, -.6);
+		\draw[dashed] (2.5, .6) -- (7.5, .6);
+		\node[anchor=west, inner xsep=12pt] (1,0) {%
+			\def\s@p{}%
+			\ifx\relax#1\relax
+			\else
+				\s@p\people{#1}\def\s@p{\thesep}
+				\index{Pour!#1 personnes}
+			\fi%
+			\ifx\relax#2\relax
+			\else
+				\s@p\preptime{#2}\def\s@p{\thesep}
+				\index{Temps!Préparation!#2}
+			\fi%
+			\ifx\relax#3\relax
+			\else
+				\s@p\cooktime{#3}\def\s@p{\thesep}
+				\index{Temps!Cuisson!#3}
+			\fi%
+			\ifx\relax#4\relax
+			\else
+				\s@p\baketime{#4}\def\s@p{\thesep}
+				\index{Temps!Four!#4}
+			\fi%
+			\ifx\relax#5\relax
+			\else
+				\s@p\cooltime{#5}\def\s@p{\thesep}
+				\index{Temps!Repos!#5}
+			\fi%
+			\ifx\relax#6\relax
+			\else
+				\s@p\robot{#6}\def\s@p{\thesep}
+				\index{Ustensiles!#6}
+			\fi%
+		};
+	\end{tikzpicture}
 }
 \makeatother
 
@@ -154,31 +177,48 @@
 	\tl_if_blank:nTF { #1 } { } % skip blank lines
 	{
 		\seq_set_split:Nnn \l_tmpb_seq { & } { #1 }
-		\index{\seq_item:Nn \l_tmpb_seq {1}!\seq_item:Nn \l_tmpb_seq {2}}
+		\index{Ingrédient!\seq_item:Nn \l_tmpb_seq {1}!\seq_item:Nn \l_tmpb_seq {2}}
 	}
 }
 \ExplSyntaxOff
 
-\def\recipe#1#2{%
-	\vspace{3em}\noindent
-	\begin{minipage}[t]{0.33\textwidth}
-		\textbf{Les ingrédients}
-		\\[1em]
-		\def\arraystretch{1.2}
-		\begin{NiceTabular}[width=\linewidth]{X[r, m]X[l, m]}
-			#1
-		\end{NiceTabular}
-		\tabletoindex{#1}
-	\end{minipage}
-	\begin{minipage}[t]{.01\textwidth}
+\RequirePackage[most]{tcolorbox}
+\newtcolorbox{memelenebox}{
+	enhanced,
+	boxrule=1.2pt,
+	sharp corners,
+	boxsep=10pt,
+	top=14pt,
+	bottom=14pt,
+	left=12pt,
+	right=12pt,
+	before skip=14pt,
+	after skip=14pt,
+	shadow={1mm}{-1mm}{1mm}{black!30}, % soft shadow
+}
 
-	\end{minipage}
-	\begin{minipage}[t]{.66\textwidth}
-		\textbf{La recette}
-		\begin{enumerate}[label=\color{vulm}\theenumi, font=\bfseries]
-			#2
-		\end{enumerate}
-	\end{minipage}
+\def\recipe#1#2{%
+	\begin{memelenebox}
+		\noindent
+		\begin{minipage}[t]{0.33\textwidth}
+			\textbf{Les ingrédients}
+			\\[1em]
+			\def\arraystretch{1.2}
+			\begin{NiceTabular}[width=\linewidth]{X[r, m]X[l, m]}
+				#1
+			\end{NiceTabular}
+			\tabletoindex{#1}
+		\end{minipage}
+		\begin{minipage}[t]{.01\textwidth}
+
+		\end{minipage}
+		\begin{minipage}[t]{.66\textwidth}
+			\textbf{La recette}
+			\begin{enumerate}[label=\color{vulm}\theenumi, font=\bfseries]
+				#2
+			\end{enumerate}
+		\end{minipage}
+	\end{memelenebox}
 }
 
 \makeatletter
@@ -201,6 +241,27 @@
 	\vfill{ \transparent{0} :)}
 	\includeillus{#1}
 }
+
+\def\MarbledBackground{\AddToShipoutPictureBG*{\put(0,0){\parbox[b][\paperheight]{\paperwidth}{\vfill\centering\includegraphics[width=\paperwidth,height=\paperheight]{title-background.png}\vfill}}}}
+
+\RequirePackage{calligra}
+
+\newcommand{\memeleneTitle}{
+	\begin{titlepage}
+		\MarbledBackground
+
+		\begin{tikzpicture}[remember picture, overlay]
+			\fill[black!70!blue] ($(current page.center) + (0,1cm)$) ellipse (5.3cm and 2.5cm);
+			\draw[ultra thick, color=black] ($(current page.center) + (0,1cm)$) ellipse (5.3cm and 2.5cm);
+			\draw[thick, color=black] ($(current page.center) + (0,1cm)$) ellipse (5cm and 2.2cm);
+			\fill[white] ($(current page.center) + (0,1cm)$) ellipse (5cm and 2.2cm);  % White fill inside
+
+			\node[align=center, font=\sffamily\bfseries, scale=1.4, text width=8cm]
+			at ($(current page.center) + (0,1cm)$) {{\calligra\Huge \thetitle}\\[1em] {\calligra\LARGE\theauthor}};
+		\end{tikzpicture}
+	\end{titlepage}
+}
+
 
 \def\info#1{%
 	\vfill
@@ -242,7 +303,7 @@
 	dofile("mergefiles.lua")
 \end{luacode*}
 
-\AfterBeginDocument{\frontmatter\maketitle\dominitoc\tableofcontents\makeindex\mainmatter}
+\AfterBeginDocument{\frontmatter\memeleneTitle\dominitoc\tableofcontents\makeindex\mainmatter}
 \AtEndDocument{\backmatter\includeindex}
 
 

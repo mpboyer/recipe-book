@@ -1,0 +1,18 @@
+return {
+    titre = "Titre",
+    image = "imgpath", # Laisser vide pour pas d'image
+    portions = "Convives",
+    prep = "Temps de préparation",
+    cuisson = "Temps de cuisson",
+    four = "Temps au four",
+    frigo = "Temps de refroidissement",
+    robots = "Ustensiles",
+    ingredients = [[
+      Ingrédient & Quantité\\
+    ]],
+    etapes = [[
+    \item Étape 1
+    \item Étape 2
+    \item ...
+    ]]
+  }

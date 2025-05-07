@@ -1,0 +1,29 @@
+return {
+    titre = "Pain de Poisson",
+    image = "pain-poisson.jpg",
+    portions = "12",
+    prep = "20 mn",
+    cuisson = "",
+    four = "45 mn",
+    frigo = "",
+    robots = "Mixeur",
+    ingredients = [[
+  Thon & Une boîte\\
+	Pain de Mie & Trois tranches\\
+	\OE ufs & 3 \\
+	Crème Liquide & Une brique\\
+	Ketchup & \\
+	Aneth &\\
+	Paprika & \\
+	Sel, Poivre &
+  ]],
+    etapes = [[
+  \item Émietter le thon et le pain de mie dans le bol d'un hachoir/mixeur.
+	\item Ajouter la crème, les \oe ufs et le ketchup.
+	\item Assaisoner sans retenue et mixer.
+	\item Dans un moule à cake, verser la préparation et enfourner à \celsius{180}.
+	\item Laisser cuire pendant environ 45mn, jusqu'à durcissement de la croûte.
+	Un couteau enfoncé doit revenir sec.
+	\item Une fois cuit, démouler, laisser refroidir et servir à température ambiante.
+    ]]
+  }

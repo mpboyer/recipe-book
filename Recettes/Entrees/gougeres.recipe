@@ -1,0 +1,25 @@
+return {
+    titre = "ZGougères",
+    portions = "6",
+    prep = "20mn",
+    four = "25mn",
+    ingredients = [[
+      Gruyère Rapé & 150g\\
+      Farine & 150g\\
+      Beurre & 80g\\
+      \OE ufs & 4 + 1 jaune\\
+      Muscade & \\
+      Sel/Poivre & 
+    ]],
+    etapes = [[
+    \item Préchauffer le four à 200°C
+    \item Porter 25cl d'eau à ébullition avec le beurre coupé en morceaux.
+    \item Hors du feu, ajouter la farine d'un coup.
+    Faites déssecher pendant 1mn sur feu doux.
+    \item Laisser tiédir et incorporer les \oe ufs un par un en mélangeant bien.
+    \item Ajouter le gruyère rapé, la muscade, saler et poivrer.
+    \item Faire des boules de pâte à l'aide de deux cuillers à café sur une plaque beurrée.
+    \item Optionnellement, dorer les gougères au pinceau avec un jaune d'\oe uf.
+    \item Enfourner 25mn en surveillant.
+    ]]
+  }

@@ -88,7 +88,14 @@
 	\divider
 }
 
-\RequirePackage{units}
+\RequirePackage{siunitx}
+\DeclareSIUnit{\hour}{h}
+\def\mn#1{\qty{#1}{\minute}}
+\def\hr#1{\qty{#1}{\hour}}
+\def\celsius#1{\qty{#1}{\degreeCelsius}}
+\def\gr#1{\qty{#1}{\gram}}
+
+
 \RequirePackage{tabulary}
 
 \def\textemoji#1{\raisebox{2pt}{\emoji{#1}}\kern1pt}
@@ -98,10 +105,6 @@
 \def\people#1{\raisebox{-1pt}{\textemoji{fork-and-knife-with-plate}}~Pour~#1~couverts}
 \def\cooltime#1{\textemoji{snowflake}~Frigo~:~#1}
 \def\robot#1{\textemoji{robot}~Ustensiles~:~#1}
-
-\def\mn#1{\unit[#1]{mn}}
-\def\hr#1{\unit[#1]{h}}
-\def\celsius#1{\unit[#1]{°C}}
 
 \def\notempty#1#2{
 	\ifx&#1&
@@ -277,11 +280,10 @@
 	\end{minipage}
 }
 
-\def\newrecipe#1#2#3#4#5#6#7#8{
-	\illus{#2}
+\def\newrecipe#1#2#3#4#5#6#7{
 	\newpage
 	\recette{#1}
-	\params{#3}{#4}{#5}{#6}{#7}{#8}
+	\params{#2}{#3}{#4}{#5}{#6}{#7}
 }
 
 \def\therecipe#1#2#3{%
@@ -311,6 +313,6 @@
 \newcommand{\inputAllFiles}[1]{%
 	\directlua{inputAllFiles("#1")}%
 	\InputIfFileExists{Recettes/#1/main.tmp}{}{}%
-	\directlua{cleanupTempFile("#1")}%
+	% \directlua{cleanupTempFile("#1")}%
 }
 

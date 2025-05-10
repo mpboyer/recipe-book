@@ -1,6 +1,6 @@
 return {
     titre = "Titre",
-    image = "imgpath", # Laisser vide pour pas d'image
+    image = "imgpath",  -- Laisser vide pour ne pas inclure une image
     portions = "Convives",
     prep = "Temps de préparation",
     cuisson = "Temps de cuisson",

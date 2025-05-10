@@ -90,10 +90,15 @@ end
 
 function inputAllFiles(folder)
 	local recipeList = {}
+	local tex = {}
 
 	for file in lfs.dir("Recettes/" .. folder) do
 		if file:match("%.recipe$") then
-			local chunk = loadfile("Recettes/" .. folder .. "/" .. file)
+			local filepath = "Recettes/" .. folder .. "/" .. file
+			local chunk, err = loadfile(filepath)
+			if not chunk then
+				error("Failed to load " .. filepath .. ": " .. err)
+			end
 			local recipe = chunk()
 			table.insert(recipeList, recipe)
 		end
@@ -102,8 +107,6 @@ function inputAllFiles(folder)
 	table.sort(recipeList, function(a, b)
 		return a.titre:lower() < b.titre:lower()
 	end)
-
-	local tex = {}
 
 	for _, oldr in ipairs(recipeList) do
 		r = format_recipe(oldr)
@@ -149,3 +152,5 @@ end
 function cleanupTempFile(folder)
 	os.remove("Recettes/" .. folder .. "/main.tmp")
 end
+
+inputAllFiles("Entrees")

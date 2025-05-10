@@ -1,0 +1,29 @@
+return {
+    titre = "Penne Pilaf",
+    image = "", 
+    portions = "6",
+    prep = "15mn",
+    cuisson = "",
+    four = "",
+    frigo = "",
+    robots = "Wok",
+    ingredients = [[
+      Penne & 500g\\
+      Broccoli & 1\\
+      Lardons Fumés & 400g\\
+      Parmesan & 50g\\
+      Bouillon de Volaille & 1 cube\\
+      Huile & 4 c.à.s.\\
+    ]],
+    etapes = [[
+    \item Couper le broccoli en tranches verticale. 
+    \item Faire bouillir 1L d'eau avec le cube de bouillon. 
+    \item Faire chauffer la moitié de l'huile dans un wok et y faire sauter les lardons et le broccoli 2-3mn. 
+    \item Réserver avec un écumoir. 
+    \item Ajouter les pâtes et mélanger 2-3mn à feu modéré, jusqu'à blondissement léger. 
+    \item Verser le bouillon et couvrir. 
+    \item Laisser cuire pendant 5mn en remuant et en ajoutant un peu d'eau chaude si les pâtes sèchent trop. 
+    \item Ajouter le broccoli et les lardons et laisser reposer à couvert, hors du feu. 
+    \item Servir avec du parmesan. 
+    ]]
+  }

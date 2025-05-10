@@ -1,0 +1,33 @@
+return {
+    titre = "Soupe Viêt",
+    image = "",
+    portions = "4",
+    prep = "10mn",
+    cuisson = "50mn",
+    four = "",
+    frigo = "",
+    robots = "",
+    ingredients = [[
+      Cuisses de Poulet & 600g\\
+      Champignons & \\
+      Carottes & 3-4 \\
+      Nouilles de Riz & \\
+      Bouillon de Volaille & 1.2L\\
+      Sambal & 1 cuiller à soupe\\
+      Zeste de Citron & 1\\
+      Ail & 3-4 gousses\\
+      Gingembre & 1 pouce\\
+      Cacahuètes & $\simeq$ 20
+    ]],
+    etapes = [[
+    \item Raper les Carottes et hacher l'ail. 
+    \item Faire revenir le poulet et l'ail haché dans de l'huile. 
+    \item Lorsque la peau est bien saisie, déglacer avec un peu d'eau et gratter le fond pour récupérer les sucs.
+    \item Ajouter les légumes et le bouillon de volaille. 
+    \item Assaisonner avec la pâte de piment, le gingembre et le citron. 
+    \item Faire mijoter 40mn.
+    \item Déchiqueter le poulet puis le remettre dans le bouillon avec les champignons. 
+    \item Réhydrater les nouilles de riz puis les ajouter au bouillon. 
+    \item Servir et ajouter les cacahuètes. 
+    ]]
+  }

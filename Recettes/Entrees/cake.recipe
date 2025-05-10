@@ -1,0 +1,29 @@
+return {
+    titre = "Cake",
+    image = "",
+    portions = "12",
+    prep = "25mn",
+    cuisson = "",
+    four = "30mn",
+    frigo = "",
+    robots = "",
+    ingredients = [[
+      \OE ufs & 3\\
+      Farine & 180g\\
+      Lait & 10cL\\
+      Levure & 1 sachet\\
+      Fromage Rapé & 100g\\
+      Huile d'Olive & 10cL\\
+      Sel/Poivre & \\
+      Garniture &
+    ]],
+    etapes = [[
+    \item Mélanger les \oe ufs, la farine, le lait, la levure, l'huile et le fromage rapé pour former un appareil.
+    \item Intégrer la garniture: ce peut être du jambon, des olives dénoyautées, du saumon fumé, de l'aneth, des épices, du fromage de chèvre, des tomates séchées\ldots
+    \item Mettre au four à 180°C jusqu'à ce que qu'un couteau ressorte sec du cake.
+    ]],
+    note = [[
+    Pour une version sucrée de la recette, remplacer le gromage rapée et l'huile d'olive par 125g de beurre ramoli et 125g de sucre en poudre, en enlevant un peu de farine et un demi-sachet de levure.
+    Comme garniture, opter pour des fruits confits, du Van Houten, de la poudre de thé vert ou de la fleur d'oranger.
+    ]]
+  }

@@ -101,18 +101,18 @@
 % Use pgffor to define all units
 \usepackage{pgffor}
 \foreach \scut/\unit in {
-  mn/minute,
-  hr/hour,
-  celsius/degreeCelsius,
-  gr/gram,
-  kg/kilogram,
-  cL/centiliter,
-  Lit/liter,
-  s/second
-}{
-  \expandafter\xdef\csname\scut\endcsname##1{\quant{##1}{\unit}}
-  \expandafter\xdef\csname\scut range\endcsname##1##2{\quantrange{##1}{##2}{\unit}}
-}
+		mn/minute,
+		hr/hour,
+		celsius/degreeCelsius,
+		gr/gram,
+		kg/kilogram,
+		cL/centiliter,
+		Lit/liter,
+		s/second
+	}{
+		\expandafter\xdef\csname\scut\endcsname##1{\quant{##1}{\unit}}
+		\expandafter\xdef\csname\scut range\endcsname##1##2{\quantrange{##1}{##2}{\unit}}
+	}
 
 \RequirePackage{tabulary}
 

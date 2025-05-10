@@ -88,13 +88,31 @@
 	\divider
 }
 
-\RequirePackage{siunitx}
-\DeclareSIUnit{\hour}{h}
-\def\mn#1{\qty{#1}{\minute}}
-\def\hr#1{\qty{#1}{\hour}}
-\def\celsius#1{\qty{#1}{\degreeCelsius}}
-\def\gr#1{\qty{#1}{\gram}}
 
+\usepackage{xparse}
+\usepackage{siunitx}
+\DeclareSIUnit{\hour}{h}
+\DeclareSIUnit{\centiliter}{\centi\liter}
+
+\sisetup{mode = text}
+\gdef\quant#1#2{\qty{#1}{\csname #2\endcsname}}
+\gdef\quantrange#1#2#3{\qtyrange{#1}{#2}{\csname #3\endcsname}}
+
+% Use pgffor to define all units
+\usepackage{pgffor}
+\foreach \scut/\unit in {
+  mn/minute,
+  hr/hour,
+  celsius/degreeCelsius,
+  gr/gram,
+  kg/kilogram,
+  cL/centiliter,
+  Lit/liter,
+  s/second
+}{
+  \expandafter\xdef\csname\scut\endcsname##1{\quant{##1}{\unit}}
+  \expandafter\xdef\csname\scut range\endcsname##1##2{\quantrange{##1}{##2}{\unit}}
+}
 
 \RequirePackage{tabulary}
 

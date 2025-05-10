@@ -1,47 +1,84 @@
 local lfs = require("lfs")
 
--- Parses time strings like 45mn, 1.5h, 30-45mn, 1h30mn
-local function format_unit(s)
-	if not s then
-		return ""
-	end
-	s = s:match("^%s*(.-)%s*$") -- trim
+local unit_map = {
+	["g"] = "gr",
+	["kg"] = "kg",
+	["mg"] = "mg",
 
-	-- Range in mn or h (e.g. 30-45mn, 1.5-2h)
-	local num1, num2, unit = s:match("^(%d%.?%d*)%s*%-%s*(%d%.?%d*)(mn|h)$")
-	if num1 and num2 and unit then
-		return string.format("\\%s{%s-%s}", unit == "mn" and "mn" or "hr", num1, num2)
+	["L"] = "Lit",
+	["cL"] = "cL",
+	["cl"] = "cL",
+	["mL"] = "mL",
+
+	["mn"] = "mn",
+	["h"] = "hr",
+
+	["°C"] = "celsius",
+}
+
+local function format_units(line)
+	-- Iterate over the unit_map and replace each unit
+	for unit, macro in pairs(unit_map) do
+		-- This pattern will match numbers with optional spaces followed by the unit
+		local pattern = "(%d+%.?%d*)%s*" .. unit
+		line = line:gsub(pattern, function(num)
+			return string.format("\\%s{%s}", macro, num)
+		end)
 	end
 
-	-- Separate h and mn (e.g. 1h30mn)
-	local h, m = s:match("^(%d%.?%d*)h(%d%d?)mn$")
-	if h and m then
+	-- Handle ranges: e.g., "30-45mn", "1.5 - 2h"
+	line = line:gsub("(%d+%.?%d*)%s*%-+%s*(%d+%.?%d*)%s*(%a+)", function(num1, num2, unit)
+		local macro = unit_map[unit]
+		if macro then
+			return string.format("\\%srange{%s-%s}", macro, num1, num2)
+		end
+		return line
+	end)
+
+	-- Handle compound time like "1h30mn"
+	line = line:gsub("(%d+%.?%d*)h(%d%d?)mn", function(h, m)
 		return string.format("\\hr{%s}\\mn{%s}", h, m)
+	end)
+
+	return line
+end
+
+local function format_multiline(s)
+	local res = {}
+	for line in s:gmatch("[^\n]*\n?") do
+		if line ~= "" then
+			local formatted = format_units(line)
+			table.insert(res, formatted)
+		end
+	end
+	return table.concat(res, "")
+end
+
+local function format_recipe(data)
+	local formatted = {}
+
+	local unit_fields = { "prep", "cuisson", "four", "frigo", "portions" }
+	for _, key in ipairs(unit_fields) do
+		if data[key] then
+			formatted[key] = format_units(data[key])
+		end
 	end
 
-	-- Just mn
-	local m_only = s:match("^(%d+%.?%d*)mn$")
-	if m_only then
-		return "\\mn{" .. m_only .. "}"
+	for key, value in pairs(data) do
+		if not formatted[key] then
+			formatted[key] = value
+		end
 	end
 
-	-- Just h
-	local h_only = s:match("^(%d+%.?%d*)h$")
-	if h_only then
-		return "\\hr{" .. h_only .. "}"
+	if data.ingredients then
+		formatted.ingredients = format_multiline(data.ingredients)
 	end
 
-	local cels = s:match("^(%d+%.?%d*)°C$")
-	if cels then
-		return "\\celsius{" .. cels .. "}"
+	if data.etapes then
+		formatted.etapes = format_multiline(data.etapes)
 	end
 
-	local gram = s:match("^(%d+%.?%d*)g$")
-	if gram then
-		return "\\gr{" .. gram .. "}"
-	end
-
-	return s -- fallback: unchanged
+	return formatted
 end
 
 local function escape_latex_argument(s)
@@ -66,17 +103,15 @@ function inputAllFiles(folder)
 		return a.titre:lower() < b.titre:lower()
 	end)
 
-	-- Build LaTeX
 	local tex = {}
-	local currentImage = nil
 
-	for _, r in ipairs(recipeList) do
-		if r.image ~= currentImage and r.image ~= nil then
+	for _, oldr in ipairs(recipeList) do
+		r = format_recipe(oldr)
+		if r.image ~= nil then
 			table.insert(tex, "\\illus{" .. r.image .. "}")
 			table.insert(tex, "\\newpage")
 			currentImage = r.image
-		end
-		if r.image == nil then
+		else
 			table.insert(tex, "\\newpage\n \\phantom{.}\n")
 		end
 
@@ -86,10 +121,10 @@ function inputAllFiles(folder)
 				"\\newrecipe{%s}{%s}{%s}{%s}{%s}{%s}{%s}",
 				r.titre,
 				r.portions or "",
-				format_unit(r.prep),
-				format_unit(r.cuisson),
-				format_unit(r.four),
-				format_unit(r.frigo),
+				r.prep or "",
+				r.cuisson or "",
+				r.four or "",
+				r.frigo or "",
 				r.robots or ""
 			)
 		)

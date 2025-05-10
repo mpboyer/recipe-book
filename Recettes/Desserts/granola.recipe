@@ -1,0 +1,27 @@
+return {
+    titre = "Granola",
+    image = "",  -- Laisser vide pour ne pas inclure une image
+    portions = "",
+    prep = "",
+    cuisson = "35-40mn",
+    four = "",
+    frigo = "",
+    robots = "",
+    ingredients = [[
+      Flocons d'avoine & 500g\\
+      Flocons d'orge & 325g\\
+      Flocons d'épeautre & 325g\\
+      Noix & 150g\\
+      Huile & 1 c.à.s.\\
+      Cassonade & 3 c.à.s.\\
+      Jus de Pomme & 60mL\\
+      Sirop d'Érable & 60mL\\
+      Cannelle & 1/2 c.à.c.\\
+      Vaille & 1/2 c.à.c.
+    ]],
+    etapes = [[
+    \item Faire chauffer les liquides jusqu'à ébullition. 
+    \item Toute verser sur le mélange de flocons. 
+    \item Étaler sur une plaque et faire cuir au four à 180°C pendant 35-40mn.
+    ]]
+  }

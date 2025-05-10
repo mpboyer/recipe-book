@@ -42,7 +42,7 @@
 \RequirePackage{floatrow}
 \RequirePackage{tikz}
 \usetikzlibrary{shadows, decorations, decorations.pathmorphing, decorations.text, calc,
-	patterns, decorations.pathmorphing, shapes.geometric}
+	patterns, decorations.pathmorphing, decorations.pathreplacing, shapes.geometric, calligraphy}
 
 \RequirePackage{eso-pic}
 \RequirePackage{transparent}
@@ -93,6 +93,7 @@
 \usepackage{siunitx}
 \DeclareSIUnit{\hour}{h}
 \DeclareSIUnit{\centiliter}{\centi\liter}
+\DeclareSIUnit{\milliliter}{\milli\liter}
 
 \sisetup{mode = text}
 \gdef\quant#1#2{\qty{#1}{\csname #2\endcsname}}
@@ -107,6 +108,7 @@
 		gr/gram,
 		kg/kilogram,
 		cL/centiliter,
+		mL/milliliter,
 		Lit/liter,
 		s/second
 	}{
@@ -203,44 +205,6 @@
 }
 \ExplSyntaxOff
 
-\RequirePackage[most]{tcolorbox}
-\newtcolorbox{memelenebox}{
-	enhanced,
-	boxrule=1.2pt,
-	sharp corners,
-	boxsep=10pt,
-	top=14pt,
-	bottom=14pt,
-	left=12pt,
-	right=12pt,
-	before skip=14pt,
-	after skip=14pt,
-	shadow={1mm}{-1mm}{1mm}{black!30}, % soft shadow
-}
-
-\def\recipe#1#2{%
-	\begin{memelenebox}
-		\noindent
-		\begin{minipage}[t]{0.33\textwidth}
-			\textbf{Les ingrédients}
-			\\[1em]
-			\def\arraystretch{1.2}
-			\begin{NiceTabular}[width=\linewidth]{X[r, m]X[l, m]}
-				#1
-			\end{NiceTabular}
-			\tabletoindex{#1}
-		\end{minipage}
-		\begin{minipage}[t]{.01\textwidth}
-
-		\end{minipage}
-		\begin{minipage}[t]{.66\textwidth}
-			\textbf{La recette}
-			\begin{enumerate}[label=\color{vulm}\theenumi, font=\bfseries]
-				#2
-			\end{enumerate}
-		\end{minipage}
-	\end{memelenebox}
-}
 
 \makeatletter
 \def\illusfl@g{0}
@@ -284,18 +248,102 @@
 }
 
 
-\def\info#1{%
-	\vfill
-	\begin{tikzpicture}[overlay]
-		\draw[line width=1.5pt, color=vulm] (-.2, 0) -- (3, 0);
-		\draw[line width=1.5pt, color=vulm] (0, .2) -- (0, -1);
+\RequirePackage[most]{tcolorbox}
+\newtcolorbox{memelenebox}{
+	enhanced,
+	colback = pagecolor,
+	boxrule=1.2pt,
+	sharp corners,
+	boxsep=10pt,
+	top=14pt,
+	bottom=14pt,
+	left=12pt,
+	right=12pt,
+	before skip=14pt,
+	after skip=14pt,
+	shadow={1mm}{-1mm}{1mm}{black!30}, % soft shadow
+}
+
+\def\recipe#1#2{%
+	\begin{memelenebox}
+		\noindent
+		\begin{minipage}[t]{0.33\textwidth}
+			\textbf{Les ingrédients}
+			\\[1em]
+			\def\arraystretch{1.2}
+			\begin{NiceTabular}[width=\linewidth]{X[r, m]X[l, m]}
+				#1
+			\end{NiceTabular}
+			\tabletoindex{#1}
+		\end{minipage}
+		\begin{minipage}[t]{.01\textwidth}
+
+		\end{minipage}
+		\begin{minipage}[t]{.66\textwidth}
+			\textbf{La recette}
+			\begin{enumerate}[label=\color{vulm}\theenumi, font=\bfseries]
+				#2
+			\end{enumerate}
+		\end{minipage}
+	\end{memelenebox}
+}
+
+\newdimen\remaining
+\newdimen\gap
+\gap=3em
+
+\def\chefsnotes{
+	\noindent
+	\begin{tikzpicture}[remember picture, overlay]
+		\pgfmathtruncatemacro{\nlines}{\remaining/\gap -1}
+		% Decorative title label
+		\node[anchor=north west, font=\sffamily\large, draw, thick, sharp corners,
+			fill=vulm!10, inner sep=8pt, outer sep=0pt]
+		at (0,0) {Les Notes du Chef};
+
+		% Line loop
+		\foreach \i in {1,...,\nlines} {
+				\pgfmathsetlengthmacro{\y}{-\gap -\i*\gap}
+
+				% Left decoration (a calligraphic loop)
+				\draw[thick, decorate, decoration={calligraphic brace, mirror, amplitude=3pt}]
+				(-0.6cm,\y) -- (-0.2cm,\y);
+
+				% Dotted line (bigger dots)
+				\draw[line width=4pt, dash pattern=on 0pt off 8pt, line cap=round]
+				(0,\y) -- (\textwidth,\y);
+			}
 	\end{tikzpicture}
-	%
+}
+
+\def\info#1{%
+	\remaining=\dimexpr\pagegoal-\pagetotal\relax
+	\advance \remaining by -5em
 	\vspace{1em}
-	\hspace{1em}
-	\begin{minipage}{.915\textwidth}
-		\itshape#1
-	\end{minipage}
+	\ifx&#1&
+	\chefsnotes
+	\else
+	\sbox0{%
+		\begin{tikzpicture}
+			\node[inner sep=1em, text width=.915\textwidth, minimum width=.915\textwidth, draw=none] (content) {
+				\itshape #1
+			};
+
+			% Example decorative lines
+			\draw[line width=1.5pt, color=vulm]
+			($(content.north west) + (-0.2, 0)$) --  +(3.2, 0);
+
+			\draw[line width=1.5pt, color=vulm]
+			($(content.north west) + (0, 0.2)$) -- ($(content.south west) + (0, -0.2)$);
+		\end{tikzpicture}
+	}
+	\advance \remaining by -\ht0
+	\chefsnotes
+	\advance \remaining by 2em
+	\vspace{\remaining}
+	\par
+	\box0
+	\fi
 }
 
 \def\newrecipe#1#2#3#4#5#6#7{
@@ -306,11 +354,7 @@
 
 \def\therecipe#1#2#3{%
 	\recipe{#1}{#2}
-	\ifx&#3&
-	\vfill
-	\else
 	\info{#3}
-	\fi
 }
 
 \def\includeindex{%

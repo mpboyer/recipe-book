@@ -1,0 +1,31 @@
+return {
+    titre = "B\oe uf Bourguignon",
+    image = "boeuf-bourguignon.jpg",  
+    portions = "12",
+    prep = "1h",
+    cuisson = "4h",
+    four = "",
+    frigo = "12h",
+    ingredients = [[
+      B\oe uf & 3 livre\\
+      Oignons & 3 gros\\
+      Carottes & 1kg500g\\
+      Champignons & 500g\\
+      Vin Rouge & 50cl\\
+      Laurier & \\
+      Thym & \\
+      Sel/Poivre & \\
+    ]],
+    etapes = [[
+    \item Couper la viande en cubes de 2-3cm de côté. Couper une ou deux carottes (selon la taille) en bâtonnets.
+    \item Dans un grand saladier, plonger la viande et la carotte dans le vin rouge. Assaisonner en prenant garde au sel. Filmer et laisser mariner une nuit au frigo. 
+    \item Couper le reste des carottes en dés. Couper grossièrement les oignons et les champignons.
+    \item Ajouter les légumes et la marinade dans une grande marmite, et faire mijoter à feu doux. Si besoin, rajouter de l'eau à hauteur. 
+    \item Laisser mijoter jusqu'à ce que la viande se coupe presque à la fourchette. 
+    \item Servir avec des pommes de terre, des pâtes ou tout autre accompagnement. 
+    ]],
+    note = [[
+    Comme pièce de b\oe uf, choisir du paleron, de la macreuse ou une autre pièce assez tendre.
+    Pour le vin, choisir un bourgogne ou un beaujolais pas trop cher.  
+    ]]
+  }

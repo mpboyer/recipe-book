@@ -9,16 +9,19 @@
 \RequirePackage[T1]{fontenc}
 % \RequirePackage[utf8]{inputenc}
 \RequirePackage{fontspec}
+\RequirePackage{ebgaramond}
 \setmainfont{Amarante-Regular}[Extension=.ttf]
 \RequirePackage{xkeyval}
 \RequirePackage{fontawesome5}
 \RequirePackage{emoji}
 
-\RequirePackage[a4paper,margin=2cm]{geometry}
+\RequirePackage[a4paper,margin=2cm, left=1.5cm, right=1.5cm]{geometry}
 \RequirePackage[hidelinks, colorlinks=false]{hyperref}
 \RequirePackage{xcolor}
 \definecolor{vulm}{HTML}{7d1dd3}
-\definecolor{pagecolor}{HTML}{f9f9f9}
+\definecolor{yulm}{HTML}{ffe500}
+\definecolor{offwhite}{HTML}{f9f9f9}
+\colorlet{pagecolor}{yulm!2}
 \pagecolor{pagecolor}
 \RequirePackage{imakeidx}
 \RequirePackage{titletoc}
@@ -239,7 +242,7 @@
 			\fill[black!70!blue] ($(current page.center) + (0,1cm)$) ellipse (5.3cm and 2.5cm);
 			\draw[ultra thick, color=black] ($(current page.center) + (0,1cm)$) ellipse (5.3cm and 2.5cm);
 			\draw[thick, color=black] ($(current page.center) + (0,1cm)$) ellipse (5cm and 2.2cm);
-			\fill[white] ($(current page.center) + (0,1cm)$) ellipse (5cm and 2.2cm);  % White fill inside
+			\fill[pagecolor] ($(current page.center) + (0,1cm)$) ellipse (5cm and 2.2cm);  % White fill inside
 
 			\node[align=center, font=\sffamily\bfseries, scale=1.4, text width=8cm]
 			at ($(current page.center) + (0,1cm)$) {{\calligra\Huge \thetitle}\\[1em] {\calligra\LARGE\theauthor}};
@@ -297,39 +300,43 @@
 	\begin{tikzpicture}[remember picture, overlay]
 		\pgfmathtruncatemacro{\nlines}{\remaining/\gap -1}
 		% Decorative title label
-		\node[anchor=north west, font=\sffamily\large, draw, thick, sharp corners,
-			fill=vulm!10, inner sep=8pt, outer sep=0pt]
-		at (0,0) {Les Notes du Chef};
+		\node[anchor=west, font=\sffamily\large, draw, thick, sharp corners,
+			fill=vulm!50, inner sep=8pt, outer sep=0pt]
+		at (0,0) {\ebgaramond \LARGE Les Notes du Chef};
+
+		% \draw[fill=vulm, draw=none] (0, -\gap) rectangle (3pt, -\nlines\gap-2\gap);
+
+		\draw[fill=yulm!10] (0pt, -1\gap) rectangle (\textwidth, -2\gap - \nlines\gap);
 
 		% Line loop
 		\foreach \i in {1,...,\nlines} {
 				\pgfmathsetlengthmacro{\y}{-\gap -\i*\gap}
 
-				% Left decoration (a calligraphic loop)
-				\draw[thick, decorate, decoration={calligraphic brace, mirror, amplitude=3pt}]
-				(-0.6cm,\y) -- (-0.2cm,\y);
-
 				% Dotted line (bigger dots)
 				\draw[line width=4pt, dash pattern=on 0pt off 8pt, line cap=round]
-				(0,\y) -- (\textwidth,\y);
+				(12pt, \y) -- (\textwidth - 12pt, \y);
 			}
 	\end{tikzpicture}
 }
 
+\newdimen\thresh
+\thresh=4cm
 \def\info#1{%
 	\remaining=\dimexpr\pagegoal-\pagetotal\relax
 	\advance \remaining by -5em
 	\vspace{1em}
 	\ifx&#1&
-	\chefsnotes
+	\ifdim\remaining>\thresh
+		\chefsnotes
+	\else
+	\fi
 	\else
 	\sbox0{%
 		\begin{tikzpicture}
-			\node[inner sep=1em, text width=.915\textwidth, minimum width=.915\textwidth, draw=none] (content) {
+			\node[inner sep=1em, anchor=west, text width=.915\textwidth, minimum width=.915\textwidth, draw=none] (content) {
 				\itshape #1
 			};
 
-			% Example decorative lines
 			\draw[line width=1.5pt, color=vulm]
 			($(content.north west) + (-0.2, 0)$) --  +(3.2, 0);
 
@@ -338,11 +345,14 @@
 		\end{tikzpicture}
 	}
 	\advance \remaining by -\ht0
-	\chefsnotes
-	\advance \remaining by 2em
-	\vspace{\remaining}
+	\ifdim\remaining>\thresh
+		\chefsnotes
+		\advance \remaining by 2em
+		\vspace{\remaining}
+	\else
+	\fi
 	\par
-	\box0
+	\noindent\box0
 	\fi
 }
 

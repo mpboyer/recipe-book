@@ -1,0 +1,33 @@
+return {
+    titre = "Focaccia",
+    image = "",  -- Laisser vide pour ne pas inclure une image
+    portions = "4",
+    prep = "2h",
+    cuisson = "",
+    four = "30mn",
+    frigo = "24h",
+    robots = "Mixeur",
+    ingredients = [[
+      Farine & 780g\\
+      Levure Sèche & 7g\\
+      Sel & 17g\\
+      Huile d'Olive & 110g\\
+      Gros sel & \\
+      Garniture & 
+    ]],
+    etapes = [[
+    \item Dissoudre la levure dans 113g d'eau à feu doux, environ 40°C. Laisser reposer 5mn. 
+    \item Ajouter 567g d'eau à la levure, puis ajouter la farine et le sel. Mélanger à faible vitesse jusqu'à ce que la pâte se forme (environ 1mn) puis à vitesse plus haute jusqu'à ce que la pâte soit lisse, pendant environ 5mn. 
+    \item Couvrir avec un torchon humide pendant 10mn, puis mélanger jusqu'à ce que la pâte soit lisse et se détache des parois pendant 10-15mn. 
+    \item Verser 55g d'huile d'olive dans un grand saladier et couvrir les bords d'huile. Y placer la pâte et la recouvrir de l'excès d'huile. 
+    \item Couvrir d'un torchon humide et laisser lever jusqu'à ce que la pâte ait doublée de volume, pendant environ 1h à 1h30. 
+    \item Verser 55g d'huile d'olive pour couvrir une plaque de cuisson, recouvrant jusqu'aux rebords. 
+    \item Soulever et replacer la pâte dans le saladier, la laissant se replier sur elle-même, puis recommencer en tournant le bol à chaque fois d'un quart de tour. 
+    Étirer la pâte pour qu'elle remplisse la plaque puis couvrir la pâte avec un film cuisson huile et laisser la pâte reposer 15mn. 
+    \item Découvrir la pâte du film cuisson, et l'étirer au maximum sur les côtés.
+    Couvrir la pâte à nouveau et laisser reposer au frigo 24h si possible, sinon 40-55mn à température ambiante. 
+    \item Découvrir la pâte. Avec les mains huilées et les doigts écartés, presser les bouts des doigts dans la pâte.
+    \item Pour une foccacia simple, couvrir la pâte du reste d'huile d'olive (1/4 cup, soit 55g) et saupoudrer de gros sel. Sinon, ajouter la garniture choisie. 
+    \item Faire cuire à 230°C sur en bas du four jusqu'à ce que les se décollent de la plaque, environ 20-25mn, puis la transférer sur en haut du four jusqu'à ce que le haut soit bien doré, environ 5mn de plus. 
+    ]]
+  }

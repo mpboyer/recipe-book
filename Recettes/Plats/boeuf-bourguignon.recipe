@@ -1,5 +1,5 @@
 return {
-    titre = "B\oe uf Bourguignon",
+    titre = "B\\oe uf Bourguignon",
     image = "boeuf-bourguignon.jpg",  
     portions = "12",
     prep = "1h",

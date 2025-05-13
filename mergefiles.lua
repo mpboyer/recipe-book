@@ -122,7 +122,7 @@ function inputAllFiles(folder)
 			tex,
 			string.format(
 				"\\newrecipe{%s}{%s}{%s}{%s}{%s}{%s}{%s}",
-				r.titre,
+				r.titre or "",
 				r.portions or "",
 				r.prep or "",
 				r.cuisson or "",

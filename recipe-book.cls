@@ -146,10 +146,7 @@
 \newcommand{\params}[6]{%
 	\noindent
 	\begin{tikzpicture}
-		\draw (2.5, -.6) -- (0, -.6) -- (0, .6) -- (2.5, .6);
-		\draw[dashed] (2.5, -.6) -- (5, -.6);
-		\draw[dashed] (2.5, .6) -- (7.5, .6);
-		\node[anchor=west, inner xsep=12pt] (1,0) {%
+		\node[anchor=west, inner xsep=12pt, text width=.9\textwidth] (contents) at (1,0) {%
 			\def\s@p{}%
 			\ifx\relax#1\relax
 			\else
@@ -182,6 +179,10 @@
 				\index{Ustensiles!#6}
 			\fi%
 		};
+		%
+		\draw ($(contents.south west) + (1.5, -.2)$) -- ($(contents.south west) + (-.5, -.2)$) -- ($(contents.north west) + (-.5, .2)$) -- ($(contents.north west) + (1.5, .2)$);
+		\draw[dashed] ($(contents.south west) + (1.5, -.2)$) -- ($(contents.south west) + (4, -.2)$);
+		\draw[dashed] ($(contents.north west) + (1.5, .2)$) -- ($(contents.north west) + (7, .2)$);
 	\end{tikzpicture}
 }
 \makeatother
@@ -233,13 +234,17 @@
 \def\MarbledBackground{\AddToShipoutPictureBG*{\put(0,0){\parbox[b][\paperheight]{\paperwidth}{\vfill\centering\includegraphics[width=\paperwidth,height=\paperheight]{title-background.png}\vfill}}}}
 
 \RequirePackage{calligra}
+\RequirePackage{pgfplots}
 
 \newcommand{\memeleneTitle}{
 	\begin{titlepage}
 		\MarbledBackground
 
 		\begin{tikzpicture}[remember picture, overlay]
-			\fill[black!70!blue] ($(current page.center) + (0,1cm)$) ellipse (5.3cm and 2.5cm);
+			%
+			\fill[brown!60!gray] (current page.north west) rectangle ($(current page.south west)+(2cm,0)$);
+			%
+			\fill[black!90!blue] ($(current page.center) + (0,1cm)$) ellipse (5.3cm and 2.5cm);
 			\draw[ultra thick, color=black] ($(current page.center) + (0,1cm)$) ellipse (5.3cm and 2.5cm);
 			\draw[thick, color=black] ($(current page.center) + (0,1cm)$) ellipse (5cm and 2.2cm);
 			\fill[pagecolor] ($(current page.center) + (0,1cm)$) ellipse (5cm and 2.2cm);  % White fill inside

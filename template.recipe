@@ -14,5 +14,7 @@ return {
     \item Étape 1
     \item Étape 2
     \item ...
+    ]],
+    note = [[
     ]]
   }

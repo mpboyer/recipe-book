@@ -6,9 +6,13 @@
 \PassOptionsToClass{11pt}{book}
 \LoadClass{book}
 
+% PACKAGE INPUTS
+
 \RequirePackage[T1]{fontenc}
 % \RequirePackage[utf8]{inputenc}
 \RequirePackage{fontspec}
+\RequirePackage[french]{babel}
+\RequirePackage{lettrine}
 \RequirePackage{ebgaramond}
 \setmainfont{Amarante-Regular}[Extension=.ttf]
 \RequirePackage{xkeyval}
@@ -50,11 +54,44 @@
 \RequirePackage{eso-pic}
 \RequirePackage{transparent}
 
-\RequirePackage[french]{babel}
-\RequirePackage{lettrine}
+% TOC AND IDX SETUP
 
 \addto\captionsfrench{\renewcommand{\contentsname}{\color{black}À Table~!}}
 \addto\captionsfrench{\renewcommand{\indexname}{\color{black}Index}}
+
+\setcounter{minitocdepth}{2}
+\renewcommand{\mtctitle}{}
+\dominitoc
+
+\def\includeindex{%
+	\addcontentsline{toc}{chapter}{Index}
+	\printindex
+}
+
+\RequirePackage{expl3}
+\ExplSyntaxOn
+\NewDocumentCommand{\tabletoindex}{m}
+{
+	\seq_set_split:Nnn \l_tmpa_seq { \\ } { #1 }
+	\seq_map_inline:Nn \l_tmpa_seq
+	{
+		\__process_table_line:n { ##1 }
+	}
+}
+
+\cs_new_protected:Nn \__process_table_line:n
+{
+	\tl_if_blank:nTF { #1 } { }
+	{
+		\seq_set_split:Nnn \l_tmpb_seq { & } { #1 }
+		\index{Ingrédient!\seq_item:Nn \l_tmpb_seq {1}!\seq_item:Nn \l_tmpb_seq {2}}
+	}
+}
+\ExplSyntaxOff
+
+
+
+% CHPATER/SECTION SETUP
 
 \RequirePackage{enumitem}
 \RequirePackage{titlesec}
@@ -70,10 +107,6 @@
 	\minitoc
 ]
 
-\setcounter{minitocdepth}{2}
-\renewcommand{\mtctitle}{}
-\dominitoc
-
 \def\divider{
 	\noindent
 	\begin{tikzpicture}[line width=0.4mm]
@@ -84,13 +117,7 @@
 	\vspace{2em}
 }
 
-\newcommand*{\recette}[1]%
-{%
-	\section{#1}
-	\index{Recette!#1}
-	\divider
-}
-
+% UNITS SETUP
 
 \usepackage{xparse}
 \usepackage{siunitx}
@@ -102,7 +129,6 @@
 \gdef\quant#1#2{\qty{#1}{\csname #2\endcsname}}
 \gdef\quantrange#1#2#3{\qtyrange{#1}{#2}{\csname #3\endcsname}}
 
-% Use pgffor to define all units
 \usepackage{pgffor}
 \foreach \scut/\unit in {
 		mn/minute,
@@ -118,6 +144,9 @@
 		\expandafter\xdef\csname\scut\endcsname##1{\quant{##1}{\unit}}
 		\expandafter\xdef\csname\scut range\endcsname##1##2{\quantrange{##1}{##2}{\unit}}
 	}
+
+
+% PARAMETER SETUP
 
 \RequirePackage{tabulary}
 
@@ -187,29 +216,7 @@
 }
 \makeatother
 
-\RequirePackage{expl3}
-\ExplSyntaxOn
-\NewDocumentCommand{\tabletoindex}{m}
-{
-	\seq_set_split:Nnn \l_tmpa_seq { \\ } { #1 } % split by row
-	\seq_map_inline:Nn \l_tmpa_seq
-	{
-		\__process_table_line:n { ##1 }
-	}
-}
-
-% Process each row, split by &, and write an \index command
-\cs_new_protected:Nn \__process_table_line:n
-{
-	\tl_if_blank:nTF { #1 } { } % skip blank lines
-	{
-		\seq_set_split:Nnn \l_tmpb_seq { & } { #1 }
-		\index{Ingrédient!\seq_item:Nn \l_tmpb_seq {1}!\seq_item:Nn \l_tmpb_seq {2}}
-	}
-}
-\ExplSyntaxOff
-
-
+% INPUTING ILLUSTRATIONS 
 \makeatletter
 \def\illusfl@g{0}
 \def\setinputillus{\def\illusfl@g{1}}
@@ -231,30 +238,16 @@
 	\includeillus{#1}
 }
 
-\def\MarbledBackground{\AddToShipoutPictureBG*{\put(0,0){\parbox[b][\paperheight]{\paperwidth}{\vfill\centering\includegraphics[width=\paperwidth,height=\paperheight]{title-background.png}\vfill}}}}
+% Header of the recipe
 
-\RequirePackage{calligra}
-\RequirePackage{pgfplots}
-
-\newcommand{\memeleneTitle}{
-	\begin{titlepage}
-		\MarbledBackground
-
-		\begin{tikzpicture}[remember picture, overlay]
-			%
-			\fill[brown!60!gray] (current page.north west) rectangle ($(current page.south west)+(2cm,0)$);
-			%
-			\fill[black!90!blue] ($(current page.center) + (0,1cm)$) ellipse (5.3cm and 2.5cm);
-			\draw[ultra thick, color=black] ($(current page.center) + (0,1cm)$) ellipse (5.3cm and 2.5cm);
-			\draw[thick, color=black] ($(current page.center) + (0,1cm)$) ellipse (5cm and 2.2cm);
-			\fill[pagecolor] ($(current page.center) + (0,1cm)$) ellipse (5cm and 2.2cm);  % White fill inside
-
-			\node[align=center, font=\sffamily\bfseries, scale=1.4, text width=8cm]
-			at ($(current page.center) + (0,1cm)$) {{\calligra\Huge \thetitle}\\[1em] {\calligra\LARGE\theauthor}};
-		\end{tikzpicture}
-	\end{titlepage}
+\newcommand*{\recette}[1]%
+{%
+	\section{#1}
+	\index{Recette!#1}
+	\divider
 }
 
+% Body of the recipe
 
 \RequirePackage[most]{tcolorbox}
 \newtcolorbox{memelenebox}{
@@ -296,6 +289,8 @@
 	\end{memelenebox}
 }
 
+
+% Footer of the recipe
 \newdimen\remaining
 \newdimen\gap
 \gap=3em
@@ -339,7 +334,7 @@
 	\sbox0{%
 		\begin{tikzpicture}
 			\node[inner sep=1em, anchor=west, text width=.915\textwidth, minimum width=.915\textwidth, draw=none] (content) {
-				\itshape\noindent #1
+				\itshape \noindent #1
 			};
 			\draw[line width=1.5pt, color=vulm]
 			($(content.north west) + (-0.2, 0)$) --  +(3.2, 0);
@@ -360,6 +355,8 @@
 	\fi
 }
 
+% RECIPE GENERATING MACROS
+
 \def\newrecipe#1#2#3#4#5#6#7{
 	\newpage
 	\recette{#1}
@@ -371,15 +368,41 @@
 	\info{#3}
 }
 
-\def\includeindex{%
-	\addcontentsline{toc}{chapter}{Index}
-	\printindex
+
+% TITLE PAGE
+
+\def\MarbledBackground{\AddToShipoutPictureBG*{\put(0,0){\parbox[b][\paperheight]{\paperwidth}{\vfill\centering\includegraphics[width=\paperwidth,height=\paperheight]{title-background.png}\vfill}}}}
+
+\RequirePackage{calligra}
+\RequirePackage{pgfplots}
+
+\newcommand{\memeleneTitle}{
+	\begin{titlepage}
+		\MarbledBackground
+
+		\begin{tikzpicture}[remember picture, overlay]
+			%
+			\fill[brown!60!gray] (current page.north west) rectangle ($(current page.south west)+(2cm,0)$);
+			%
+			\fill[black!90!blue] ($(current page.center) + (0,1cm)$) ellipse (5.3cm and 2.5cm);
+			\draw[ultra thick, color=black] ($(current page.center) + (0,1cm)$) ellipse (5.3cm and 2.5cm);
+			\draw[thick, color=black] ($(current page.center) + (0,1cm)$) ellipse (5cm and 2.2cm);
+			\fill[pagecolor] ($(current page.center) + (0,1cm)$) ellipse (5cm and 2.2cm);  % White fill inside
+
+			\node[align=center, font=\sffamily\bfseries, scale=1.4, text width=8cm]
+			at ($(current page.center) + (0,1cm)$) {{\calligra\Huge \thetitle}\\[1em] {\calligra\LARGE\theauthor}};
+		\end{tikzpicture}
+	\end{titlepage}
 }
 
+% INCLUDING RECIPES
+%
 \RequirePackage{luacode}
 \begin{luacode*}
 	dofile("mergefiles.lua")
 \end{luacode*}
+
+
 
 \AfterBeginDocument{\frontmatter\memeleneTitle\dominitoc\tableofcontents\makeindex\mainmatter}
 \AtEndDocument{\backmatter\includeindex}
@@ -389,6 +412,6 @@
 \newcommand{\inputAllFiles}[1]{%
 	\directlua{inputAllFiles("#1")}%
 	\InputIfFileExists{Recettes/#1/main.tmp}{}{}%
-	% \directlua{cleanupTempFile("#1")}%
+	\directlua{cleanupTempFile("#1")}%
 }
 

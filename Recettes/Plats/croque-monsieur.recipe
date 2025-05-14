@@ -1,0 +1,29 @@
+return {
+    titre = "Croque-Monsieur",
+    image = "",
+    portions = "4",
+    prep = "15mn",
+    cuisson = "5mn",
+    ingredients = [[
+      Pain de mie & 2 tranches\\
+      Beurre & \\
+      Jambon blanc & 1 tranche\\
+      Fromage rapé & 
+    ]],
+    etapes = [[
+    \item Beurrer une face de chaque tranche de pain de mie. 
+    \item Entre les faces non beurrées des tranches de pain de mie, placer la tranche de jambon et saupoudrer de fromage. 
+    \item Faire cuire dans une poële bien chaude. 
+    ]],
+    note = [[
+    Il y a bien sûr de nombreuses recettes possibles de croque-monsieurs. Rajouter un \oe uf vous donnera un croque-madame, mais vous pouvez aussi changer complètement de garniture, par exemple pour:
+    \begin{itemize}
+    \item Des figues écrasées et du roquefort;
+    \item Du saumon et du cream cheese; 
+    \item Des tranches de pomme de terre et du jambon sec;
+    \item De l'aubergine;
+    \item Une banane en tranche et du chocolat pour une version sucrée;
+    \end{itemize}
+    Tout est possible~!
+    ]]
+  }

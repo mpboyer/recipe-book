@@ -1,0 +1,30 @@
+return {
+    titre = "Toast à l'avocat et \\oe ufs mollets",
+    image = "",
+    portions = "4",
+    prep = "20mn",
+    cuisson = "5mn",
+    ingredients = [[
+    Pain de Campagne & 4 tranches\\
+    Avocats & 2\\
+    Jus de citrons & 2\\
+    Coriandre &\\
+    Cerfeuil&\\
+    \OE ufs & 4\\
+    Oignons nouveaux & 2-3\\
+    Radis & \\
+    Courgette & 1\\
+    Petits pois cuits & 100g\\
+    Huile d'olive & \\
+    Sel & \\
+    Poivre & \\
+    Piment d'Espelette &
+    ]],
+    etapes = [[
+    \item Ciseler la coriandre et le cerfeuil. Dans un petit saladier, écraser les avocats avec le jus de citron, les herbes et assaisonner. 
+    \item Faire cuire les \oe ufs 6mn puis les plonger dans un bain d'eau glacée, les écaler et les couper en deux. 
+    \item Émincer les oignons nouveaux. Préparer les radis en quartiers. Faire des lamelles de courgette avec un économe puis former des rouleaux. 
+    \item Assaisonner les petits pois avec un peu d'huile, du jus de citron et du sel. 
+    \item Faire griller légèrement les tranches de pain, puis déposer dessus l'avocat écrasé, les oeufs, les petits pois, les rouleaux de courgette, les oignons et les radis. Saler, poivrer et assaisonner. 
+    ]]
+  }

@@ -78,11 +78,18 @@ local function format_recipe(data)
 		formatted.etapes = format_multiline(data.etapes)
 	end
 
+	if data.note then
+		formatted.note = format_multiline(data.note)
+	end
+
 	return formatted
 end
 
 local function escape_latex_argument(s)
 	if not s then
+		return ""
+	end
+	if s:match("%a") == nil then
 		return ""
 	end
 	return s
@@ -109,7 +116,7 @@ function inputAllFiles(folder)
 	end)
 
 	for _, oldr in ipairs(recipeList) do
-		r = format_recipe(oldr)
+		local r = format_recipe(oldr)
 		if r.image ~= nil then
 			table.insert(tex, "\\illus{" .. r.image .. "}")
 			table.insert(tex, "\\newpage")
@@ -153,4 +160,8 @@ function cleanupTempFile(folder)
 	os.remove("Recettes/" .. folder .. "/main.tmp")
 end
 
-inputAllFiles("Entrees")
+escape_latex_argument([[
+
+
+
+]])

@@ -1,0 +1,29 @@
+return {
+    titre = "Tartine \\oe uf mimosa, thon et fromage frais",
+    image = "",
+    portions = "4",
+    prep = "12mn",
+    cuisson = "9mn",
+    ingredients = [[
+      Pain de campagne & 4 tranches\\
+      \OE ufs & 4\\
+      Ciboulette & \\
+      Cornichons & 4\\
+      Thon & 1 boîte\\
+      Fromage frais & 1 boîte\\
+      Citron & 1\\
+      Piment & \\
+      Sel & \\
+      Poivre &
+    ]],
+    etapes = [[
+    \item Faire griller le pain et ciseler la ciboulette.
+    \item Faire cuire les \oe ufs durs et les écaler. 
+    \item Couper les \oe ufs dans la longueur et séparer les blancs des jaunes. Tout hacher ensemble au couteau puis, dans un saladier ajouter l'huile d'olive et la ciboulette. 
+    \item Couper les cornichons en dés, les mélanger au thon et au fromage frais. Ajouter le jus du citron et assaisonner. 
+    \item Tartiner les tranches de pain du mélange thon-fromage frais et recouvrir des \oe ufs émiettés. 
+    \item Servir en ajoutant un brin de ciboulette et un peu de zeste du citron. 
+    ]],
+    note = [[
+    ]]
+  }

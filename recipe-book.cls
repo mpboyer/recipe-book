@@ -311,11 +311,11 @@
 
 		% \draw[fill=vulm, draw=none] (0, -\gap) rectangle (3pt, -\nlines\gap-2\gap);
 
-		\draw[fill=yulm!10] (0pt, -1\gap) rectangle (\textwidth, -2\gap - \nlines\gap);
+		\draw[fill=yulm!10] (0pt, -.75\gap) rectangle (\textwidth, -1.75\gap - \nlines\gap);
 
 		% Line loop
 		\foreach \i in {1,...,\nlines} {
-				\pgfmathsetlengthmacro{\y}{-\gap -\i*\gap}
+				\pgfmathsetlengthmacro{\y}{-.75\gap -\i*\gap}
 
 				% Dotted line (bigger dots)
 				\draw[line width=4pt, dash pattern=on 0pt off 8pt, line cap=round]
@@ -339,9 +339,8 @@
 	\sbox0{%
 		\begin{tikzpicture}
 			\node[inner sep=1em, anchor=west, text width=.915\textwidth, minimum width=.915\textwidth, draw=none] (content) {
-				\itshape #1
+				\itshape\noindent #1
 			};
-
 			\draw[line width=1.5pt, color=vulm]
 			($(content.north west) + (-0.2, 0)$) --  +(3.2, 0);
 

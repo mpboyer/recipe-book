@@ -1,0 +1,30 @@
+return {
+    titre = "Sigara Böre\\u{g}i",
+    image = "",
+    portions = "4",
+    prep = "15mn",
+    cuisson = "15mn",
+    four = "",
+    frigo = "",
+    robots = "",
+    ingredients = [[
+      Sucuk & 100g\\
+      Beyaz peynir & 250g\\
+      Yufka & $\simeq$ 20 feuilles\\
+      Huile & \\
+      Coriandre & \\
+      Herbes & 
+    ]],
+    etapes = [[
+    \item Dans un bol, écraser le beyaz peynir avec les herbes.
+    \item Couper les tranches de sucuk en 4, et les ajouter à la préparation. Mélanger. 
+    \item Dans un bol assez large, verser de l'eau tiède. 
+    \item Placer une cuiller à café de pâte sur le bord court d'une feuille de yufka.
+    La rouler jusqu'aux deux tiers puis tremper le bout dans l'eau avant de refermer. 
+    \item Faire cuire et frire dans une poële chaude remplie d'huile. 
+    Égoutter et laisser refroidir quelques minutes avant de servir. 
+    ]],
+    note = [[
+    Vous pouvez remplacer les feuilles de yufka par de la pâte phyllo, et la garniture par sensiblement ce que vous souhaitez. 
+    ]]
+  }

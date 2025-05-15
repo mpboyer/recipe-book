@@ -1,0 +1,33 @@
+return {
+  titre = "Risotto de coquillettes jambon",
+  portions = "4",
+  prep = "20mn",
+  cuisson = "20mn",
+  frigo = "",
+  four = "",
+  robots = "",
+  ingredients = [[
+    Coquillettes & 360g\\
+    Jambon blanc & 4 tranches\\
+    Bouillon de volaille & 1 cube\\
+    Ail & 1 gousse\\
+    Oignon & 1\\
+    Crème fraîche & 20cl\\
+    Parmesan râpé & 50g\\
+    Huile d'olive & 3 c.a.s.\\
+    Boulette & 1\\
+    Sel & \\
+    Poivre & \\
+  ]],
+  etapes = [[
+    \item Faire bouillir 1.5l d'eau dans une casserole et y dissoudre le cube de bouillon.
+    \item Éplucher et émincer l'ail et l'oignon. Faire chauffer 3 c.a.s. d'huile d'olive dans une sauteuse, ajouter les coquillettes et les faire dorer 2-3mn.
+    \item Verser une louche de bouillon pour mouiller à hauteur des coquillettes. Remuer et laisser absorber, puis recommencer l'opération pendant 12mn jusqu'à ce que les coquillettes soient cuites.
+    \item Rouler les tranches de jambon et couper en lamelles de 0.5cm. Ciseler la boulette.
+    \item Une fois que les coquillettes sont cuites, ajouter la crème, le jambon coupé, la boulette et le parmesan râpé. Mélanger délicatement. Saler et poivrer si besoin.
+    \item Répartir le risotto de coquillettes dans les assiettes et parsemer de boulette ciselée.
+  ]],
+  note = [[
+    Vous pouvez remplacer le parmesan par du comté, de l'emmental ou du gruyère râpé.
+  ]]
+}

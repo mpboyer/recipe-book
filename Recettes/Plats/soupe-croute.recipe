@@ -1,0 +1,36 @@
+return {
+  titre = "Soupe de Foie Gras en Croûte",
+  portions = "4",
+  prep = "30min",
+  four = "20min",
+  frigo = "12h",
+  robots = "",
+  ingredients = [[
+    Foie gras cru & 160g\\
+    Pâte feuilletée & 250g\\
+    Carottes & 2\\
+    Oignon doux & 1\\
+    Champignons de Paris & 150g\\
+    Truffe brossée & 1\\
+    Consommé de volaille & 1L\\
+    Beurre & 40g\\
+    Citron & 0.5\\
+    Jaune d'œuf & 1\\
+    Sel & \\
+    Poivre & \\
+  ]],
+  etapes = [[
+    \item Éplucher et ciseler l'oignon. Faire fondre 15g de beurre dans une poêle et y faire revenir l'oignon pendant 5min.
+    \item Dans la même poêle, ajouter 10g de beurre, remettre l'oignon, ajouter les carottes en bâtonnets et couvrir d'eau à hauteur et laisser cuire jusqu'à évaporation complète. Réserver.
+    \item Faire cuire les champignons émincés dans le reste de beurre avec le jus du demi-citron pendant 5-6min, assaisonner.
+    \item Réunir les légumes refroidis dans une soupière avec le foie gras cru coupé en dés et la truffe émincée. Y ajouter le consommé froid et assaisonner avant de filmer et réfrigérer pendant 12h.
+    \item Deux heures avant le service, verser la soupe dans des bols individuels. 
+    Découper des disques de pâte feuilletée légèrement plus grands que le diamètre des bols. 
+    Tracer des croisillons sur la pâte, humecter les bords et les déposer sur les bols en appuyant pour faire adhérer. 
+    Dorer au jaune d'œuf.
+    \item Enfourner dans un four préchauffé à 220°C pendant 20min. Servir immédiatement.
+  ]],
+  note = [[
+    Vous pouvez préparer cette soupe la veille pour intensifier les saveurs. Assurez-vous que la pâte feuilletée soit bien froide avant de la cuire pour obtenir une croûte bien dorée et croustillante.
+  ]]
+}

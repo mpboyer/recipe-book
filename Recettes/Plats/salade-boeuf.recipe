@@ -1,0 +1,37 @@
+return {
+    titre = "Salade de B\\oe uf",
+    portions = "4",
+    prep = "15mn",
+    cuisson = "5mn",
+    frigo = "20mn",
+    ingredients = [[
+    Onglet de b\oe uf & 240g\\
+    Maïs cuit & 1 boite\\
+    Piment oiseau & 1 \\
+    Citron vert & 2\\
+    Citron jaune & 1\\
+    Tomates cerises & 100g\\
+    Radis & 1 botte\\
+    Mâche & 4 poignées\\
+    Noix de Cajou salées & 25g\\
+    Moutarde & 2 c.à.c.\\
+    Ail & \\
+    Coriandre & \\
+    Vinaigre balsamique rouge & 2 c.à.s. \\
+    Huile d'Olive & 25cl\\
+    Sel & \\
+    Poivre & 
+    ]],
+    etapes = [[
+    \item Assaisonner la pièce de viande et la couper en deux. 
+    \item Dans un plat, verser la moutarde, l'huile d'olive, 1 cuillère à soupe de vinaigre, le jus d'un demi-citron vert et la seconde moitié en quartiers, quelques feuilles de coriandre, 3 cuiller à soupe d'eau, le piment et l'ail en morceaux. 
+    Y faire mariner la viande à température ambiante 15-20mn. 
+    \item Mélanger le jus du citron jaune avec l'huile d'olive pour assaisonner la salade.
+    \item Couper les tomates cerise et les radis en quatre, rincer le maïs et préparer la coriandre et la mâche. 
+    \item Égoutter et griller la pièce de viande. Une fois cuite, la retirer de la cuisson et déglacer la poêle avec le jus d'un demi-citron vert et 1 cuiller de vinaire balsamique. Découper la viande en lanière.
+    \item Assaisonner la salade composée de mâche, maïs, tomates, radis avec la vinaigrette au citron. 
+    \item Servir en ajoutant les lanières de viande, le jus de cuisson et parsemer de noix de cajou. Ajouter le demi-citron vert restant en quartiers.
+    ]],
+    note = [[
+    ]]
+  }

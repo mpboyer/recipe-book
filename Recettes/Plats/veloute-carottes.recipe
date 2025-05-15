@@ -1,0 +1,28 @@
+return {
+    titre = "Velouté de Carottes au Curcuma",
+    image = "",
+    portions = "4",
+    prep = "30mn",
+    cuisson = "25mn",
+    robots = "Mixeur",
+    ingredients = [[
+    Carottes & 250g\\
+    Fromage Frais & 100g\\
+    Crème Liquide & 35cl\\
+    Beurre & 40g\\
+    Curcuma & \\
+    Noisettes & \\
+    Croûtons & \\
+    Menthe & \\
+    Sel & \\
+    Poivre & \\
+    ]],
+    etapes = [[
+    \item Préparer les carottes en rondelles et les faire cuire dans l'eau bouillante environ 25mn. 
+    \item Fouetter le fromage frais avec 10cl de crème pour qu'il soit bien lisse. Laisser reposer au frais. 
+    \item Dans le mixeur, mixer les carottes, un peu d'eau de cuisson, le beurre, le reste de crème et le curcuma jusqu'à obtenir un velouté. Assaisonner.
+    \item Dans chaque bol, verser le velouté chaud, et déposer une cuiller de crème de fromage frais, des noisettes concassées et des croûtons. Décorer avec la menthe. 
+    ]],
+    note = [[
+    ]]
+  }

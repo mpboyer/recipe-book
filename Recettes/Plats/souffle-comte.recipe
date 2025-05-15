@@ -1,0 +1,29 @@
+return {
+    titre = "Soufflé au Comté",
+    portions = "4 personnes",
+    prep = "20 minutes",
+    four = "18 minutes",
+    frigo = "",
+    robots = "",
+    ingredients = [[
+      Comté râpé & 100 g\\
+      Beurre & 50 g\\
+      Farine & 50 g\\
+      Lait entier & 50 cl\\
+      Jaunes d'œufs & 4\\
+      Blancs d'œufs & 5\\
+      Muscade & \\
+      Sel & \\
+      Poivre & \\
+    ]],
+    etapes = [[
+    \item Préchauffer le four à 200°C. Beurrer des moules individuels ou un grand moule, puis ajouter de la chapelure. Tapoter pour enlever l’excédent.
+    \item Séparer les blancs des jaunes. Monter les blancs en neige ferme.
+    \item Faire fondre le beurre dans une casserole sans coloration. Ajouter la farine et mélanger. Verser le lait en remuant jusqu’à obtenir une béchamel. Laisser cuire 5 minutes. Incorporer le fromage. Retirer du feu et ajouter les jaunes.
+    \item Incorporer les blancs montés en neige à la préparation délicatement, à la maryse.
+    \item Verser la pâte dans les moules et enfourner pour 18 minutes sans ouvrir le four. Servir sans attendre à la sortie.
+    ]],
+    note = [[
+    Vous pouvez chemiser les moules beurrés avec de la farine ou de la chapelure pour un côté croustillant. Vous pouvez utiliser du comté jeune, du comté plus affiné, du gruyère ou même du parmesan.
+    ]]
+}

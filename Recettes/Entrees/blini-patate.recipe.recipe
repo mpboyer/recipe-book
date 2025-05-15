@@ -1,0 +1,27 @@
+return {
+    titre = "Blinis de pommes de terre",
+    portions = "Convives",
+    prep = "20mn",
+    cuisson = "20mn",
+    ingredients = [[
+    Pommes de Terre & 150g\\
+    Truite Fumée & 4 tranches\\
+    \OE ufs & 2\\
+    Muscade & \\
+    Échalote & 1\\
+    Crème Fraîche & 10cl\\
+    Ciboulette & \\
+    Huile d'Olive & \\
+    Citron & 1 
+    ]],
+    etapes = [[
+    \item Préparer les pommes de terre en dés et les faire cuire dans l'eau bouillante. Les écraser à la fourchette dans un saladier. 
+    \item Séparer les blancs des jaunes d'\oe ufs et mélanger les jaunes avec la purée. Assaisoner. Ajouter les blancs en neige dans la purée à l'aide d'une maryse. 
+    \item Dans un petit saladier, mélanger la crème, les herbes et l'échalote émincée avec un trait d'huile d'olive et le jus du citron. 
+    \item Détailler le poisson fumé. 
+    \item Dans une poêle chaude huilée avec un papier absorbant, déposer une cuillèrée à soupe de la pâte pour former un blini. Une fois que des bulles se forment à la surface, les retourner et attendre environ 1mn que les blinis se colorent. 
+    \item Servir les blinis nappés de sauce avec une lanière de poisson et un brin d'aneth ou de ciboulette. 
+    ]],
+    note = [[
+    ]]
+  }

@@ -1,0 +1,29 @@
+return {
+  titre = "Bugnes Moelleuses",
+  portions = "6",
+  prep = "25min",
+  cuisson = "20mn",
+  frigo = "2h",
+  robots = "",
+  ingredients = [[
+    Farine & 500g\\
+    Œufs & 4\\
+    Beurre doux & 100g\\
+    Sucre en poudre & 75g\\
+    Levure chimique & 1 sachet\\
+    Lait & 2cl\\
+    Eau de fleur d'oranger & 2cl\\
+    Sel fin & \\
+    Sucre glace & \\
+    Huile de friture & \\
+  ]],
+  etapes = [[
+    \item Verser la farine dans un saladier, y creuser un puits puis y casser les œufs. Ajouter le sucre en poudre, le sel, la levure, le lait et l'eau de fleur d'oranger. Mélanger progressivement.
+    \item Incorporer le beurre mou coupé en petits morceaux. Pétrir longuement jusqu'à obtention d'une pâte souple et homogène.
+    \item Former une boule, couvrir d’un linge propre ou filmer, puis placer au réfrigérateur pendant 2h pour laisser reposer la pâte.
+    \item Fariner légèrement le plan de travail, étaler la pâte sur une épaisseur d’environ 5mm, puis découper des losanges ou des rectangles en incisant leur centre.
+    Former un papillon en les inversant par le centre. 
+    \item Chauffer l’huile de friture à 170°C. Plonger les bugnes par petites quantités et les faire frire 1 à 2min de chaque côté jusqu’à ce qu’elles soient bien dorées.
+    \item Égoutter sur du papier absorbant, puis saupoudrer généreusement de sucre glace une fois refroidies. Déguster tièdes ou froides.
+  ]],
+}

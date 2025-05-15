@@ -1,0 +1,34 @@
+return {
+  titre = "Galette de pommes de terre",
+  portions = "4 personnes",
+  prep = "30 minutes",
+  cuisson = "25mn",
+  frigo = "",
+  robots = "",
+  ingredients = [[
+    Pommes de terre & 150 g\\
+    Fromage & 130 g\\
+    Crème liquide entière & 4 cl\\
+    Farine & 40 g\\
+    Œuf & 1\\
+    Jaune d'œuf & 1\\
+    Roquette & 200 g\\
+    Tomates cerise & 100 g\\
+    Huile d'olive & 4 c.a.s.\\
+    Vinaigre balsamique blanc & 2 c.a.s\\
+    Gros sel & \\
+    Sel & \\
+    Poivre & \\
+  ]],
+  etapes = [[
+    \item Éplucher les pommes de terre, les couper en dés, les rincer puis les faire cuire dans une casserole d'eau bouillante avec du gros sel pendant 12 minutes.
+    \item Couper trois quarts du fromage en petits dés, faire des copeaux pour la déco et râper le reste pour la galette.
+    \item Égoutter les pommes de terre cuites, les écraser à la fourchette. Mélanger avec la crème, la farine, le fromage en cubes, le fromage râpé, les œufs, saler, poivrer et ajouter le vinaigre.
+    \item Déposer la roquette dans un saladier. Dans un ramequin, fouetter l'huile d'olive avec le vinaigre. Couper les tomates cerise en quartiers.
+    \item Verser un trait d'huile d'olive dans une poêle, laisser chauffer, étaler la pâte et faire dorer 4 minutes de chaque côté, sur feu moyen.
+    \item Dresser la galette dans une assiette avec la salade et les tomates assaisonnées de vinaigrette, parsemer de copeaux de fromage.
+  ]],
+  note = [[
+    Vous pouvez remplacer la roquette par n'importe quelle autre salade si vous ne l'aimez pas ou n'en avez pas.
+  ]]
+}

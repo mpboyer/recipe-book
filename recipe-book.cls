@@ -224,8 +224,9 @@
 \def\includeillus#1{
 	\ifnum\illusfl@g=1
 	\ifx&#1&
-	{\textcolor{pagecolor}{The cake is a lie}}
 	\else
+	\newpage
+	\vfill{ \transparent{0} :)}
 	\AddToShipoutPictureFG*{\includegraphics[width=\paperwidth, height=\paperheight]{#1}}
 	\fi
 	\fi
@@ -233,8 +234,6 @@
 \makeatother
 
 \def\illus#1{%
-	\newpage
-	\vfill{ \transparent{0} :)}
 	\includeillus{#1}
 }
 
@@ -351,6 +350,7 @@
 	\else
 	\fi
 	\par
+	\vfill
 	\noindent\box0
 	\fi
 }

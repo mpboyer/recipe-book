@@ -120,9 +120,8 @@ function inputAllFiles(folder)
 		if r.image ~= nil then
 			table.insert(tex, "\\illus{" .. r.image .. "}")
 			table.insert(tex, "\\newpage")
-			currentImage = r.image
 		else
-			table.insert(tex, "\\newpage\n \\phantom{.}\n")
+			table.insert(tex, "\\illus{}")
 		end
 
 		table.insert(

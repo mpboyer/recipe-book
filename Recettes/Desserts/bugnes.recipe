@@ -1,5 +1,5 @@
 return {
-  titre = "Bugnes Moelleuses",
+  titre = "Bugnes",
   portions = "6",
   prep = "25min",
   cuisson = "20mn",

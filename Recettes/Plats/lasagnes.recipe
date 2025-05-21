@@ -1,0 +1,32 @@
+return {
+    titre = "Lasagnes à la Bolognaise",
+    image = "",
+    portions = "4",
+    prep = "20mn",
+    four = "1h",
+    ingredients = [[
+      Viande Hachée & 400g\\
+      Coulis de Tomate & 500g\\
+      Champignons de Paris & 150g\\
+      Carotte & 1 \\
+      Beurre & 40g\\
+      Farine & 40g\\
+      Lait & 50cl\\
+      Gruyère Râpé & 125g\\
+      Ail & 1 gousse\\
+      Oignon & 1/2\\
+      Basilic & \\
+      Thym & 
+    ]],
+    etapes = [[
+    \item Dans une casserole/grande poêle, verser un trait d'huile d'olive, ajouter l'oignon ciselé, faire revenir puis ajouter les carottes et les champignons. Mélanger.
+    \item Intégrer la viande et assaisonner avec l'ail et le basilic. Laisser cuire quelques minutes, puis ajouter le thym et la sauce tomate. Laisser cuire le plus longtemps possible à feu très doux.
+    \item Dans une casserole, faire fondre le beurre, puis ajouter la farine et faire cuire 8 minutes en pour faire un roux sans coloration. Préchauffer le four à 200°C. 
+    Verser le lait en remuant.
+    \item Dans un plat, déposer une couche de sauce bolognaise, une nappe de béchamel, puis une couche de lasagnes. Recommencer jusqu'à épuisement des ingrédients ou rebord du plat. Parsemer de fromage râpé. 
+    ]],
+    note = [[
+    Vous pouvez précuire les pâtes avant de les déposer. 
+    C'est un plat de pâtes, vous pouvez évidemment changer la sauce bolognaise par n'importe quoi d'autre.
+    ]]
+  }

@@ -1,0 +1,33 @@
+return {
+    titre = "Wok de Légumes et Quinoa",
+    image = "",
+    portions = "4",
+    prep = "30mn",
+    cuisson = "35mn",
+    ingredients = [[
+      Quinoa & 100g\\
+      Oignon & 1\\
+      Carottes & 2\\
+      Pommes de terre & 2\\
+      Broccoli & 1\\
+      Salade & 1\\
+      Sauce Soja & 1 c.à.s.\\
+      Miel & 1 c.à.s.\\
+      Vinaigre & 1 c.à.s.\\
+      \OE ufs & 2\\
+      Cacahuètes grillées salées & \\
+      Coriandre & \\
+      Huile d'olive & 
+    ]],
+    etapes = [[
+    \item Dans une casserole d'eau salée froide, verser le quinoa et laisser cuire 15mn à feu moyen. 
+    \item Faire revenir l'oignon ciselé dans un wok avec un trait d'huile. 
+    \item Ajouter les carottes et les pommes de terre en rondelles, mélanger, ajouter un filer d'huile d'olive. Ajouter un peu d'eau et couvrir pendant 10mn. 
+    \item Détailler le broccoli en fleurettes, et l'ajouter dans le wok. Laisser cuire 10mn. 
+    \item Dans un petit bol, mélanger la sauce soja, le miel et le vinaigre de vin. Déglacer le wok avec la sauce et ajouter le quinoa. 
+    \item Battre les \oe ufs en omelette, et les verser au-dessus du wok de légumes en mélangeant bien. 
+    \item Servir parsemé de cacahuètes concassées et de coriandre. 
+    ]],
+    note = [[
+    ]]
+  }

@@ -1,0 +1,27 @@
+return {
+    titre = "Macaronis en ragoût",
+    portions = "4",
+    prep = "20mn",
+    cuisson = "40-50mn",
+    ingredients = [[
+      Macaronis & 320g\\
+      Chair à Saucisse & 700g\\
+      Oignon & 1\\
+      Tomates Pelées & 450g\\
+      Mozarella & 250g\\
+      Parmesan & 50g\\
+      Herbes & \\
+      Huile d'Olive &\\
+      Gros Sel &\\
+      Sel & \\
+      Poivre & 
+    ]],
+    etapes = [[
+    \item Dans une sauteuse, faire suer l'oignon émincé dans un trait d'huile d'olive. Ajouter la chair à saucisse et laisser cuire 8-10mn pour évaporer l'eau naturelle. 
+    \item Assaisonner, ajouter les tomates peler et laisser cuire à petite ébulition pendant 20-30mn en remuant pour ne pas que ça attache.
+    \item Faire cuire les macaronis. Tailler la mozarella en cube. 
+    \item Une fois les macaronis égouttés, les mélanger avec la viande et la mozarella. Servir avec du parmesan et du basilic. 
+    ]],
+    note = [[
+    ]]
+  }

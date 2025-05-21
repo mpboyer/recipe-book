@@ -1,0 +1,33 @@
+return {
+    titre = "Légumes Cuisinés aux Épices, \\OE uf cassé",
+    portions = "4",
+    prep = "20mn",
+    cuisson = "25mn",
+    ingredients = [[
+      Courgettes & 2\\
+      Aubergines & 2\\
+      \OE ufs & 4\\
+      Oignon & 1 \\
+      Ail & 2 gousses \\
+      Coulis de Tomates & 200g\\
+      Paprika & \\
+      Basilic & \\
+      Thym & \\
+      Fleur de sel & \\
+      Piment d'Espelette & \\
+      Cumin & \\
+      Sel & 
+    ]],
+    etapes = [[
+    \item Préchauffer le gril du four à 240°C \\
+    \item Couper séparément en dés les courgettes et aubergines. 
+    \item Dans une poêle, faire revenir l'oignon ciseler, ajouter le thym et l'ail puis les courgettes. Ajouter les aubergines et assaisonner.
+    Laisser cuire jusqu'à évaporation de l'eau naturelle et coloration légère. 
+    \item Verser la sauce tomate et laisser cuire 20mn. 
+    \item Déposer les légumes dans un plat qui va au four, casser les \oe ufs sur les légumes et placer le plat 2mn sous le gril pour cuire les oeufs. 
+    \item Verser un trait d'huile d'olive, parsemer de pimet, de fleur de sel et de quelques feuilles de basilic. 
+    Servir avec du pain grillé à l'huile.
+    ]],
+    note = [[
+    ]]
+  }

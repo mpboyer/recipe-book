@@ -1,0 +1,37 @@
+return {
+    titre = "Poisson Pané aux Herbes, Ketchup Maison",
+    image = "",
+    portions = "4",
+    prep = "20mn",
+    cuisson = "20mn",
+    ingredients = [[
+      Poisson blanc & 4 morceaux\\
+      Citrons & 2\\
+      Farine & 150g\\
+      Blancs d'\oe ufs & 2\\
+      Chapelure & \\
+      Beurre & 10g\\
+      Herbes & \\
+      Tomates concassées & 500g\\
+      Sucre & 30g\\
+      Miel & 35g\\
+      Vinaigre balsamique & 70g\\
+      Ail & 1 gousse \\
+      Gingembre & 100g
+    ]],
+    etapes = [[
+    \item \textbf{Préparation du ketchup:} 
+    \begin{enumerate}
+    \item Caraméliser le sucre et le miel dans une casserole, déglacer avec le vinaigre.
+    \item Laisser réduire puis ajouter l'ail pelé, le piment et le gingembre épluché. 
+    \item Attendre 1mn avant d'ajouter les tomates et une pincée de sel. 
+    \item Laisser compoter 15mn à feu très doux. À terme, retirer le gingembre, l'ail et le piment et mixer.
+    \end{enumerate}
+    \item Mélanger les herbes finement hachées avec la chapelure et un zeste de citron dans une assiette assez large.
+    \item Mettre la farine dans une deuxième assiette et les blancs d'\oe ufs avec du sel et du poivre dans une troisième. 
+    Passer le poisson dans la farine, puis dans les blancs et enfin dans la chapelure. 
+    \item Dans une poêle, faire chauffer un trait d'huile d'olive puis déposer les morceaux de poisson panés, laisser colorer puis ajouter le beurre et laisser cuire et dorer des deux côtés. 
+    ]],
+    note = [[
+    ]]
+  }

@@ -1,0 +1,31 @@
+return {
+    titre = "Curry Coco de Volaille, Pomme verte",
+    portions = "4",
+    prep = "40mn",
+    cuisson = "1h",
+    ingredients = [[
+      Blancs de Volaille & 4\\
+      Pommes de Terre & 2 grosses\\
+      Pomme Verte & 1\\
+      Oignon & 1 \\
+      Citronnelle & 1 tige\\
+      Gingembre & 25g\\
+      Ail & 1 gousse\\
+      Curry & 20g\\
+      Lait de Coco & 30cl\\
+      Crème Liquide Entière & 50cl\\
+      Huile d'Olive & \\
+      Sel & \\
+      Poivre & 
+    ]],
+    etapes = [[
+    \item Émincer finement l'oignon, la citronelle et le gingembre et les faire revenir dans une sauteuse avec un trait d'huile d'olive. 
+    \item Laisser cuire 10mn, ajouter le curry et laisser infuser quelques minutes avant de verser le lait de coco et la crème. Porter à ébullition 5mn puis laisser cuire 20mn à petit frémissement, en ajoutant de l'eau si nécessaire.
+    \item Après les avoir passées dans un saladier d'eau froide, plonger les pommes de terres coupées en petits morceaux dans la sauce, et laisser cuire 10mn à feu doux. 
+    \item Couper les blancs de volaille en morceaux et les assaisonner. Les colorer sur toutes les faces dans une poêle avec un trait d'huile d'olive. Les égoutter et les plonger dans la sauce. 
+    \item Taille la pomme en bâtonnets de longueur régulière, sans enlever la peau.
+    \item Au centre d'un plat, déposer les morceaux de volaille avec les pommes de terre et la sauce. Décorer avec les bâtonnets de pomme et un peu de piment d'Espelette.
+    ]],
+    note = [[
+    ]]
+  }

@@ -1,0 +1,26 @@
+return {
+    titre = "Boulettes de Viande",
+    portions = "6",
+    prep = "30mn",
+    cuisson = "15mn",
+    ingredients = [[
+      Viande Hachée & 500g\\
+      Chair à Saucisse & 500g\\
+      Oignon & 1\\
+      Ail & 1 gousse\\
+      Lait & 20cl\\
+      Pain de Mie & 2 tranches\\
+      Parmesan & 30g\\
+      \OE uf & 1\\
+      Herbes & 
+    ]],
+    etapes = [[
+    \item Hacher l'oignon et l'ail. Dans un grand bol, faire tremper le pain de mie dans le lait. 
+    \item Dans un grand saladier, mélanger la viande, l'ail, l'oignon et le pain de mie. 
+    Ajouter le parmesan et l'\oe uf et mélanger. 
+    \item Dans une grande poêle, faire cuire des boulettes d'environ une cuiller à soupe dans de l'huile d'olive chaude. 
+    Les retourner une fois que le bas est bien cuit. 
+    ]],
+    note = [[
+    ]]
+  }

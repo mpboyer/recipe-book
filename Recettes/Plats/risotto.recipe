@@ -1,0 +1,30 @@
+return {
+  titre = "Risotto à la milanaise",
+  portions = "4",
+  prep = "20min",
+  cuisson = "30min",
+  ingredients = [[
+    Riz arborio & 350g\\
+    Bouillon de volaille & 2L\\
+    Épice à paella & 1 pincée\\
+    Échalote & 1\\
+    Vin blanc sec & 1 verre\\
+    Beurre & 80g\\
+    Parmesan râpé & 200g\\
+    Basilic & \\
+    Huile d'olive & \\
+    Sel fin & 
+  ]],
+  etapes = [[
+    \item Faire chauffer le bouillon dans une grande casserole et ajouter l'épice à paella. Laisser infuser sur feu doux.
+    \item Dans une sauteuse sur feu moyen, verser le riz, mélanger quelques secondes puis ajouter 1 cuillère d'huile d'olive. 
+    Remuer à la spatule, ajouter l'échalote ciselée, faire revenir sans coloration.
+    \item Déglacer avec le vin blanc et laisser réduire.
+    \item Verser du bouillon louche par louche en attendant qu'il soit absorbé entre chaque ajout. 
+    Cuire 18 minutes en remuant et en grattant les sucs qui se forment sur les bords.
+    \item En fin de cuisson, incorporer le parmesan râpé et le beurre. Bien mélanger.
+    \item Dresser dans des assiettes plates, taper dans le fond de l'assiette pour étaler le risotto. Décorer de feuilles de basilic.
+  ]],
+  note = [[
+  ]]
+}

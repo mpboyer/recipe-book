@@ -1,0 +1,32 @@
+return {
+  titre = "Poulet au citron façon tajine",
+  portions = "4",
+  prep = "20mn",
+  cuisson = "20mn",
+  ingredients = [[
+    Filets de poulet & 4\\
+    Safran & 1 pincée\\
+    Citron & 1\\
+    Oignons & 2\\
+    Olives violettes & 1 poignée\\
+    Carottes & 2\\
+    Coriandre & 1/2 botte\\
+    Miel & 1 c.à.s. \\
+    Amandes entières & 1 poignée\\
+    Huile d'olive & \\
+    Sel fin & \\
+    Poivre du moulin & 
+  ]],
+  etapes = [[
+    \item Dans un plat, faire mariner le poulet en morceaux 30mn dans 3 cuillères à soupe d'huile d'olive, le safran et un peu de sel.
+    \item Ajouter le zeste du citron, les olives, et la moitié du citron en quartiers. 
+    \item Faire cuire doucement les oignons émincés dans une cocotte avec un filet d'huile d'olive, puis ajouter les morceaux de poulet avec leur marinade. Faire colorer à feu vif et compléter avec un peu d'huile si nécessaire.
+    \item Incorporer les carottes coupées en rondelles, mélanger, puis ajouter un fond d'eau dans le plat de la marinade pour en récupérer les sucs et les verser dans la cocotte. 
+    Couvrir et laisser mijoter à feu doux 10 à 15 minutes.
+    \item Vérifier la cuisson du poulet et s'assurer que le jus a bien réduit, puis incorporer le miel et bien mélanger.
+    \item Servir parsemé de feuilles de coriandre et des amandes entières.
+  ]],
+  note = [[
+  ]]
+}
+

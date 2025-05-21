@@ -6,8 +6,8 @@ return {
   frigo = "",
   robots = "",
   ingredients = [[
-    Poitrine de bœuf & 1.5kg\\
-    Bouillon de bœuf & 25cl\\
+    Poitrine de b\oe uf & 1.5kg\\
+    Bouillon de b\oe uf & 25cl\\
     Sauce barbecue & 15cl\\
     Vinaigre de cidre & 2 c.à.s. \\
     Huile neutre & 1 c.à.s. \\
@@ -22,7 +22,7 @@ return {
   ]],
   etapes = [[
     \item Préparer un mélange d’épices en combinant 2 cuil. à soupe de paprika fumé, 1 de cassonade, 1 d’ail en poudre, 1 d’oignon en poudre, 1 de moutarde en poudre, une pointe de piment de Cayenne, du sel et du poivre.
-    \item Masser généreusement la poitrine de bœuf avec ce mélange sur toutes ses faces, puis laisser reposer à température ambiante pendant 30min.
+    \item Masser généreusement la poitrine de b\oe uf avec ce mélange sur toutes ses faces, puis laisser reposer à température ambiante pendant 30min.
     \item Préchauffer le four à 150°C. Dans une cocotte, faire chauffer l’huile et saisir la viande sur chaque face jusqu’à belle coloration.
     \item Verser le bouillon, la sauce barbecue et le vinaigre dans la cocotte. Couvrir et enfourner.
     \item Cuire 5h à couvert, puis retirer le couvercle et poursuivre 30min pour faire réduire le jus.

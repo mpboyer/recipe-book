@@ -1,0 +1,27 @@
+return {
+    titre = "Gratin Dauphinois et C\\oe ur de laitue",
+    image = "",
+    portions = "4",
+    prep = "20mn",
+    four = "50mn",
+    ingredients = [[
+    Pommes de terre & 1kg\\
+    Lait & 75cl\\
+    Crème liquide entière & 20cl\\
+    C\oe urs de laitue & 4\\
+    Citrons & 2\\
+    Thym & \\
+    Vinaigre blanc & 
+    ]],
+    etapes = [[
+    \item Préchauffer le four à 180°C. Peler et couper les pommes de terre en rondelles d'un demi centimètre d'épaisseur. 
+    \item Faire chauffer le lait et la crème dans une grande casserole, avec le thym effeuillé, du sel et du poivre. Intégrer les pommes de terre et mélanger délicatement avant de porter à ébullition. 
+    \item Préparer une vinaigrette en ajoutant le jus des citrons et l'huile d'olive.
+    \item Transférer les pommes de terre dans un plat à gratin avec le liquide et le thym. Enfourner 30-40mn. 
+    Surveiller pour éviter que le dessus brûle. 
+    \item Retirer les grandes feuilles de laitue pour ne garder que les c\oe urs. Faire tremper dans de l'eau froide avec un pointe de vinaigre blanc, puis égoutter sur un torchon. 
+    \item Déposer les salades dans des assiettes, assaisonner, et servir le gratin chaud avec la salade.
+    ]],
+    note = [[
+    ]]
+  }

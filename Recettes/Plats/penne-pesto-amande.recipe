@@ -1,0 +1,27 @@
+return {
+    titre = "Penne au Pesto d'Amande",
+    portions = "4",
+    prep = "12mn",
+    cuisson = "10mn",
+    robots = "Hachoir",
+    ingredients = [[
+      Penne & 350g\\
+      Poudre d'Amandes & 55g\\
+      Ail & 1 gousse\\
+      Basilic & 40g \\
+      Parmesan Râpé & 50g\\
+      Huile d'Olive & 8 c.à.s.\\
+      Citron & 1\\
+      Sel & \\
+      Poivre & 
+    ]],
+    etapes = [[
+    \item Dans un hachoir, mélanger l'ail, la poudre d'amandes, le parmesan, le basilic et l'huile d'olive en filet. 
+    Tout en mixant, ajouter le jus du citron et assaisonner.
+    \item Préparer les penne en gardant l'eau de cuisson. Les faire revenir à feu vif dans une poêle avec 1 à 2 cuillérées à soupe de pesto et 1 cuillérée d'eau de cuisson des pâtes. 
+    \item Servir avec du parmesan, le zeste finement râpé du citron et des feuilles de basilic. 
+    ]],
+    note = [[
+    Il est possible de remplacer les amandes par des noisettes ou des pignons de pin. Le pesto restant se conserve bien sous forme de glaçons. 
+    ]]
+  }

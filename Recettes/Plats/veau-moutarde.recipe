@@ -1,0 +1,32 @@
+return {
+  titre = "Veau cuisiné à la crème de moutarde, asperges vertes et champignons",
+  portions = "4",
+  prep = "20min",
+  cuisson = "20min",
+  ingredients = [[
+    Escalopes de veau & 600g\\
+    Crème fraîche & 20cl\\
+    Beurre & 30g\\
+    Asperges vertes & 8\\
+    Champignons de Paris & 8\\
+    Oignon & 1\\
+    Moutarde à l'ancienne & 1 c.à.s.\\
+    Huile d'olive & \\
+    Sel & \\
+    Poivre & 
+  ]],
+  etapes = [[
+    \item Couper les escalopes de veau en petits cubes. 
+    \item Tailler les queues des asperges pour retirer la partie dure, puis coupe les pointes à 5 cm de long et le reste en biseau d'1 cm de large. 
+    Émincer l'oignon et les champignons.
+    \item Dans une sauteuse ou une cocotte, faire revenir l'oignon dans un trait d'huile d'olive
+    Ajouter les têtes d'asperges, faire cuire 4 à 5 minutes, puis ajouter les morceaux en biseau. 
+    Ajouter les champignons, laisser cuire encore 6 minutes en mélangeant régulièrement. 
+    \item Dans la même cocotte, verser un trait d’huile d’olive, ajouter la viande et assaisonner. 
+    Laisser caraméliser le beurre 2 minutes.
+    \item Remettre les légumes, mélanger avec la moutarde à l’ancienne et la crème fraîche. 
+    Assaisonner et laisser mijoter quelques minutes à feu doux.
+  ]],
+  note = [[
+  ]]
+}

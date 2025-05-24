@@ -1,0 +1,24 @@
+return {
+    titre = "Spéculoos",
+    prep = "10mn",
+    four = "50mn",
+    ingredients = [[
+    Farine & 250g\\
+    Lait Entier & 150g\\
+    Miel de Sapin & 150g\\
+    Sucre Roux & 50g\\
+    Vergeoise Brune & 75g\\
+    \OE uf & 1\\
+    Bicarbonate de Soude & 1 c.à.c.\\
+    Épices à Pain d'Épices & 7g
+    ]],
+    etapes = [[
+    \item Mélanger tous les ingrédients ensemble.
+    \item Préchauffer le four à 160°C. 
+    \item Former des biscuits sur une grande plaque; enfourner.
+    \item Au bout de 10mn, monter la température à 180°C. 
+    \item Laisser cuire 40mn. 
+    ]],
+    note = [[
+    ]]
+  }

@@ -1,0 +1,29 @@
+return {
+    titre = "Biscuits IKEA™ à l'avoine.",
+    image = "",
+    portions = "",
+    prep = "20mn",
+    four = "10mn",
+    frigo = "1 nuit",
+    robots = "Ustensiles",
+    ingredients = [[
+      Flocons d'avoine & 100g \\
+      Sucre & 120g\\
+      Farine & 40g\\
+      \OE uf & 1\\
+      Beurre & 80g\\
+      Chocolat & 120g\\
+      Miel & 1 c.à.s.\\
+      Levure & 1 c.à.c.\\
+      Extrait de Vanille &
+    ]],
+    etapes = [[
+    \item Mixer légèrement les flocons d'avoine, le sucre, la farine, l'\oe uf, le miel et le beurre fondu.
+    \item Ajouter la vanille et la levure. 
+    \item Laisser reposer une nuit au réfrigérateur. 
+    \item Faire cuire des disques de la préparation sur une plaque pendant 5-6mn au four à 200°C. 
+    \item Une fois refroidi, faire fondre le chocolat, le tartiner sur un biscuit et coller un autre biscuit par dessus. 
+    ]],
+    note = [[
+    ]]
+  }

@@ -1,0 +1,15 @@
+return {
+    titre = "Sauce Caramel",
+    prep = "30mn",
+    ingredients = [[
+      Sucre & 160g \\
+      Beurre Demi-Sel & 80g\\
+      Crème Fraîche & 20cl
+    ]],
+    etapes = [[
+    \item Faire caraméliser le sucre dans une casserole. 
+    \item Ajouter le beurre et la crême, bien mélanger en prenant garde à ce que le mélange n'accroche pas.
+    ]],
+    note = [[
+    ]]
+  }

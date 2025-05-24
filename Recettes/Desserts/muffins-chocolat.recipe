@@ -1,0 +1,30 @@
+return {
+    titre = "Muffins Chocolat",
+    image = "",
+    portions = "",
+    prep = "30mn",
+    four = "30mn",
+    frigo = "",
+    robots = "Batteur à \\oe ufs, caissettes",
+    ingredients = [[
+      Beurre Salé & 200g\\
+      Sucre Glace & 200g\\
+      Farine & 150g\\
+      Cacao sans Sucre & 50g\\
+      \OE ufs & 2\\
+      Lait Tiède & 160g\\
+      Chocolat & 150g
+    ]],
+    etapes = [[
+    \item Briser le chocolat en gros morceaux. 
+    \item Préchauffer le four à 160°C.
+    \item Mélanger le sucre et le beurre au batteur pendant au moins 3mn. 
+    \item Incorporer les \oe ufs un par un. 
+    \item Ajouter le lait et fouetter encore un peu.
+    \item Ajouter la farine et la cacao. Mélanger sans insister. Ajouter les morceaux de chocolat. 
+    \item Verser la préparation dans des caissettes, rajouter quelques carrés de chocolat sur le dessus. 
+    \item Cuire environ 30mn.
+    ]],
+    note = [[
+    ]]
+  }

@@ -1,0 +1,27 @@
+return {
+    titre = "Gâteau Saint Jacques",
+    image = "",
+    portions = "",
+    prep = "15mn",
+    four = "50mn",
+    ingredients = [[
+      Poudre d'amandes & 125g\\
+      Farine & 80g\\
+      Sucre & 100g\\
+      Beurre & 100g\\
+      Blancs d'\OE ufs & 4 \\
+      Levure & 1 c.à.c.
+    ]],
+    etapes = [[
+    % FIXME: Pourquoi ce titre ?
+    \item Préchauffer le four à 200°C. 
+    \item Mélanger la poudre d'amande, la farine et la levure. 
+    \item Fouetter ensemble le beurre, le sucre et les blancs d'\oe ufs à part. 
+    \item Mélanger la farine au beurre et au sucre, ajouter les blancs délicatement.
+    \item Verser dans un moule à tarte, parsemer de sucre et d'amandes.
+    \item Baisser le four à 150°C et laisser cuire 50mn environ.
+    ]],
+    note = [[
+    C'est un gâteau basique, mais vous pouvez remplacer la farine, tout ou partie, dans toutes vos recettes de gâteaux. 
+    ]]
+  }

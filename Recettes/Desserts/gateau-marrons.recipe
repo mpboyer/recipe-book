@@ -1,0 +1,21 @@
+return {
+    titre = "Gâteau aux Marrons",
+    portions = "20",
+    prep = "15mn",
+    four = "20mn",
+    robots = "Caissettes",
+    ingredients = [[
+      Crème de Marrons & 500g\\
+      \OE ufs & 3\\
+      Chocolat Noir & 80g\\
+      Beurre & 50g
+    ]],
+    etapes = [[
+    \item Mélanger les \oe ufs, la crème de marrons et le beurre fondu. 
+    \item Incorporer le chocolat noir fondu.
+    \item Verser dans des caissettes.
+    \item Laisser cuire 20mn.
+    ]],
+    note = [[
+    ]]
+  }

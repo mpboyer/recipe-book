@@ -1,0 +1,31 @@
+return {
+    titre = "Bagels",
+    portions = "10",
+    prep = "45mn",
+    four = "25mn",
+    frigo = "1h30",
+    ingredients = [[
+    Farine & 500g\\
+    Levure Fraiche ou Sèche & 15g ou 8g\\
+    Lait Tiède & 15cl\\
+    Eau Tiède & 10cl\\
+    \OE uf & 1 \\
+    Blancs d'\oe ufs & 2\\
+    Sel & 10g\\
+    Sucre & 10g
+    ]],
+    etapes = [[
+    \item Délayer la levure dans 5cl d'eau tiède. 
+    \item Laisser reposer 5mn.
+    \item Mélanger la farine, le lait, le reste d'eau, le sucre, le sel et les blancs d'\oe ufs.
+    \item Incorporer la levure et pétrir 10-12mn. 
+    \item Recouvrir d'un torchon humide et laisser lever 1h30. La pâte doit doubler de volume. 
+    \item Abaisser la pâte et la replier plusieurs fois sur elle même pour exprimer un maximum d'air. 
+    \item Former 10 petites boules, faire un trou dans chacune d'entre elle avec les doigts. 
+    Couvrir et laisser lever 15mn. 
+    \item Préchauffer le four à 210°C. 
+    \item Pocher les bagels deux par deux dans de l'eau frémissante. 
+    \item Les poser sur une plaque beurrée. Badigeonner d'\oe uf et les parsemer de graines. 
+    \item Laisser cuire 20-25mn au four, jusqu'à ce qu'ils soient bien dorés. 
+    ]],
+}

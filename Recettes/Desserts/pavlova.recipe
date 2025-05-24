@@ -1,0 +1,25 @@
+return {
+    titre = "Pavlova",
+    image = "",
+    portions = "",
+    prep = "30mn",
+    cuisson = "",
+    four = "2h",
+    robots = "Batteur",
+    ingredients = [[
+      Blancs d'\OE ufs & 7\\
+      Sucre & 350g + 6 c.à.s.\\
+      Lait Entier & 1l
+    ]],
+    etapes = [[
+    \item Préchauffer le four à 150°C.
+    \item Battre les blancs en neige, en incorporant les 350g de sucre au fur et à mesure pour former une pâte à meringue.
+    \item Verser la préparation dans un plat à tarte/à desserts, pour former un biscuit meringué. 
+    \item Enfourner pendant 2h, et laisser refroidir dans le four. 
+    \item Garnir d'une crème chantilly et de fruits frais.
+    \item Avec les jaunes d'\oe ufs, faire une crème anglaise en ajoutant le lait entier et le reste du sucre.
+    ]],
+    note = [[
+    La pavlova est un plat extrêmement apprécié et iconique en Australie, et ne vient pas du tout d'Europe de l'Est!
+    ]]
+  }

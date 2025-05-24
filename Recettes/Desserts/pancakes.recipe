@@ -1,0 +1,27 @@
+return {
+    titre = "Pancakes",
+    image = "",
+    portions = "12",
+    prep = "30mn",
+    cuisson = "45mn",
+    four = "",
+    frigo = "",
+    robots = "",
+    ingredients = [[
+      \OE ufs & 2\\
+      Beurre demi-sel & 50g\\
+      Lait & 35cl\\
+      Farine & 300g\\
+      Sucre & 50g\\
+      Levure & 2 sachets
+    ]],
+    etapes = [[
+    \item Mélanger la farine, la levure et le sucre. 
+    \item Faire fondre le beurre dans le lait, et incorporer le mélange. 
+    \item Ajouter les \oe ufs.
+    \item Laisser reposer 30mn. 
+    \item Dans une petite poêle beurrée, déposer une louche de pâte pour former des disques d'une bonne épaisseur. Retourner au bout d'une minute ou deux, puis retirer du feu. 
+    ]],
+    note = [[
+    ]]
+  }

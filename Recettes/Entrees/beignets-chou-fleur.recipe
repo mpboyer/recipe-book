@@ -1,0 +1,34 @@
+return {
+    titre = "Beignets de Chou-Fleur aux Épices",
+    image = "",
+    portions = "4",
+    prep = "30mn",
+    cuisson = "30mn",
+    ingredients = [[
+      Chou-Fleur & 1 petit\\
+      \OE ufs & 4\\
+      Ail & 1 gousse\\
+      Échalotes & 2\\
+      Farine & 120g\\
+      Cumin & 1 c.à.c.\\
+      Curcuma & 1 c.à.c.\\
+      Sel & 1 c.à.c.\\
+      Yaourt Grec & 300g\\
+      Citrons Verts & 2\\
+      Coriandre & \\
+      Huile d'Olive & 2 c.à.s.\\
+      Sel & \\
+      Poivre & 
+    ]],
+    etapes = [[
+    \item Râper le zeste d'un citron vert et presser les deux fruits. 
+    \item Dans un bol, mélanger au fouet le yaourt, le zeste, et le jus de citron. Ajouter la coriandre, l'huile d'olive, le sel et le poivre.  
+    \item Détailler le chou-fleur en bouquets et le faire blanchir jusqu'à ce qu'il soit tendre. 
+    \item Émincer l'ail et les échalotes. Mélanger la farine, les \oe ufs, l'ail, l'échalote, le cumin, le curcuma, le sel et le poivre. 
+    \item Fouetter vivement pour obtenir une pâte lisse, ajouter le chou-fleur encore chaud. 
+    \item Faire chauffer l'huile dans une friteuse. Y plonger des portions de pâte au chou-fleur. Compter 3-4mn par friture. 
+    \item Servir chaud avec la sauce à part. 
+    ]],
+    note = [[
+    ]]
+  }

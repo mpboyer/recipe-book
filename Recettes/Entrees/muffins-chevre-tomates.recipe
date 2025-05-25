@@ -1,0 +1,26 @@
+return {
+    titre = "Muffins au Chèvre Frais",
+    image = "",
+    portions = "6",
+    prep = "20mn",
+    four = "20mn",
+    ingredients = [[
+      Chèvre Frais & 100g\\
+      Beurre & 125g\\
+      \OE ufs & 3\\
+      Farine & 150g\\
+      Levure & 1 sachet\\
+      Crème Liquide & 3 c.à.s.\\
+      Tomates Confites & 12 pétales\\
+      Olives Dénoyautées & 20
+    ]],
+    etapes = [[
+    \item Préchauffer le four à 180°C.
+    \item Casser les \oe ufs dans un bol, ajouter la crème liquide et battre à la fourchette.
+    \item Dans un saladier, réunior la farine, la levure et le beurre ramolli. 
+    \item Mélanger longuement, ajouter les \oe ufs à la crème, incorporer délicatement les olives, les tomates et le chèvre émietté. 
+    \item Verser le mélange dans des caissettes et enfourner pour 20mn. 
+    ]],
+    note = [[
+    ]]
+  }

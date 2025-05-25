@@ -1,0 +1,32 @@
+return {
+    titre = "Gâteau de Semoule aux Épices",
+    image = "",
+    portions = "6",
+    prep = "20mn",
+    cuisson = "5mn",
+    frigo = "6h",
+    ingredients = [[
+      Semoule & 150g\\
+      Lait & 75cl\\
+      Crème Fraîche & 10cl\\
+      Sucre Semoule & 125g\\
+      Sucre Vanillé & 2 sachets\\
+      Canelle & 1/2 bâton\\
+      Vanille & 1 gousse\\
+      Miel & 200g\\
+      Noix de Muscade & 
+    ]],
+    etapes = [[
+    \item Verser le lait dans un grande casserole, ajouter la vanille et la cannelle et porter à ébullition. 
+    \item Ajouter les sucres et mélanger.
+    \item Verser la semoule en pluie et tourner pendant 5mn jusqu'à ce qu'elle épaississe. 
+    \item Ajouter la crème, mélanger et retirer du feu. Enlever la vanille et la cannelle. 
+    \item Passer sous l'eau froide un moule et versez-y la semoule chaude. 
+    \item Lisser la surface avec une spatule et laisser reposer 6h au réfrigérateur. 
+    \item Verser le miel dans une casserole, ajouter la noix de muscade et laisser légèrement caraméliser sur feu doux. 
+    \item Laisser refroidir et réserver au réfrigérateur. 
+    \item Démouler le gâteau sur un plat avec avoir trempé le fond dans l'eau chaude. Faites réchauffer le coulis et napper le gâteau. 
+    ]],
+    note = [[
+    ]]
+  }

@@ -1,0 +1,20 @@
+return {
+    titre = "Macarons aux Noix",
+    four = "15mn",
+    ingredients = [[
+      Noix & 150g\\
+      Sucre Glace & 120g\\
+      Blanc d'\OE uf & 50g
+    ]],
+    etapes = [[
+    \item Mixer les noix.
+    \item Ajouter le sucre glace.
+    \item Ajouter le blanc d'\oe uf. 
+    \item Sur une plaque, déposer 28 tas. 
+    \item Enfourner 12mn à 190°C. 
+    \item Au sortir du four, les coller 2 à 2 en prenant bien garde à ne pas les casser.
+    ]],
+    note = [[
+    Les macarons se conservent jusqu'à 2 semaines.
+    ]]
+  }

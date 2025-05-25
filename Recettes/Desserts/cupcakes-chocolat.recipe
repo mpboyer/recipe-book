@@ -1,0 +1,30 @@
+return {
+    titre = "Cupcakes au Chocolat",
+    image = "",
+    portions = "6",
+    prep = "30mn",
+    cuisson = "20mn",
+    ingredients = [[
+      Yaourt Nature & 1\\
+      \OE ufs & 3\\
+      Farine & 170g\\
+      Levure & 1 sachet\\
+      Sucre Roux & 150g\\
+      Beurre Fondu & 150g\\
+      Cacao & 3 c.à.c.\\
+      Vermicelles Colorés & \\
+      Myrtilles & 18\\
+      Chocolat Noir & 100g\\
+      Crème Liquide & 25cl 
+    ]],
+    etapes = [[
+    \item Préchauffer le four à 180°C. 
+    \item Mélanger au fouet électrique le yaourt, les \oe ufss, le sucre et le beurre fondu. 
+    \item Ajouter la farine, la levure et le cacao. 
+    \item Répartir la pâte dans des caissettes et enfourner pour 15-20mn. 
+    \item Faire fondre le chocolat en morceaux avec 5cl de crème puis le lisser. Monter en chantilly le reste de crème puis ajouter le chocolat fondu. 
+    \item Décorer les cupcakes avec la chantilly puis parsemer de vermicelles et de myrtilles.
+    ]],
+    note = [[
+    ]]
+  }

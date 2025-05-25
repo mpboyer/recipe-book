@@ -1,0 +1,25 @@
+return {
+    titre = "Crème aux Perles du Japon",
+    image = "",
+    portions = "2",
+    prep = "5mn",
+    cuisson = "",
+    four = "",
+    frigo = "2h",
+    robots = "",
+    ingredients = [[
+      Lait & 15cl\\
+      Lait de Coco & 40cl\\
+      Cassonnade & 30g\\
+      Perles du Japon & 50g
+    ]],
+    etapes = [[
+    \item Dans des rammequins/petits pots, verser le lait et le lait de coco.
+    \item Ajouter le sucre et mélanger un peu. 
+    \item Ajouter les perles du japon. 
+    \item Réfrigérer au moins 2h pour figer le mélange.
+    ]],
+    note = [[
+    Le dessert s'accompagne bien d'un coulis de mangue ou de framboise, qu'il faut mettre sur les portions avant de les réfrigérer.
+    ]]
+  }

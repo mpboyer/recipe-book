@@ -1,0 +1,25 @@
+return {
+    titre = "Gâteau au Chocolat et aux Fruits Secs",
+    image = "",
+    portions = "6",
+    prep = "15mn",
+    frigo = "2h",
+    ingredients = [[
+      Cookies au Chocolat & 100g\\
+      Beurre & 50g\\
+      Crème Liquide & 10cl\\
+      Amandes & 50g\\
+      Raisins Secs & 25g\\
+      Pistaches Décortiquées & 50g
+    ]],
+    etapes = [[
+    \item Tapisser un moule rectangulaire de film étirable en le laissant dépasser sur les côtés.
+    \item Mettre les cookies et le beurre dans le bol d'un robot, et mixer quelques seconde. Étaler la préparation dans le moule en appuyant du bout des doigts. 
+    \item Concasser grossièrement les pistaches et les amandes. 
+    \item Faire bouillir la crème et la verser sur le chocolat en petit morceaux. Remuer jusqu'à ce que le mélange soit lisse. Ajouter les fruits secs en remuant. 
+    \item Verser la préparation dans le moule, rabattre le film par dessus et réfrigérer 2h. 
+    \item Pour servir, démoulez le gâteau et le servir en tranches, accompagné d'une glace ou d'un coulis de framboises.
+    ]],
+    note = [[
+    ]]
+  }

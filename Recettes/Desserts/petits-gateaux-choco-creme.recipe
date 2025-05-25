@@ -1,0 +1,25 @@
+return {
+    titre = "Petits Gâteaux au Chocolat et à la Crème",
+    image = "",
+    portions = "6",
+    prep = "10mn",
+    four = "20mn",
+    frigo = "1h",
+    ingredients = [[
+      Chocolat Noir & 300g\\
+      Crème Liquide & 15cl\\
+      \OE ufs & 4\\
+      Sucre & 50g\\
+      Beurre & 50g\\
+      Glace & 50cl
+    ]],
+    etapes = [[
+    \item Faire bouillir la crème et la verser sur le chocolat cassé en morceaux, remuer pour lisser puis ajouter le beurre en parcelles. 
+    \item Battre les \oe ufs entiers avec le sucre, et les ajouter à la préparation.
+    \item Répartir la préparation dans des caissettes et réserver 1h au frais. 
+    \item Passé ce temps, préchauffer le four à 200°C et faire cuire les gâteaux 15mn. 
+    \item Attendre un peu avant de démouler et les servir tièdes avec la glace.
+    ]],
+    note = [[
+    ]]
+  }

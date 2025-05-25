@@ -1,0 +1,28 @@
+return {
+    titre = "Cupcakes Chocolat Blanc",
+    image = "",
+    portions = "",
+    prep = "15mn",
+    four = "20mn",
+    ingredients = [[
+      Farine & 150g\\
+      Levure & 1 sachet\\
+      Sucre Glace & 150g + 50g\\
+      \OE ufs & 2\\
+      Beurre & 90g\\
+      Chocolat Blanc & 50g\\
+      Cream Cheese & 150g\\
+      Sucre Vanillé & 1 sachet
+    ]],
+    etapes = [[
+    \item Préchauffer le four à 180°C. 
+    \item Faire fondre le beurre. 
+    \item Mélanger la farine, la levure, 150g de sucre, les \oe ufs et le beurre. 
+    \item Ajouter le chocolat en morceaux. 
+    \item Enfourner 20mn. 
+    \item Préparer un glaçage avec le reste du sucre, le philadelphia et le sucre vanillé. 
+    \item L'étaler sur les cupcakes avant de démouler. Réfrigérer un peu pour figer le glaçage plus rapidement.  
+    ]],
+    note = [[
+    ]]
+  }

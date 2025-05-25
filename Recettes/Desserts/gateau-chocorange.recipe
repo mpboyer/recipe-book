@@ -1,0 +1,23 @@
+return {
+    titre = "Gâteau Chocorange",
+    prep = "20mn",
+    four = "45mn",
+    ingredients = [[
+      Chocolat Noir & 140g\\
+      Sucre en Poudre & 150g\\
+      Beurre & 125g\\
+      Poudre d'Amandes & 80g\\
+      Farine & 60g\\
+      \OE ufs & 3\\
+      Oranges Confites
+    ]],
+    etapes = [[
+    \item Mélanger la farine, la poudre d'amande et le sucre en poudre.
+    \item Faire fondre séparément le beurre et le choolat, et les ajouter au mélange. 
+    \item Battre les blancs en neige et les incorporer.
+    \item Verser dans un moule, et plonger les oranges confites dans la pâte. 
+    \item Enfourner 40-50mn à 180°C. 
+    ]],
+    note = [[
+    ]]
+  }

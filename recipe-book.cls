@@ -404,7 +404,7 @@
 
 
 
-\AfterBeginDocument{\frontmatter\memeleneTitle\dominitoc\tableofcontents\makeindex\mainmatter}
+\AfterBeginDocument{\frontmatter\memeleneTitle\dominitoc\tableofcontents\makeindex\input{preface}\mainmatter}
 \AtEndDocument{\backmatter\includeindex}
 
 

@@ -1,0 +1,23 @@
+return {
+    titre = "Planteur",
+    prep = "10mn",
+    frigo = "2-3 semaines",
+    robots = "Ustensiles",
+    ingredients = [[
+      Jus d'Orange & 2l\\
+      Jus d'Ananas & 1l\\
+      Jus de Pamplemousse & 1l\\
+      Nectar d'Abricot & 1l\\
+      Jus de Tomate & Un peu \\
+      Rhum & 1l\\
+      Sirop d'Orgeat & 1/2l\\
+      Sirop de Sucre de Canne & 1/2l\\
+      Jus de Goyave & 1 pot
+    ]],
+    etapes = [[
+    \item Tout mélanger.
+    \item Laisser 2 à 3 semaines au frigo. 
+    ]],
+    note = [[
+    ]]
+  }

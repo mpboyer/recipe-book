@@ -1,0 +1,16 @@
+return {
+    titre = "Limoncello",
+    frigo = "7-10 jours",
+    ingredients = [[
+      Alcool & 1l\\
+      Citrons & 6 \\
+      Sucre & 700g
+    ]],
+    etapes = [[
+    \item Faire macérer les zestes des citrons dans l'alcool pendant une semaine à 10 jours. 
+    \item Préparer un sirop avec le sucre et l'eau. 
+    \item Filtrer l'alcool et le rajouter au sirop. 
+    ]],
+    note = [[
+    ]]
+  }

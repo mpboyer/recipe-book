@@ -1,0 +1,37 @@
+return {
+    titre = "Colombo de Poulet et Riz à la Créole",
+    portions = "4",
+    prep = "45mn",
+    cuisson = "40mn",
+    ingredients = [[
+      Poulet & 1 gros\\
+      Aubergine & 1\\
+      Courgette & 1\\
+      Pommes de Terre & 3\\
+      Oignon & 1\\
+      Citrons & 2\\
+      Piment & 1\\
+      Ail & 5-6 gousses\\
+      Poudre de Colombo & 2 c.à.s.\\
+      Cives & \\
+      Coriandre & \\
+      Thym & \\
+      Clous de Girofle & \\
+      Vinaigre & \\
+      Huile & \\
+      Sel & \\
+      Poivre 
+    ]],
+    etapes = [[
+    \item Découper le poulet en morceaux et faire macérer pendant 3/4 d'heure dans un mélange de sel, poivre, ail écrasé, piment haché, clous de girofle et vinaigre.
+    \item Hacher les cives, l'oignon, le persil et l'ail. 
+    \item Faire revenir légèrementdans une cocotte avec un peu d'huile, de coriandre et de thym. 
+    \item Ajouter les morceaux de viande et faire roussir en remuant. 
+    \item Couper les légumes en morceaux et les verser dans la cocotte. 
+    \item Délayer la poudre de colombo dans un peu d'eau, l'ajouter à la viande et remuer.
+    \item Couvrir d'eau et laisser cuire pendant 40mn environ, à feu moyen. 
+    \item En fin de cuisson, rectifier l'assaisonnement et arroser avec le jus des citrons.
+    ]],
+    note = [[
+    ]]
+  }

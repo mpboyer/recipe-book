@@ -1,0 +1,23 @@
+return {
+    titre = "Gaufres",
+    image = "",
+    portions = "",
+    prep = "10mn",
+    cuisson = "30mn",
+    ingredients = [[
+      Farine & 250g\\
+      \OE ufs & 2\\
+      Beurre & 60g\\
+      Sucre & 40g\\
+      Lait & 50cl\\
+      Levure & 1 sachet
+    ]],
+    etapes = [[
+    \item Préparer la pâte en mélangeant la farine et le lait. 
+    \item Ajouter le beurre fondu et le sucre. 
+    \item Battre les blancs en neige et les incorporer.
+    \item Faire cuire dans un moule beurré. 
+    ]],
+    note = [[
+    ]]
+  }

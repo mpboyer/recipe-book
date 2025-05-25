@@ -1,0 +1,24 @@
+return {
+    titre = "Pâte Sablée",
+    portions = "2",
+    prep = "20mn",
+    frigo = "2h",
+    robots = "Mixeur",
+    ingredients = [[
+      Beurre & 140g\\
+      Sucre Glace & 75g\\
+      Farine & 250g\\
+      Pâte d'Amandes & 25g\\
+      \OE uf & 1\\
+      Sel & 2g\\
+    ]],
+    etapes = [[
+    \item Verser le beurre, le sucre, le sel, l'\oe uf, la farine et la pâte d'amandes dans le bol du robot. 
+    \item Si vous faites la pâte à la main, commencez par sabler le beurre et la farine avant d'ajouter le reste.
+    \item Laisser reposer 2h au frais.
+    ]],
+    note = [[
+    Vous pouvez ajouter des graines de pavot dans la pâte pour apporter du goût.
+    ]]
+  }
+

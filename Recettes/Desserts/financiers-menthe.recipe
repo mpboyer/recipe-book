@@ -1,0 +1,25 @@
+return {
+    titre = "Financiers à la Menthe",
+    prep = "20mn",
+    four = "15mn",
+    ingredients = [[
+      Menthe & 3 branches\\
+      Sirop de Menthe & 1 c.à.s.\\
+      Beurre & 80g\\
+      Blancs d'\OE ufs & 3\\
+      Poudre d'Amande & 75g\\
+      Sucre Glace & 75g\\
+      Farine & 80g
+    ]],
+    etapes = [[
+    \item Préchauffer le four à 200°C.
+    \item Faire fondre le beurre pour atteindre une couleur noisette.
+    \item Laver et hacher la menthe, ajouter au sirop.
+    \item Mélanger la poudre d'amande, le sucre, la farine.
+    \item Incorporer les blancs d'\oe ufs en fouettant, puis le sirop. 
+    \item Verser le beurre en remuant pour avoir texture légèrement granuleuse.
+    \item Enfourner 15mn.
+    ]],
+    note = [[
+    ]]
+  }

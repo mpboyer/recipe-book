@@ -1,0 +1,21 @@
+return {
+    titre = "Chutney de Figues",
+    prep = "15mn",
+    cuisson = "40mn",
+    ingredients = [[
+      Figues & 24\\
+      Oignon & 1\\
+      Miel & 1 c.à.s.\\
+      Vinaigre Balsamique & 10cl\\
+      Eau & 10cl\\
+      Sucre en Poudre & 2 c.à.s.
+    ]],
+    etapes = [[
+    \item Faire revenir l'oignon émincé avec le miel.
+    \item Couper les figues en 4 et les ajouter aux oignons deux minutes.
+    \item Ajouter le sucre, le vinaigre et l'eau. 
+    \item Laisser confire 35/40mn.
+    ]],
+    note = [[
+    ]]
+  }

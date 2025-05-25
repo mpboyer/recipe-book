@@ -1,0 +1,23 @@
+return {
+    titre = "Financiers Miel-Noix",
+    image = "",
+    prep = "15mn",
+    four = "20mn",
+    ingredients = [[
+      Miel Liquide & 100g\\
+      Beurre & 200g\\
+      Blancs d'\OE ufs & 6\\
+      Sucre Glace & 100g\\
+      Farine & 80g\\
+      Cerneaux de Noix & 100g
+    ]],
+    etapes = [[
+    \item Faire fondre le beurre.
+    \item Torréfier les noix dans une poêle à sec puis les réduire en poudre. 
+    \item Préchauffer le four à 190°C. 
+    \item Fouetter un peu les blancs d'\oe ufs pour qu'ils moussent à peine, ajouter le sucre glace, le miel, la farine et les noix. 
+    \item Faire cuire 15-20mn. 
+    ]],
+    note = [[
+    ]]
+  }

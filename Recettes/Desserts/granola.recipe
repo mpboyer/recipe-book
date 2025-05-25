@@ -1,8 +1,7 @@
 return {
-    titre = "Granola",
-    image = "",  -- Laisser vide pour ne pas inclure une image
+    titre = "Granola --- 1",
     portions = "",
-    prep = "",
+    prep = "10mn",
     cuisson = "35-40mn",
     four = "",
     frigo = "",

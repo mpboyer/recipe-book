@@ -1,0 +1,28 @@
+return {
+    titre = "Tajine",
+    prep = "30mn",
+    cuisson = "1h",
+    ingredients = [[
+      Pommes de Terre & \\
+      Tomates & \\
+      Pois Chiches & 1 grosse boîte \\
+      Carottes & \\
+      Courgette & \\
+      Oignon & \\
+      Olives & \\
+      Viande & \\
+      Spigol & \\
+      Sel & \\
+      Poivre & \\
+      Huile d'Olive & 
+    ]],
+    etapes = [[
+    \item Faire revenir la viande avec l'huile d'olive et le spigol. 
+    \item Ajouter les légumes coupés en 4. 
+    \item Ajouter les tomates et les pois chiches. 
+    \item Couvrir d'eau et laisser cuire environ une heure à feu très doux. 
+    ]],
+    note = [[
+    Comme viande, opter pour du poulet, des boulettes ou des cotelettes d'agneau/de mouton. 
+    ]]
+  }

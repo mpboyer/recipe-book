@@ -1,0 +1,24 @@
+return {
+    titre = "Gateau Hyper Léger",
+    prep = "20mn",
+    four = "45mn",
+    ingredients = [[
+      Farine & 200g\\
+      Sucre & 200g\\
+      \OE ufs & 3\\
+      Huile & 10cl\\
+      Jus d'Orange & 1 verre\\
+      Sucre vanillé & 1 sachet\\
+      Levure & 1 sachet
+    ]],
+    etapes = [[
+    \item Battre deux jaune d'\oe ufs et un \oe uf entier avec le sucre. Réserver les blancs.
+    \item Ajouter la farine, la levure et le sucre vanillé. 
+    \item Ajouter l'huile et le jus d'orange.
+    \item Battre les blancs en neige et les incorporer.
+    \item Enfourner un quart d'heure à 160°C puis 30mn à 180°C.
+    \item Découper et garnir de crème patissière, de fruits ou autres. 
+    ]],
+    note = [[
+    ]]
+  }

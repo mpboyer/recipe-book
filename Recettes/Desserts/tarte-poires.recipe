@@ -1,0 +1,24 @@
+return {
+    titre = "Tarte aux Poires",
+    prep = "20mn",
+    four = "30mn",
+    ingredients = [[
+      Pâte Sablée & 1\\
+      Poires au Sirop & 1 boîte\\
+      Farine & 1 c.à.s.\\
+      \OE ufs & 2\\
+      Sucre en Poudre & 100g\\
+      Crème Fraîche & 20cl\\
+      Amandes en Poudre & 50g\\
+      Eau de Vie de Poire & 2 c.à.s.
+    ]],
+    etapes = [[
+    \item Mélanger la farine avec 3 cuillers à soupe de sirop de fruit jusqu'à obtenir un mélange lisse.
+    \item Sur le fond de tarte, répartir les poires.
+    \item Incorporer tous les ingrédients au mélange et recouvrir le fond de tarte.
+    \item Enfourner à 210°C pendant 30 à 35mn. 
+    \item Saupoudrer de sucre glace.
+    ]],
+    note = [[
+    ]]
+  }

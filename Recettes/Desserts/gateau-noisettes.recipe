@@ -1,0 +1,22 @@
+return {
+    titre = "Gâteau aux Noisettes",
+    prep = "20mn",
+    four = "35mn",
+    ingredients = [[
+      Sucre en Poudre & 100g\\
+      Sucre Roux & 100g\\
+      Farine & 150g\\
+      \OE ufs & 4\\
+      Noisettes en Poudre & 250g\\
+      Sucre Vanillé & 1 sachet\\
+      Levure & 1 sachet
+    ]],
+    etapes = [[
+    \item Mélanger la farine, le sucre roux, le sucre en poudre et les noisettes en poudre.
+    \item Faire fondre le beurre et l'ajouter au mélange. 
+    \item Incorporer les \oe ufs, le sucre vanillé et la levure.
+    \item Verser dans un moule, et enfourner 35mn à 180°C. 
+    ]],
+    note = [[
+    ]]
+  }

@@ -1,0 +1,21 @@
+return {
+    titre = "Chutney de Poires",
+    prep = "15mn",
+    cuisson = "1h",
+    ingredients = [[
+      Poires & 250g\\
+      Oignons & 150g\\
+      Raisins de Corinthe & 50g\\
+      Sucre Roux & 100g\\
+      Vinaigre de Cidre & 12cl\\
+      Gingembre en Poudre & 1/2 c.à.c.\\
+      Citron & 1\\
+      Piment & 1
+    ]],
+    etapes = [[
+    \item Hacher tous les ingrédients.
+    \item Faire cuire environ 1h dans une grande casserole.
+    ]],
+    note = [[
+    ]]
+  }

@@ -1,0 +1,23 @@
+return {
+    titre = "Gâteau Chocolat-Coco",
+    prep = "20mn",
+    four = "20mn",
+    ingredients = [[
+      Chocolat & 250g + 200g\\
+      Sucre & 100g\\
+      Beurre & 125g\\
+      Noix de Coco Râpée & 125g\\
+      \OE ufs & 3\\
+      Farine & 50g\\
+      Lait de Coco & 1l
+    ]],
+    etapes = [[
+    \item Ramollir le beurre, et le travailler avec le sucre.
+    \item Ajouter les \oe ufs un à un sans cesser de travailler et en ajoutant un tiers du mélange farine/noix de coco entre chaque \oe uf.
+    \item Ajouter 250g de chocolat fondu. 
+    \item Enfourner 20mn et laisser tiédir 5mn avant de démouler.
+    \item Préparer un glaçage avec le chocolat restant et le lait de coco.
+    ]],
+    note = [[
+    ]]
+  }

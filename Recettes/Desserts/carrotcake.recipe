@@ -1,0 +1,32 @@
+return {
+    titre = "Carrot Cake",
+    prep = "30mn",
+    cuisson = "",
+    four = "40mn",
+    ingredients = [[
+      Beurre Salé & 100g + 30g\\
+      Sucre de Canne & 100g + 40g\\
+      Carottes & 250g\\
+      Noisettes Concassées & 50g\\
+      Clémentines Confites & 2\\
+      \OE ufs & 2\\
+      Poudre de Noisettes & 80g \\
+      Orange & 1\\
+      Farine de Maïs & 50g\\
+      Levure & 1 sachet\\
+      Canelle & 1 c.à.c.\\
+      Philadelphia & 200g\\
+      Sucre Glace & 40g\\
+      Citron &
+    ]],
+    etapes = [[
+    \item Beurrer et sucrer le moule.
+    \item Râper les carottes et griller à sec les noisettes concassées. Faire fondre le beurre.
+    \item Préchauffer le four à 180°C.
+    \item Fouetter les \oe ufs, mélanger avec les carottes, noisettes grillées et la poudre de noisettes.
+    \item Ajouter le jus et le zeste de l'orange, le beurre fondu, le sucre, la farine, la levure, la cannelle et les clémentines confites. 
+    \item Enfourner environ 40mn.
+    ]],
+    note = [[
+    ]]
+  }

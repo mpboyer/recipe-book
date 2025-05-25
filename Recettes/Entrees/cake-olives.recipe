@@ -1,0 +1,23 @@
+return {
+    titre = "Cake aux Olives",
+    four = "1h",
+    ingredients = [[
+      Vin Blanc & 15cl\\
+      Huile & 15cl\\
+      \OE ufs & 4\\
+      Farine & 250g\\
+      Levure & 1 sachet\\
+      Jambon & 200g\\
+      Gruyère Rapé & 100g\\
+      Olives Dénoyautés & 100g
+    ]],
+    etapes = [[
+    \item Mélanger le vin blanc et l'huile, et ajouter les \oe ufs un par à un. 
+    \item Incorporer la farine et la levure.
+    \item Ajouter le jambon, le gruyère et les olives à la pâte.
+    \item Verser dans un moule à cake, et saupoudrer de gruyère. 
+    \item Enfourner une heure au moins à 150°C.
+    ]],
+    note = [[
+    ]]
+  }

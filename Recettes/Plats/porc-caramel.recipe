@@ -1,0 +1,31 @@
+return {
+    titre = "Porc au Caramel",
+    image = "",
+    portions = "4",
+    prep = "45mn",
+    cuisson = "40mn",
+    ingredients = [[
+      Poitrine de Porc & 1kg\\
+      Échalotes & 2\\
+      Ail & 2 gousses\\
+      Gingembre & 1 noix\\
+      Cassonade & 7 c.à.s.\\
+      Nuoc Mam & 3 c.à.s.\\
+      Sauce Soja & 1 c.à.s.\\
+      Huile d'Olive & 1 c.à.s.\\
+      Coriandre & \\
+      Cacahuètes & \\
+      Sel & \\
+      Poivre
+    ]],
+    etapes = [[
+    % FIXME: Manque de détails
+    \item Couper la viande en cubes.
+    \item Hacher les échalotes, l'ail, le gingembre et l'huile d'olive.
+    \item Faire macérer la viande pendant environ 15mn. 
+    \item Mélanger le sucre, la sauce soja, le nuoc mam dans 25cl d'eau. 
+    \item Plonger la viande dans la sauce puis faire cuire 40mn.
+    ]],
+    note = [[
+    ]]
+  }

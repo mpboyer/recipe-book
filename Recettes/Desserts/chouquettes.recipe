@@ -1,0 +1,21 @@
+return {
+    titre = "Chouquettes",
+    prep = "15mn",
+    four = "30mn",
+    ingredients = [[
+      Lait & 125ml\\
+      Eau & 125ml\\
+      Farine & 150g\\
+      Beurre & 150g\\
+      Sucre en Poudre & 1 c.à.s.\\
+      Sucre en Grain & 
+    ]],
+    etapes = [[
+    \item Préparer une pâte avec le lait, l'eau, la farine le beurre et le sucre en poudre. 
+    \item Sur une plaque, former des boules de pâte d'une cuiller à soupe environ. 
+    \item Ajouter du sucre en grain sur le dessus des chouquettes.
+    \item Faire cuire 30mn environ à 210°C. 
+    ]],
+    note = [[
+    ]]
+  }

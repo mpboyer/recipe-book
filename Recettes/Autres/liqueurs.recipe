@@ -1,0 +1,19 @@
+return {
+    titre = "Liqueurs",
+    prep = "2h",
+    ingredients = [[
+      Eau & 1l\\
+      Sucre & 500-600g\\
+      Ananas & Un demi\\
+      Rhum & 50-75cl\\
+    ]],
+    etapes = [[
+    \item Couper l'ananas en dés.
+    \item Préparer un sirop léger avec l'eau et le sucre.
+    \item Verser l'ananas dans le sirop et laisser bouillir 2h environ. 
+    \item Après refroidissement, ajouter le rhum. 
+    ]],
+    note = [[
+    Vous pouvez remplacer l'ananas par d'autres fruits. Ces liqueurs se conservent un an ou deux. 
+    ]]
+  }

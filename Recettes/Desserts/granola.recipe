@@ -1,5 +1,5 @@
 return {
-    titre = "Granola --- 1",
+    titre = "Granola",
     portions = "",
     prep = "10mn",
     cuisson = "35-40mn",
@@ -19,8 +19,8 @@ return {
       Vaille & 1/2 c.à.c.
     ]],
     etapes = [[
-    \item Faire chauffer les liquides jusqu'à ébullition. 
-    \item Toute verser sur le mélange de flocons. 
+    \item Faire chauffer les liquides jusqu'à ébullition.
+    \item Toute verser sur le mélange de flocons.
     \item Étaler sur une plaque et faire cuir au four à 180°C pendant 35-40mn.
     ]]
   }

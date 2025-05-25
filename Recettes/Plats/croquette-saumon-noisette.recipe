@@ -1,5 +1,5 @@
 return {
-    titre = "Croquettes de Saumon, de Noisettes et d'Épeautre",
+    titre = "Croquettes de Saumon et Épeautre",
     image = "",
     portions = "4",
     prep = "30mn",
@@ -12,16 +12,16 @@ return {
       Citron & 1\\
       Noix & 50g\\
       Huile d'Olive & 4 c.à.s.\\
-      Herbes & 
+      Herbes &
     ]],
     etapes = [[
     \item Faire bouillir deux fois le volume du petit épeautre en eau salée dans une casserole.
-    \item Ajouter l'épeautre, couvrir et laisser cuire 25mn à feu doux, jusqu'à ce qu'il n'y ait plus d'eau. 
-    \item Hacher le saumon, mélanger avec les noix concassées, la farine et l'\oe uf battu, assaisonner. 
-    \item Former douze croquettes de la taille d'une petite mandarine. 
-    \item Les poêler 2-3mn par face dans deux cuillérées à soupe d'huile chaude. 
-    \item Aérer l'épeautre à la fourchette, mélanger avec les herbes et le reste d'huile. 
-    \item Étaler l'épeautre sur un plat avec les croquettes. Décorer de rondelles de citron et servir. 
+    \item Ajouter l'épeautre, couvrir et laisser cuire 25mn à feu doux, jusqu'à ce qu'il n'y ait plus d'eau.
+    \item Hacher le saumon, mélanger avec les noix concassées, la farine et l'\oe uf battu, assaisonner.
+    \item Former douze croquettes de la taille d'une petite mandarine.
+    \item Les poêler 2-3mn par face dans deux cuillérées à soupe d'huile chaude.
+    \item Aérer l'épeautre à la fourchette, mélanger avec les herbes et le reste d'huile.
+    \item Étaler l'épeautre sur un plat avec les croquettes. Décorer de rondelles de citron et servir.
     ]],
     note = [[
     ]]

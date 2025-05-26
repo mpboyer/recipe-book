@@ -21,6 +21,7 @@
 
 \RequirePackage[a4paper,margin=2cm, left=1.5cm, right=1.5cm]{geometry}
 \RequirePackage[hidelinks, colorlinks=false]{hyperref}
+\RequirePackage{etoolbox}
 \RequirePackage{xcolor}
 \definecolor{vulm}{HTML}{7d1dd3}
 \definecolor{yulm}{HTML}{ffe500}
@@ -30,6 +31,8 @@
 \RequirePackage{imakeidx}
 \RequirePackage{titletoc}
 \RequirePackage{minitoc}
+
+\def\indexnumbermacro#1{\textcolor{darkgray!80}{\textit{#1}}}
 
 \RequirePackage{nicematrix}
 \RequirePackage{booktabs}
@@ -74,7 +77,10 @@
 
 \NewDocumentCommand{\tabletoindex}{m}
 {
-	\seq_set_split:Nnn \l_tmpa_seq { \\ } { #1 }
+
+	\tl_set:Nn \l_tmpa_tl { #1 }
+	\tl_replace_all:Nnn \l_tmpa_tl {\ll} {\\}
+	\seq_set_split:Nnx \l_tmpa_seq { \\ } { \l_tmpa_tl }
 	\seq_map_inline:Nn \l_tmpa_seq
 	{
 		\__process_table_line:n { ##1 }
@@ -96,7 +102,7 @@
 				\tl_if_in:nnTF { #1 } { \parthead }
 				{ }
 				{
-					\seq_set_split:Nnn \l_tmpb_seq { & } { #1 }
+					\seq_set_split:Nnx \l_tmpb_seq { & } { #1 }
 					\index{Ingrédient!\seq_item:Nn \l_tmpb_seq {1}!\seq_item:Nn \l_tmpb_seq {2}}
 				}
 			}
@@ -453,7 +459,14 @@
 
 
 
-\AfterBeginDocument{\frontmatter\memeleneTitle\dominitoc\tableofcontents\makeindex\input{preface}\mainmatter}
+\AfterBeginDocument{%
+	\frontmatter
+	\memeleneTitle\dominitoc
+	\tableofcontents
+	\makeindex[options= -s index_style, intoc=true]
+	\input{preface}
+	\mainmatter
+}
 \AtEndDocument{\backmatter\includeindex}
 
 

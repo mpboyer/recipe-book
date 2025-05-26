@@ -1,4 +1,4 @@
-item_0 "\n \\item {\\bf \\Large "
+item_0 "\\indmainitem{"
 item_x1 "}\n\\indrule[vulm]{.25em}{.5em}\n\\subitem "
 
 delim_0 ", \\indexnumbermacro{"

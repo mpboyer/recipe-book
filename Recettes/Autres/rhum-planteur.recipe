@@ -2,7 +2,6 @@ return {
     titre = "Planteur",
     prep = "10mn",
     frigo = "2-3 semaines",
-    robots = "Ustensiles",
     ingredients = [[
       Jus d'Orange & 2l\ll
       Jus d'Ananas & 1l\ll

@@ -1,6 +1,6 @@
 return {
     titre = "Soufflé au Comté",
-    portions = "4 personnes",
+    portions = "4",
     prep = "20 minutes",
     four = "18 minutes",
     frigo = "",

@@ -23,11 +23,20 @@
 \RequirePackage[hidelinks, colorlinks=false]{hyperref}
 \RequirePackage{etoolbox}
 \RequirePackage{xcolor}
-\definecolor{vulm}{HTML}{7d1dd3}
-\definecolor{yulm}{HTML}{ffe500}
+\definecolor{vulm}{HTML}{c73426}
+\definecolor{yulm}{HTML}{ddac87}
 \definecolor{offwhite}{HTML}{f9f9f9}
 \colorlet{pagecolor}{yulm!2}
 \pagecolor{pagecolor}
+
+\RequirePackage{graphicx}
+\graphicspath{{Images/}}
+\RequirePackage{wrapfig}
+\RequirePackage{floatrow}
+\RequirePackage{tikz}
+\usetikzlibrary{shadows, decorations, decorations.pathmorphing, decorations.text, calc,
+	patterns, decorations.pathmorphing, decorations.pathreplacing, shapes.geometric, calligraphy}
+
 \RequirePackage{imakeidx}
 \RequirePackage{titletoc}
 \RequirePackage{minitoc}
@@ -40,6 +49,13 @@
 	\hrule width.5\columnwidth height2pt
 	\endgroup
 	\addvspace{#3}%
+}
+
+\usetikzlibrary{lindenmayersystems}
+\def\indmainitem#1{
+\item% 
+\tikz[l-system={order=2, step=1.2pt, angle=90}]{\draw[vulm, yshift=-1pt] (0, 0) l-system[l-system={rule set={F -> FF+F-F+F+FF}, axiom=F+F+F+F, anchor=east}];}%
+{\bf\Large\  #1}
 }
 
 \RequirePackage{nicematrix}
@@ -55,13 +71,6 @@
 \let\ps@plain\ps@empty
 \makeatother
 
-\RequirePackage{graphicx}
-\graphicspath{{Images/}}
-\RequirePackage{wrapfig}
-\RequirePackage{floatrow}
-\RequirePackage{tikz}
-\usetikzlibrary{shadows, decorations, decorations.pathmorphing, decorations.text, calc,
-	patterns, decorations.pathmorphing, decorations.pathreplacing, shapes.geometric, calligraphy}
 
 \RequirePackage{eso-pic}
 \RequirePackage{transparent}
@@ -120,14 +129,32 @@
 
 \ExplSyntaxOff
 
-
-
 % CHPATER/SECTION SETUP
 
 \RequirePackage{enumitem}
 \RequirePackage{titlesec}
 \titleformat{\section}{\color{vulm}\normalfont\Huge\bfseries}{}{1em}{}
 \renewcommand{\thesection}{}
+
+
+\preto{\chapter}{\def\leveltitle{\chaptertitle}}
+\preto{\section}{\def\leveltitle{\sectiontitle}}
+\preto{\subsection}{\def\leveltitle{\subsectiontitle}}
+\preto{\subsubsection}{\def\leveltitle{\subsubsectiontitle}}
+
+\makeatletter
+\pretocmd{\@sect}
+{\expandafter\gdef\leveltitle{#8}}
+\pretocmd{\@ssect}
+{\expandafter\gdef\leveltitle{#5}}
+{}{}
+\pretocmd{\@chapter}
+{\expandafter\gdef\leveltitle{#2}}
+{}{}
+\pretocmd{\@schapter}
+{\expandafter\gdef\leveltitle{#1}}
+{}{}
+\makeatother
 
 \titleformat{\chapter}[display]
 {\normalfont\Huge\color{vulm}\bfseries}{}{0pt}{%
@@ -185,7 +212,7 @@
 \def\preptime#1{\textemoji{cook}~Préparation~:~#1}
 \def\cooktime#1{\textemoji{cooking}~Cuisson~:~#1}
 \def\baketime#1{\textemoji{baguette-bread}~Four~:~#1}
-\def\people#1{\raisebox{-1pt}{\textemoji{fork-and-knife-with-plate}}~Pour~#1~couverts}
+\def\people#1{\raisebox{-1pt}{\textemoji{fork-and-knife-with-plate}}~Pour~#1~portions}
 \def\cooltime#1{\textemoji{snowflake}~Frigo~:~#1}
 \def\robot#1{\textemoji{robot}~Ustensiles~:~#1}
 
@@ -211,7 +238,7 @@
 			\ifx\relax#1\relax
 			\else
 				\s@p\people{#1}\def\s@p{\thesep}
-				\index{Pour!#1 personnes}
+				\index{Quantité!#1 portions}
 			\fi%
 			\ifx\relax#2\relax
 			\else
@@ -273,7 +300,7 @@
 \newcommand*{\recette}[1]%
 {%
 	\section{#1}
-	\index{Recette!#1}
+	\index{Recette!\chaptertitle!#1}
 	\divider
 }
 
@@ -295,10 +322,17 @@
 	shadow={1mm}{-1mm}{1mm}{black!30},
 }
 
-\def\drawoneline#1{
-	\tikz[remember picture]{
-		\draw[vulm] (1|-#1) -- (3|-#1);
-	}
+\newdimen\wdctl
+\newdimen\htctl
+\def\drawoneline#1#2{
+	\sbox0{#1}
+	\wdctl=\wd0
+	\htctl=\ht0
+	\advance \htctl by 3pt
+	\begin{tikzpicture}[remember picture]
+		\draw[vulm, line width=1.5pt] ($(1|-#2) + (0, 2pt)$) -- ($(1|-#2) + (1.4\wdctl, 2pt)$);
+		\draw[vulm, line width=1.5pt] ($(1|-#2) + (1.4\wdctl, 1.25pt)$) -- ($(1|-#2) + (1.4\wdctl, 1.4\htctl)$);
+	\end{tikzpicture}
 }
 
 \newcounter{linenos}
@@ -308,8 +342,8 @@
 \seq_new:N \g_headers_seq
 \NewDocumentCommand{\parthead}{m}
 {
-	\seq_gput_right:Nx \g_headers_seq {\thelinenos}
-	\Block{1-2}{#1}
+	\seq_gput_right:Nx \g_headers_seq {#1+\thelinenos}
+	\Block[l]{1-2}{#1}
 }
 \NewDocumentCommand{\resetblock}{}
 {
@@ -320,9 +354,13 @@
 {
 	\seq_map_inline:Nn \g_headers_seq
 	{
-		\drawoneline{##1}
+		\seq_set_split:Nnx \l_tmpa_seq { + } { ##1 }
+		\tl_set:Nn \l_header {\seq_item:Nn \l_tmpa_seq {1}}
+		\tl_set:Nn \l_index {\seq_item:Nn \l_tmpa_seq {2}}
+		\drawoneline{\l_header}{\l_index}
 	}
 }
+
 \ExplSyntaxOff
 
 \def\recipe#1#2{%
@@ -368,7 +406,7 @@
 
 		% \draw[fill=vulm, draw=none] (0, -\gap) rectangle (3pt, -\nlines\gap-2\gap);
 
-		\draw[fill=yulm!10] (0pt, -.75\gap) rectangle (\textwidth, -1.75\gap - \nlines\gap);
+		\draw[fill=yulm!20] (0pt, -.75\gap) rectangle (\textwidth, -1.75\gap - \nlines\gap);
 
 		% Line loop
 		\foreach \i in {1,...,\nlines} {
@@ -471,11 +509,16 @@
 	\frontmatter
 	\memeleneTitle\dominitoc
 	\tableofcontents
-	\makeindex[options= -s index_style, intoc=true]
+	\listoftables
+	\makeindex[options= -s index_style]
 	\input{preface}
 	\mainmatter
 }
-\AtEndDocument{\backmatter\includeindex}
+\AtEndDocument{%
+	\backmatter
+	\includeindex
+	\input{conversions}
+}
 
 
 
@@ -484,4 +527,3 @@
 	\InputIfFileExists{Recettes/#1/main.tmp}{}{}%
 	\directlua{cleanupTempFile("#1")}%
 }
-

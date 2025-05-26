@@ -1,6 +1,6 @@
 return {
   titre = "Galette de pommes de terre",
-  portions = "4 personnes",
+  portions = "4",
   prep = "30 minutes",
   cuisson = "25mn",
   frigo = "",

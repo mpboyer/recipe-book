@@ -5,13 +5,13 @@ return {
     prep = "20mn",
     four = "20mn",
     ingredients = [[
-      Chèvre Frais & 100g\\
-      Beurre & 125g\\
-      \OE ufs & 3\\
-      Farine & 150g\\
-      Levure & 1 sachet\\
-      Crème Liquide & 3 c.à.s.\\
-      Tomates Confites & 12 pétales\\
+      Chèvre Frais & 100g\ll
+      Beurre & 125g\ll
+      \OE ufs & 3\ll
+      Farine & 150g\ll
+      Levure & 1 sachet\ll
+      Crème Liquide & 3 c.à.s.\ll
+      Tomates Confites & 12 pétales\ll
       Olives Dénoyautées & 20
     ]],
     etapes = [[

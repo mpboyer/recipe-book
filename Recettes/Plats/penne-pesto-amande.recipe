@@ -5,14 +5,14 @@ return {
     cuisson = "10mn",
     robots = "Hachoir",
     ingredients = [[
-      Penne & 350g\\
-      Poudre d'Amandes & 55g\\
-      Ail & 1 gousse\\
-      Basilic & 40g \\
-      Parmesan Râpé & 50g\\
-      Huile d'Olive & 8 c.à.s.\\
-      Citron & 1\\
-      Sel & \\
+      Penne & 350g\ll
+      Poudre d'Amandes & 55g\ll
+      Ail & 1 gousse\ll
+      Basilic & 40g \ll
+      Parmesan Râpé & 50g\ll
+      Huile d'Olive & 8 c.à.s.\ll
+      Citrons & 1\ll
+      Sel & \ll
       Poivre & 
     ]],
     etapes = [[

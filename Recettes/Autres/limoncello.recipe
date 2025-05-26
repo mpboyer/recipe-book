@@ -2,8 +2,8 @@ return {
     titre = "Limoncello",
     frigo = "7-10 jours",
     ingredients = [[
-      Alcool & 1l\\
-      Citrons & 6 \\
+      Alcool & 1l\ll
+      Citrons & 6 \ll
       Sucre & 700g
     ]],
     etapes = [[

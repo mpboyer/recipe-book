@@ -4,14 +4,14 @@ return {
     frigo = "2-3 semaines",
     robots = "Ustensiles",
     ingredients = [[
-      Jus d'Orange & 2l\\
-      Jus d'Ananas & 1l\\
-      Jus de Pamplemousse & 1l\\
-      Nectar d'Abricot & 1l\\
-      Jus de Tomate & Un peu \\
-      Rhum & 1l\\
-      Sirop d'Orgeat & 1/2l\\
-      Sirop de Sucre de Canne & 1/2l\\
+      Jus d'Orange & 2l\ll
+      Jus d'Ananas & 1l\ll
+      Jus de Pamplemousse & 1l\ll
+      Nectar d'Abricot & 1l\ll
+      Jus de Tomate & Un peu \ll
+      Rhum & 1l\ll
+      Sirop d'Orgeat & 1/2l\ll
+      Sirop de Sucre de Canne & 1/2l\ll
       Jus de Goyave & 1 pot
     ]],
     etapes = [[

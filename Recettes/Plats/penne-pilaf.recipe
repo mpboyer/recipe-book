@@ -8,12 +8,12 @@ return {
     frigo = "",
     robots = "Wok",
     ingredients = [[
-      Penne & 500g\\
-      Broccoli & 1\\
-      Lardons Fumés & 400g\\
-      Parmesan & 50g\\
-      Bouillon de Volaille & 1 cube\\
-      Huile & 4 c.à.s.\\
+      Penne & 500g\ll
+      Broccoli & 1\ll
+      Lardons Fumés & 400g\ll
+      Parmesan & 50g\ll
+      Bouillon de Volaille & 1 cube\ll
+      Huile & 4 c.à.s.\ll
     ]],
     etapes = [[
     \item Couper le broccoli en tranches verticale. 

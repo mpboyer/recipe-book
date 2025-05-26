@@ -3,11 +3,11 @@ return {
     prep = "15mn",
     cuisson = "40mn",
     ingredients = [[
-      Figues & 24\\
-      Oignon & 1\\
-      Miel & 1 c.à.s.\\
-      Vinaigre Balsamique & 10cl\\
-      Eau & 10cl\\
+      Figues & 24\ll
+      Oignon & 1\ll
+      Miel & 1 c.à.s.\ll
+      Vinaigre Balsamique & 10cl\ll
+      Eau & 10cl\ll
       Sucre en Poudre & 2 c.à.s.
     ]],
     etapes = [[

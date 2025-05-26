@@ -33,6 +33,14 @@
 \RequirePackage{minitoc}
 
 \def\indexnumbermacro#1{\textcolor{darkgray!80}{\textit{#1}}}
+\newcommand{\indrule}[3][.]{%
+	\par\addvspace{#2}%
+	\begingroup
+	\color{#1}%
+	\hrule width.5\columnwidth height2pt
+	\endgroup
+	\addvspace{#3}%
+}
 
 \RequirePackage{nicematrix}
 \RequirePackage{booktabs}

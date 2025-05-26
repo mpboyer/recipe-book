@@ -2,10 +2,10 @@ return {
     titre = "Liqueurs",
     prep = "2h",
     ingredients = [[
-      Eau & 1l\\
-      Sucre & 500-600g\\
-      Ananas & Un demi\\
-      Rhum & 50-75cl\\
+      Eau & 1l\ll
+      Sucre & 500-600g\ll
+      Ananas & Un demi\ll
+      Rhum & 50-75cl\ll
     ]],
     etapes = [[
     \item Couper l'ananas en dés.

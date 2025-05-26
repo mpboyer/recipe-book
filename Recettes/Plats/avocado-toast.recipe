@@ -5,19 +5,19 @@ return {
     prep = "20mn",
     cuisson = "5mn",
     ingredients = [[
-    Pain de Campagne & 4 tranches\\
-    Avocats & 2\\
-    Jus de citrons & 2\\
-    Coriandre &\\
-    Cerfeuil&\\
-    \OE ufs & 4\\
-    Oignons nouveaux & 2-3\\
-    Radis & \\
-    Courgette & 1\\
-    Petits pois cuits & 100g\\
-    Huile d'olive & \\
-    Sel & \\
-    Poivre & \\
+    Pain de Campagne & 4 tranches\ll
+    Avocats & 2\ll
+    Jus de citrons & 2\ll
+    Coriandre &\ll
+    Cerfeuil&\ll
+    \OE ufs & 4\ll
+    Oignons nouveaux & 2-3\ll
+    Radis & \ll
+    Courgette & 1\ll
+    Petits pois cuits & 100g\ll
+    Huile d'olive & \ll
+    Sel & \ll
+    Poivre & \ll
     Piment d'Espelette &
     ]],
     etapes = [[
@@ -25,6 +25,6 @@ return {
     \item Faire cuire les \oe ufs 6mn puis les plonger dans un bain d'eau glacée, les écaler et les couper en deux. 
     \item Émincer les oignons nouveaux. Préparer les radis en quartiers. Faire des lamelles de courgette avec un économe puis former des rouleaux. 
     \item Assaisonner les petits pois avec un peu d'huile, du jus de citron et du sel. 
-    \item Faire griller légèrement les tranches de pain, puis déposer dessus l'avocat écrasé, les oeufs, les petits pois, les rouleaux de courgette, les oignons et les radis. Saler, poivrer et assaisonner. 
+    \item Faire griller légèrement les tranches de pain, puis déposer dessus l'avocat écrasé, les \oe ufs, les petits pois, les rouleaux de courgette, les oignons et les radis. Saler, poivrer et assaisonner. 
     ]]
   }

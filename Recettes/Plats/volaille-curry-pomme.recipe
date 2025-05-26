@@ -4,18 +4,18 @@ return {
     prep = "40mn",
     cuisson = "1h",
     ingredients = [[
-      Blancs de Volaille & 4\\
-      Pommes de Terre & 2 grosses\\
-      Pomme Verte & 1\\
-      Oignon & 1 \\
-      Citronnelle & 1 tige\\
-      Gingembre & 25g\\
-      Ail & 1 gousse\\
-      Curry & 20g\\
-      Lait de Coco & 30cl\\
-      Crème Liquide Entière & 50cl\\
-      Huile d'Olive & \\
-      Sel & \\
+      Blancs de Volaille & 4\ll
+      Pommes de Terre & 2 grosses\ll
+      Pomme Verte & 1\ll
+      Oignon & 1 \ll
+      Citronnelle & 1 tige\ll
+      Gingembre & 25g\ll
+      Ail & 1 gousse\ll
+      Curry & 20g\ll
+      Lait de Coco & 30cl\ll
+      Crème Liquide Entière & 50cl\ll
+      Huile d'Olive & \ll
+      Sel & \ll
       Poivre & 
     ]],
     etapes = [[

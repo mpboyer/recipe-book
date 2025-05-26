@@ -2,8 +2,8 @@ return {
     titre = "Macarons aux Noix",
     four = "15mn",
     ingredients = [[
-      Noix & 150g\\
-      Sucre Glace & 120g\\
+      Noix & 150g\ll
+      Sucre Glace & 120g\ll
       Blanc d'\OE uf & 50g
     ]],
     etapes = [[

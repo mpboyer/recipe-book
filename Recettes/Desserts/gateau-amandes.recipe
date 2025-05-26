@@ -5,11 +5,11 @@ return {
     prep = "15mn",
     four = "50mn",
     ingredients = [[
-      Poudre d'amandes & 125g\\
-      Farine & 80g\\
-      Sucre & 100g\\
-      Beurre & 100g\\
-      Blancs d'\OE ufs & 4 \\
+      Poudre d'amandes & 125g\ll
+      Farine & 80g\ll
+      Sucre & 100g\ll
+      Beurre & 100g\ll
+      Blancs d'\OE ufs & 4 \ll
       Levure & 1 c.à.c.
     ]],
     etapes = [[

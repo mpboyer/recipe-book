@@ -1,14 +1,14 @@
 return {
-    titre = "Gateau Hyper Léger",
+    titre = "Gâteau Hyper Léger",
     prep = "20mn",
     four = "45mn",
     ingredients = [[
-      Farine & 200g\\
-      Sucre & 200g\\
-      \OE ufs & 3\\
-      Huile & 10cl\\
-      Jus d'Orange & 1 verre\\
-      Sucre vanillé & 1 sachet\\
+      Farine & 200g\ll
+      Sucre & 200g\ll
+      \OE ufs & 3\ll
+      Huile & 10cl\ll
+      Jus d'Orange & 1 verre\ll
+      Sucre vanillé & 1 sachet\ll
       Levure & 1 sachet
     ]],
     etapes = [[

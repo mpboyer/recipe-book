@@ -3,13 +3,13 @@ return {
     prep = "20mn",
     four = "30mn",
     ingredients = [[
-      Pâte Sablée & 1\\
-      Poires au Sirop & 1 boîte\\
-      Farine & 1 c.à.s.\\
-      \OE ufs & 2\\
-      Sucre en Poudre & 100g\\
-      Crème Fraîche & 20cl\\
-      Amandes en Poudre & 50g\\
+      Pâte Sablée & 1\ll
+      Poires au Sirop & 1 boîte\ll
+      Farine & 1 c.à.s.\ll
+      \OE ufs & 2\ll
+      Sucre en Poudre & 100g\ll
+      Crème Fraîche & 20cl\ll
+      Amandes en Poudre & 50g\ll
       Eau de Vie de Poire & 2 c.à.s.
     ]],
     etapes = [[

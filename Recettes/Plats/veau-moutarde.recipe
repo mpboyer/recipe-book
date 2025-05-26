@@ -4,15 +4,15 @@ return {
   prep = "20min",
   cuisson = "20min",
   ingredients = [[
-    Escalopes de veau & 600g\\
-    Crème fraîche & 20cl\\
-    Beurre & 30g\\
-    Asperges vertes & 8\\
-    Champignons de Paris & 8\\
-    Oignon & 1\\
-    Moutarde à l'ancienne & 1 c.à.s.\\
-    Huile d'olive & \\
-    Sel & \\
+    Escalopes de veau & 600g\ll
+    Crème fraîche & 20cl\ll
+    Beurre & 30g\ll
+    Asperges vertes & 8\ll
+    Champignons de Paris & 8\ll
+    Oignon & 1\ll
+    Moutarde à l'ancienne & 1 c.à.s.\ll
+    Huile d'olive & \ll
+    Sel & \ll
     Poivre & 
   ]],
   etapes = [[

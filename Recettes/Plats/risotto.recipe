@@ -4,15 +4,15 @@ return {
   prep = "20min",
   cuisson = "30min",
   ingredients = [[
-    Riz arborio & 350g\\
-    Bouillon de volaille & 2L\\
-    Épice à paella & 1 pincée\\
-    Échalote & 1\\
-    Vin blanc sec & 1 verre\\
-    Beurre & 80g\\
-    Parmesan râpé & 200g\\
-    Basilic & \\
-    Huile d'olive & \\
+    Riz arborio & 350g\ll
+    Bouillon de volaille & 2L\ll
+    Épice à paella & 1 pincée\ll
+    Échalote & 1\ll
+    Vin blanc sec & 1 verre\ll
+    Beurre & 80g\ll
+    Parmesan râpé & 200g\ll
+    Basilic & \ll
+    Huile d'olive & \ll
     Sel fin & 
   ]],
   etapes = [[

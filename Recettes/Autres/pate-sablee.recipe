@@ -5,12 +5,12 @@ return {
     frigo = "2h",
     robots = "Mixeur",
     ingredients = [[
-      Beurre & 140g\\
-      Sucre Glace & 75g\\
-      Farine & 250g\\
-      Pâte d'Amandes & 25g\\
-      \OE uf & 1\\
-      Sel & 2g\\
+      Beurre & 140g\ll
+      Sucre Glace & 75g\ll
+      Farine & 250g\ll
+      Pâte d'Amandes & 25g\ll
+      \OE uf & 1\ll
+      Sel & 2g\ll
     ]],
     etapes = [[
     \item Verser le beurre, le sucre, le sel, l'\oe uf, la farine et la pâte d'amandes dans le bol du robot. 

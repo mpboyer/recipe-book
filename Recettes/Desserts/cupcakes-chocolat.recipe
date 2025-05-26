@@ -5,16 +5,16 @@ return {
     prep = "30mn",
     cuisson = "20mn",
     ingredients = [[
-      Yaourt Nature & 1\\
-      \OE ufs & 3\\
-      Farine & 170g\\
-      Levure & 1 sachet\\
-      Sucre Roux & 150g\\
-      Beurre Fondu & 150g\\
-      Cacao & 3 c.à.c.\\
-      Vermicelles Colorés & \\
-      Myrtilles & 18\\
-      Chocolat Noir & 100g\\
+      Yaourt Nature & 1\ll
+      \OE ufs & 3\ll
+      Farine & 170g\ll
+      Levure & 1 sachet\ll
+      Sucre Roux & 150g\ll
+      Beurre Fondu & 150g\ll
+      Cacao & 3 c.à.c.\ll
+      Vermicelles Colorés & \ll
+      Myrtilles & 18\ll
+      Chocolat Noir & 100g\ll
       Crème Liquide & 25cl 
     ]],
     etapes = [[

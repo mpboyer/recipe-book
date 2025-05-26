@@ -8,15 +8,15 @@ return {
     frigo = "",
     robots = "",
     ingredients = [[
-      Cuisses de Poulet & 600g\\
-      Champignons & \\
-      Carottes & 3-4 \\
-      Nouilles de Riz & \\
-      Bouillon de Volaille & 1.2L\\
-      Sambal & 1 cuiller à soupe\\
-      Zeste de Citron & 1\\
-      Ail & 3-4 gousses\\
-      Gingembre & 1 pouce\\
+      Cuisses de Poulet & 600g\ll
+      Champignons & \ll
+      Carottes & 3-4 \ll
+      Nouilles de Riz & \ll
+      Bouillon de Volaille & 1.2L\ll
+      Sambal & 1 cuiller à soupe\ll
+      Zeste de Citrons & 1\ll
+      Ail & 3-4 gousses\ll
+      Gingembre & 1 pouce\ll
       Cacahuètes & $\simeq$ 20
     ]],
     etapes = [[

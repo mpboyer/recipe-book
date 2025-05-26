@@ -5,13 +5,13 @@ return {
     prep = "30mn",
     cuisson = "30mn",
     ingredients = [[
-      Saumon & 600g\\
-      Épeautre & 300g\\
-      \OE uf & 1\\
-      Farine & 1 c.à.s.\\
-      Citron & 1\\
-      Noix & 50g\\
-      Huile d'Olive & 4 c.à.s.\\
+      Saumon & 600g\ll
+      Épeautre & 300g\ll
+      \OE uf & 1\ll
+      Farine & 1 c.à.s.\ll
+      Citrons & 1\ll
+      Noix & 50g\ll
+      Huile d'Olive & 4 c.à.s.\ll
       Herbes &
     ]],
     etapes = [[

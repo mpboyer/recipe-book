@@ -8,13 +8,13 @@ return {
     frigo = "",
     robots = "",
     ingredients = [[
-      \OE ufs & 3\\
-      Farine & 180g\\
-      Lait & 10cL\\
-      Levure & 1 sachet\\
-      Fromage Rapé & 100g\\
-      Huile d'Olive & 10cL\\
-      Sel/Poivre & \\
+      \OE ufs & 3\ll
+      Farine & 180g\ll
+      Lait & 10cL\ll
+      Levure & 1 sachet\ll
+      Fromage Rapé & 100g\ll
+      Huile d'Olive & 10cL\ll
+      Sel/Poivre & \ll
       Garniture &
     ]],
     etapes = [[

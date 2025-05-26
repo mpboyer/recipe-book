@@ -3,13 +3,13 @@ return {
     prep = "10mn",
     four = "50mn",
     ingredients = [[
-    Farine & 250g\\
-    Lait Entier & 150g\\
-    Miel de Sapin & 150g\\
-    Sucre Roux & 50g\\
-    Vergeoise Brune & 75g\\
-    \OE uf & 1\\
-    Bicarbonate de Soude & 1 c.à.c.\\
+    Farine & 250g\ll
+    Lait Entier & 150g\ll
+    Miel de Sapin & 150g\ll
+    Sucre Roux & 50g\ll
+    Vergeoise Brune & 75g\ll
+    \OE uf & 1\ll
+    Bicarbonate de Soude & 1 c.à.c.\ll
     Épices à Pain d'Épices & 7g
     ]],
     etapes = [[

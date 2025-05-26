@@ -6,19 +6,19 @@ return {
   frigo = "",
   robots = "",
   ingredients = [[
-    Poitrine de b\oe uf & 1.5kg\\
-    Bouillon de b\oe uf & 25cl\\
-    Sauce barbecue & 15cl\\
-    Vinaigre de cidre & 2 c.à.s. \\
-    Huile neutre & 1 c.à.s. \\
-    Paprika fumé & \\
-    Cassonade & \\
-    Ail en poudre & \\
-    Oignon en poudre & \\
-    Piment de Cayenne & \\
-    Moutarde en poudre & \\
-    Sel & \\
-    Poivre & \\
+    Poitrine de b\oe uf & 1.5kg\ll
+    Bouillon de b\oe uf & 25cl\ll
+    Sauce barbecue & 15cl\ll
+    Vinaigre de cidre & 2 c.à.s. \ll
+    Huile neutre & 1 c.à.s. \ll
+    Paprika fumé & \ll
+    Cassonade & \ll
+    Ail en poudre & \ll
+    Oignon en poudre & \ll
+    Piment de Cayenne & \ll
+    Moutarde en poudre & \ll
+    Sel & \ll
+    Poivre & \ll
   ]],
   etapes = [[
     \item Préparer un mélange d’épices en combinant 2 cuil. à soupe de paprika fumé, 1 de cassonade, 1 d’ail en poudre, 1 d’oignon en poudre, 1 de moutarde en poudre, une pointe de piment de Cayenne, du sel et du poivre.

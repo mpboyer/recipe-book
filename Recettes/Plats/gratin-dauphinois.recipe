@@ -5,12 +5,12 @@ return {
     prep = "20mn",
     four = "50mn",
     ingredients = [[
-    Pommes de terre & 1kg\\
-    Lait & 75cl\\
-    Crème liquide entière & 20cl\\
-    C\oe urs de laitue & 4\\
-    Citrons & 2\\
-    Thym & \\
+    Pommes de terre & 1kg\ll
+    Lait & 75cl\ll
+    Crème liquide entière & 20cl\ll
+    C\oe urs de laitue & 4\ll
+    Citrons & 2\ll
+    Thym & \ll
     Vinaigre blanc & 
     ]],
     etapes = [[

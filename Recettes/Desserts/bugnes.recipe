@@ -6,16 +6,16 @@ return {
   frigo = "2h",
   robots = "",
   ingredients = [[
-    Farine & 500g\\
-    Œufs & 4\\
-    Beurre doux & 100g\\
-    Sucre en poudre & 75g\\
-    Levure chimique & 1 sachet\\
-    Lait & 2cl\\
-    Eau de fleur d'oranger & 2cl\\
-    Sel fin & \\
-    Sucre glace & \\
-    Huile de friture & \\
+    Farine & 500g\ll
+    Œufs & 4\ll
+    Beurre doux & 100g\ll
+    Sucre en poudre & 75g\ll
+    Levure chimique & 1 sachet\ll
+    Lait & 2cl\ll
+    Eau de fleur d'oranger & 2cl\ll
+    Sel fin & \ll
+    Sucre glace & \ll
+    Huile de friture & \ll
   ]],
   etapes = [[
     \item Verser la farine dans un saladier, y creuser un puits puis y casser les œufs. Ajouter le sucre en poudre, le sel, la levure, le lait et l'eau de fleur d'oranger. Mélanger progressivement.

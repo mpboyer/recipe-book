@@ -7,14 +7,14 @@ return {
     frigo = "1 nuit",
     robots = "Ustensiles",
     ingredients = [[
-      Flocons d'avoine & 100g \\
-      Sucre & 120g\\
-      Farine & 40g\\
-      \OE uf & 1\\
-      Beurre & 80g\\
-      Chocolat & 120g\\
-      Miel & 1 c.à.s.\\
-      Levure & 1 c.à.c.\\
+      Flocons d'avoine & 100g \ll
+      Sucre & 120g\ll
+      Farine & 40g\ll
+      \OE uf & 1\ll
+      Beurre & 80g\ll
+      Chocolat & 120g\ll
+      Miel & 1 c.à.s.\ll
+      Levure & 1 c.à.c.\ll
       Extrait de Vanille &
     ]],
     etapes = [[

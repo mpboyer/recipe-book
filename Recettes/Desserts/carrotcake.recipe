@@ -4,20 +4,20 @@ return {
     cuisson = "",
     four = "40mn",
     ingredients = [[
-      Beurre Salé & 100g + 30g\\
-      Sucre de Canne & 100g + 40g\\
-      Carottes & 250g\\
-      Noisettes Concassées & 50g\\
-      Clémentines Confites & 2\\
-      \OE ufs & 2\\
-      Poudre de Noisettes & 80g \\
-      Orange & 1\\
-      Farine de Maïs & 50g\\
-      Levure & 1 sachet\\
-      Canelle & 1 c.à.c.\\
-      Philadelphia & 200g\\
-      Sucre Glace & 40g\\
-      Citron &
+      Beurre Salé & 100g + 30g\ll
+      Sucre de Canne & 100g + 40g\ll
+      Carottes & 250g\ll
+      Noisettes Concassées & 50g\ll
+      Clémentines Confites & 2\ll
+      \OE ufs & 2\ll
+      Poudre de Noisettes & 80g \ll
+      Orange & 1\ll
+      Farine de Maïs & 50g\ll
+      Levure & 1 sachet\ll
+      Canelle & 1 c.à.c.\ll
+      Philadelphia & 200g\ll
+      Sucre Glace & 40g\ll
+      Citrons &
     ]],
     etapes = [[
     \item Beurrer et sucrer le moule.

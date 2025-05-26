@@ -5,11 +5,11 @@ return {
     prep = "10mn",
     cuisson = "30mn",
     ingredients = [[
-      Farine & 250g\\
-      \OE ufs & 2\\
-      Beurre & 60g\\
-      Sucre & 40g\\
-      Lait & 50cl\\
+      Farine & 250g\ll
+      \OE ufs & 2\ll
+      Beurre & 60g\ll
+      Sucre & 40g\ll
+      Lait & 50cl\ll
       Levure & 1 sachet
     ]],
     etapes = [[

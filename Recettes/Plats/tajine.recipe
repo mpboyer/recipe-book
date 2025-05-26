@@ -3,17 +3,17 @@ return {
     prep = "30mn",
     cuisson = "1h",
     ingredients = [[
-      Pommes de Terre & \\
-      Tomates & \\
-      Pois Chiches & 1 grosse boîte \\
-      Carottes & \\
-      Courgette & \\
-      Oignon & \\
-      Olives & \\
-      Viande & \\
-      Spigol & \\
-      Sel & \\
-      Poivre & \\
+      Pommes de Terre & \ll
+      Tomates & \ll
+      Pois Chiches & 1 grosse boîte \ll
+      Carottes & \ll
+      Courgette & \ll
+      Oignon & \ll
+      Olives & \ll
+      Viande & \ll
+      Spigol & \ll
+      Sel & \ll
+      Poivre & \ll
       Huile d'Olive & 
     ]],
     etapes = [[

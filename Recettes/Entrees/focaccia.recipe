@@ -8,11 +8,11 @@ return {
     frigo = "24h",
     robots = "Mixeur",
     ingredients = [[
-      Farine & 780g\\
-      Levure Sèche & 7g\\
-      Sel & 17g\\
-      Huile d'Olive & 110g\\
-      Gros sel & \\
+      Farine & 780g\ll
+      Levure Sèche & 7g\ll
+      Sel & 17g\ll
+      Huile d'Olive & 110g\ll
+      Gros sel & \ll
       Garniture & 
     ]],
     etapes = [[

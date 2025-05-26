@@ -2,13 +2,13 @@ return {
     titre = "Cake aux Olives",
     four = "1h",
     ingredients = [[
-      Vin Blanc & 15cl\\
-      Huile & 15cl\\
-      \OE ufs & 4\\
-      Farine & 250g\\
-      Levure & 1 sachet\\
-      Jambon & 200g\\
-      Gruyère Rapé & 100g\\
+      Vin Blanc & 15cl\ll
+      Huile & 15cl\ll
+      \OE ufs & 4\ll
+      Farine & 250g\ll
+      Levure & 1 sachet\ll
+      Jambon & 200g\ll
+      Gruyère Rapé & 100g\ll
       Olives Dénoyautés & 100g
     ]],
     etapes = [[

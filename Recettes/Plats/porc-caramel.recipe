@@ -5,17 +5,17 @@ return {
     prep = "45mn",
     cuisson = "40mn",
     ingredients = [[
-      Poitrine de Porc & 1kg\\
-      Échalotes & 2\\
-      Ail & 2 gousses\\
-      Gingembre & 1 noix\\
-      Cassonade & 7 c.à.s.\\
-      Nuoc Mam & 3 c.à.s.\\
-      Sauce Soja & 1 c.à.s.\\
-      Huile d'Olive & 1 c.à.s.\\
-      Coriandre & \\
-      Cacahuètes & \\
-      Sel & \\
+      Poitrine de Porc & 1kg\ll
+      Échalotes & 2\ll
+      Ail & 2 gousses\ll
+      Gingembre & 1 noix\ll
+      Cassonade & 7 c.à.s.\ll
+      Nuoc Mam & 3 c.à.s.\ll
+      Sauce Soja & 1 c.à.s.\ll
+      Huile d'Olive & 1 c.à.s.\ll
+      Coriandre & \ll
+      Cacahuètes & \ll
+      Sel & \ll
       Poivre
     ]],
     etapes = [[

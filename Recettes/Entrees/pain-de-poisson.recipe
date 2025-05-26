@@ -8,13 +8,13 @@ return {
     frigo = "",
     robots = "Mixeur",
     ingredients = [[
-  Thon & Une boîte\\
-	Pain de Mie & Trois tranches\\
-	\OE ufs & 3 \\
-	Crème Liquide & Une brique\\
-	Ketchup & \\
-	Aneth &\\
-	Paprika & \\
+  Thon & Une boîte\ll
+	Pain de Mie & Trois tranches\ll
+	\OE ufs & 3 \ll
+	Crème Liquide & Une brique\ll
+	Ketchup & \ll
+	Aneth &\ll
+	Paprika & \ll
 	Sel, Poivre &
   ]],
     etapes = [[

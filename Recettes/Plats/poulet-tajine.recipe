@@ -4,17 +4,17 @@ return {
   prep = "20mn",
   cuisson = "20mn",
   ingredients = [[
-    Filets de poulet & 4\\
-    Safran & 1 pincée\\
-    Citron & 1\\
-    Oignons & 2\\
-    Olives violettes & 1 poignée\\
-    Carottes & 2\\
-    Coriandre & 1/2 botte\\
-    Miel & 1 c.à.s. \\
-    Amandes entières & 1 poignée\\
-    Huile d'olive & \\
-    Sel fin & \\
+    Filets de poulet & 4\ll
+    Safran & 1 pincée\ll
+    Citrons & 1\ll
+    Oignons & 2\ll
+    Olives violettes & 1 poignée\ll
+    Carottes & 2\ll
+    Coriandre & 1/2 botte\ll
+    Miel & 1 c.à.s. \ll
+    Amandes entières & 1 poignée\ll
+    Huile d'olive & \ll
+    Sel fin & \ll
     Poivre du moulin & 
   ]],
   etapes = [[

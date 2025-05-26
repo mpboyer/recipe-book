@@ -7,15 +7,15 @@ return {
     frigo = "",
     robots = "",
     ingredients = [[
-      Flocons d'avoine & 500g\\
-      Flocons d'orge & 325g\\
-      Flocons d'épeautre & 325g\\
-      Noix & 150g\\
-      Huile & 1 c.à.s.\\
-      Cassonade & 3 c.à.s.\\
-      Jus de Pomme & 60mL\\
-      Sirop d'Érable & 60mL\\
-      Cannelle & 1/2 c.à.c.\\
+      Flocons d'avoine & 500g\ll
+      Flocons d'orge & 325g\ll
+      Flocons d'épeautre & 325g\ll
+      Noix & 150g\ll
+      Huile & 1 c.à.s.\ll
+      Cassonade & 3 c.à.s.\ll
+      Jus de Pomme & 60mL\ll
+      Sirop d'Érable & 60mL\ll
+      Cannelle & 1/2 c.à.c.\ll
       Vaille & 1/2 c.à.c.
     ]],
     etapes = [[

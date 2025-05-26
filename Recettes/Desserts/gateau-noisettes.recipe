@@ -3,12 +3,12 @@ return {
     prep = "20mn",
     four = "35mn",
     ingredients = [[
-      Sucre en Poudre & 100g\\
-      Sucre Roux & 100g\\
-      Farine & 150g\\
-      \OE ufs & 4\\
-      Noisettes en Poudre & 250g\\
-      Sucre Vanillé & 1 sachet\\
+      Sucre en Poudre & 100g\ll
+      Sucre Roux & 100g\ll
+      Farine & 150g\ll
+      \OE ufs & 4\ll
+      Noisettes en Poudre & 250g\ll
+      Sucre Vanillé & 1 sachet\ll
       Levure & 1 sachet
     ]],
     etapes = [[

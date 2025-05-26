@@ -5,19 +5,19 @@ return {
     prep = "30mn",
     cuisson = "30mn",
     ingredients = [[
-      Chou-Fleur & 1 petit\\
-      \OE ufs & 4\\
-      Ail & 1 gousse\\
-      Échalotes & 2\\
-      Farine & 120g\\
-      Cumin & 1 c.à.c.\\
-      Curcuma & 1 c.à.c.\\
-      Sel & 1 c.à.c.\\
-      Yaourt Grec & 300g\\
-      Citrons Verts & 2\\
-      Coriandre & \\
-      Huile d'Olive & 2 c.à.s.\\
-      Sel & \\
+      Chou-Fleur & 1 petit\ll
+      \OE ufs & 4\ll
+      Ail & 1 gousse\ll
+      Échalotes & 2\ll
+      Farine & 120g\ll
+      Cumin & 1 c.à.c.\ll
+      Curcuma & 1 c.à.c.\ll
+      Sel & 1 c.à.c.\ll
+      Yaourt Grec & 300g\ll
+      Citrons Verts & 2\ll
+      Coriandre & \ll
+      Huile d'Olive & 2 c.à.s.\ll
+      Sel & \ll
       Poivre & 
     ]],
     etapes = [[

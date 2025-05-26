@@ -3,11 +3,11 @@ return {
     prep = "15mn",
     four = "30mn",
     ingredients = [[
-      Lait & 125ml\\
-      Eau & 125ml\\
-      Farine & 150g\\
-      Beurre & 150g\\
-      Sucre en Poudre & 1 c.à.s.\\
+      Lait & 125ml\ll
+      Eau & 125ml\ll
+      Farine & 150g\ll
+      Beurre & 150g\ll
+      Sucre en Poudre & 1 c.à.s.\ll
       Sucre en Grain & 
     ]],
     etapes = [[

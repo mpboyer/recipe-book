@@ -6,11 +6,11 @@ return {
     four = "20mn",
     frigo = "1h",
     ingredients = [[
-      Chocolat Noir & 300g\\
-      Crème Liquide & 15cl\\
-      \OE ufs & 4\\
-      Sucre & 50g\\
-      Beurre & 50g\\
+      Chocolat Noir & 300g\ll
+      Crème Liquide & 15cl\ll
+      \OE ufs & 4\ll
+      Sucre & 50g\ll
+      Beurre & 50g\ll
       Glace & 50cl
     ]],
     etapes = [[

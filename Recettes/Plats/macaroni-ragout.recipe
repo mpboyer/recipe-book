@@ -4,16 +4,16 @@ return {
     prep = "20mn",
     cuisson = "40-50mn",
     ingredients = [[
-      Macaronis & 320g\\
-      Chair à Saucisse & 700g\\
-      Oignon & 1\\
-      Tomates Pelées & 450g\\
-      Mozarella & 250g\\
-      Parmesan & 50g\\
-      Herbes & \\
-      Huile d'Olive &\\
-      Gros Sel &\\
-      Sel & \\
+      Macaronis & 320g\ll
+      Chair à Saucisse & 700g\ll
+      Oignon & 1\ll
+      Tomates Pelées & 450g\ll
+      Mozarella & 250g\ll
+      Parmesan & 50g\ll
+      Herbes & \ll
+      Huile d'Olive &\ll
+      Gros Sel &\ll
+      Sel & \ll
       Poivre & 
     ]],
     etapes = [[

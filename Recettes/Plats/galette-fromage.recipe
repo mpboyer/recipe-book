@@ -6,19 +6,19 @@ return {
   frigo = "",
   robots = "",
   ingredients = [[
-    Pommes de terre & 150 g\\
-    Fromage & 130 g\\
-    Crème liquide entière & 4 cl\\
-    Farine & 40 g\\
-    Œuf & 1\\
-    Jaune d'œuf & 1\\
-    Roquette & 200 g\\
-    Tomates cerise & 100 g\\
-    Huile d'olive & 4 c.a.s.\\
-    Vinaigre balsamique blanc & 2 c.a.s\\
-    Gros sel & \\
-    Sel & \\
-    Poivre & \\
+    Pommes de terre & 150 g\ll
+    Fromage & 130 g\ll
+    Crème liquide entière & 4 cl\ll
+    Farine & 40 g\ll
+    Œuf & 1\ll
+    Jaune d'œuf & 1\ll
+    Roquette & 200 g\ll
+    Tomates cerise & 100 g\ll
+    Huile d'olive & 4 c.a.s.\ll
+    Vinaigre balsamique blanc & 2 c.a.s\ll
+    Gros sel & \ll
+    Sel & \ll
+    Poivre & \ll
   ]],
   etapes = [[
     \item Éplucher les pommes de terre, les couper en dés, les rincer puis les faire cuire dans une casserole d'eau bouillante avec du gros sel pendant 12 minutes.

@@ -8,9 +8,9 @@ return {
     frigo = "2h",
     robots = "",
     ingredients = [[
-      Lait & 15cl\\
-      Lait de Coco & 40cl\\
-      Cassonnade & 30g\\
+      Lait & 15cl\ll
+      Lait de Coco & 40cl\ll
+      Cassonnade & 30g\ll
       Perles du Japon & 50g
     ]],
     etapes = [[

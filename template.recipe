@@ -8,7 +8,7 @@ return {
     frigo = "Temps de refroidissement",
     robots = "Ustensiles",
     ingredients = [[
-      Ingrédient & Quantité\\
+      Ingrédient & Quantité\ll
     ]],
     etapes = [[
     \item Étape 1

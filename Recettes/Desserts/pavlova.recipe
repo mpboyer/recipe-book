@@ -7,8 +7,8 @@ return {
     four = "2h",
     robots = "Batteur",
     ingredients = [[
-      Blancs d'\OE ufs & 7\\
-      Sucre & 350g + 6 c.à.s.\\
+      Blancs d'\OE ufs & 7\ll
+      Sucre & 350g + 6 c.à.s.\ll
       Lait Entier & 1l
     ]],
     etapes = [[

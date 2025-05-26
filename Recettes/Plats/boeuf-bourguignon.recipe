@@ -7,14 +7,14 @@ return {
     four = "",
     frigo = "12h",
     ingredients = [[
-      B\oe uf & 3 livre\\
-      Oignons & 3 gros\\
-      Carottes & 1kg500g\\
-      Champignons & 500g\\
-      Vin Rouge & 50cl\\
-      Laurier & \\
-      Thym & \\
-      Sel/Poivre & \\
+      B\oe uf & 3 livre\ll
+      Oignons & 3 gros\ll
+      Carottes & 1kg500g\ll
+      Champignons & 500g\ll
+      Vin Rouge & 50cl\ll
+      Laurier & \ll
+      Thym & \ll
+      Sel/Poivre & \ll
     ]],
     etapes = [[
     \item Couper la viande en cubes de 2-3cm de côté. Couper une ou deux carottes (selon la taille) en bâtonnets.

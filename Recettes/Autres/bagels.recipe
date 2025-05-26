@@ -5,13 +5,13 @@ return {
     four = "25mn",
     frigo = "1h30",
     ingredients = [[
-    Farine & 500g\\
-    Levure Fraiche ou Sèche & 15g ou 8g\\
-    Lait Tiède & 15cl\\
-    Eau Tiède & 10cl\\
-    \OE uf & 1 \\
-    Blancs d'\oe ufs & 2\\
-    Sel & 10g\\
+    Farine & 500g\ll
+    Levure Fraiche ou Sèche & 15g ou 8g\ll
+    Lait Tiède & 15cl\ll
+    Eau Tiède & 10cl\ll
+    \OE uf & 1 \ll
+    Blancs d'\oe ufs & 2\ll
+    Sel & 10g\ll
     Sucre & 10g
     ]],
     etapes = [[

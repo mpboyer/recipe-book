@@ -6,18 +6,18 @@ return {
   frigo = "12h",
   robots = "",
   ingredients = [[
-    Foie gras cru & 160g\\
-    Pâte feuilletée & 250g\\
-    Carottes & 2\\
-    Oignon doux & 1\\
-    Champignons de Paris & 150g\\
-    Truffe brossée & 1\\
-    Consommé de volaille & 1L\\
-    Beurre & 40g\\
-    Citron & 0.5\\
-    Jaune d'œuf & 1\\
-    Sel & \\
-    Poivre & \\
+    Foie gras cru & 160g\ll
+    Pâte feuilletée & 250g\ll
+    Carottes & 2\ll
+    Oignon doux & 1\ll
+    Champignons de Paris & 150g\ll
+    Truffe brossée & 1\ll
+    Consommé de volaille & 1L\ll
+    Beurre & 40g\ll
+    Citrons & 0.5\ll
+    Jaune d'œuf & 1\ll
+    Sel & \ll
+    Poivre & \ll
   ]],
   etapes = [[
     \item Éplucher et ciseler l'oignon. Faire fondre 15g de beurre dans une poêle et y faire revenir l'oignon pendant 5min.

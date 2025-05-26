@@ -5,11 +5,11 @@ return {
     prep = "15mn",
     frigo = "2h",
     ingredients = [[
-      Cookies au Chocolat & 100g\\
-      Beurre & 50g\\
-      Crème Liquide & 10cl\\
-      Amandes & 50g\\
-      Raisins Secs & 25g\\
+      Cookies au Chocolat & 100g\ll
+      Beurre & 50g\ll
+      Crème Liquide & 10cl\ll
+      Amandes & 50g\ll
+      Raisins Secs & 25g\ll
       Pistaches Décortiquées & 50g
     ]],
     etapes = [[

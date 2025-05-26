@@ -4,22 +4,22 @@ return {
     prep = "45mn",
     cuisson = "40mn",
     ingredients = [[
-      Poulet & 1 gros\\
-      Aubergine & 1\\
-      Courgette & 1\\
-      Pommes de Terre & 3\\
-      Oignon & 1\\
-      Citrons & 2\\
-      Piment & 1\\
-      Ail & 5-6 gousses\\
-      Poudre de Colombo & 2 c.à.s.\\
-      Cives & \\
-      Coriandre & \\
-      Thym & \\
-      Clous de Girofle & \\
-      Vinaigre & \\
-      Huile & \\
-      Sel & \\
+      Poulet & 1 gros\ll
+      Aubergine & 1\ll
+      Courgette & 1\ll
+      Pommes de Terre & 3\ll
+      Oignon & 1\ll
+      Citrons & 2\ll
+      Piment & 1\ll
+      Ail & 5-6 gousses\ll
+      Poudre de Colombo & 2 c.à.s.\ll
+      Cives & \ll
+      Coriandre & \ll
+      Thym & \ll
+      Clous de Girofle & \ll
+      Vinaigre & \ll
+      Huile & \ll
+      Sel & \ll
       Poivre 
     ]],
     etapes = [[

@@ -4,11 +4,11 @@ return {
     prep = "20mn",
     four = "25mn",
     ingredients = [[
-      Gruyère Rapé & 150g\\
-      Farine & 150g\\
-      Beurre & 80g\\
-      \OE ufs & 4 + 1 jaune\\
-      Muscade & \\
+      Gruyère Rapé & 150g\ll
+      Farine & 150g\ll
+      Beurre & 80g\ll
+      \OE ufs & 4 + 1 jaune\ll
+      Muscade & \ll
       Sel/Poivre & 
     ]],
     etapes = [[

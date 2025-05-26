@@ -5,9 +5,9 @@ return {
     four = "20mn",
     robots = "Caissettes",
     ingredients = [[
-      Crème de Marrons & 500g\\
-      \OE ufs & 3\\
-      Chocolat Noir & 80g\\
+      Crème de Marrons & 500g\ll
+      \OE ufs & 3\ll
+      Chocolat Noir & 80g\ll
       Beurre & 50g
     ]],
     etapes = [[

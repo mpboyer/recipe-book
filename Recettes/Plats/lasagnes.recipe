@@ -5,17 +5,17 @@ return {
     prep = "20mn",
     four = "1h",
     ingredients = [[
-      Viande Hachée & 400g\\
-      Coulis de Tomate & 500g\\
-      Champignons de Paris & 150g\\
-      Carotte & 1 \\
-      Beurre & 40g\\
-      Farine & 40g\\
-      Lait & 50cl\\
-      Gruyère Râpé & 125g\\
-      Ail & 1 gousse\\
-      Oignon & 1/2\\
-      Basilic & \\
+      Viande Hachée & 400g\ll
+      Coulis de Tomate & 500g\ll
+      Champignons de Paris & 150g\ll
+      Carotte & 1 \ll
+      Beurre & 40g\ll
+      Farine & 40g\ll
+      Lait & 50cl\ll
+      Gruyère Râpé & 125g\ll
+      Ail & 1 gousse\ll
+      Oignon & 1/2\ll
+      Basilic & \ll
       Thym & 
     ]],
     etapes = [[

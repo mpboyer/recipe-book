@@ -7,17 +7,17 @@ return {
   four = "",
   robots = "",
   ingredients = [[
-    Coquillettes & 360g\\
-    Jambon blanc & 4 tranches\\
-    Bouillon de volaille & 1 cube\\
-    Ail & 1 gousse\\
-    Oignon & 1\\
-    Crème fraîche & 20cl\\
-    Parmesan râpé & 50g\\
-    Huile d'olive & 3 c.a.s.\\
-    Boulette & 1\\
-    Sel & \\
-    Poivre & \\
+    Coquillettes & 360g\ll
+    Jambon blanc & 4 tranches\ll
+    Bouillon de volaille & 1 cube\ll
+    Ail & 1 gousse\ll
+    Oignon & 1\ll
+    Crème fraîche & 20cl\ll
+    Parmesan râpé & 50g\ll
+    Huile d'olive & 3 c.a.s.\ll
+    Boulette & 1\ll
+    Sel & \ll
+    Poivre & \ll
   ]],
   etapes = [[
     \item Faire bouillir 1.5l d'eau dans une casserole et y dissoudre le cube de bouillon.

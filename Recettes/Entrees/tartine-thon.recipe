@@ -5,15 +5,15 @@ return {
     prep = "12mn",
     cuisson = "9mn",
     ingredients = [[
-      Pain de campagne & 4 tranches\\
-      \OE ufs & 4\\
-      Ciboulette & \\
-      Cornichons & 4\\
-      Thon & 1 boîte\\
-      Fromage frais & 1 boîte\\
-      Citron & 1\\
-      Piment & \\
-      Sel & \\
+      Pain de campagne & 4 tranches\ll
+      \OE ufs & 4\ll
+      Ciboulette & \ll
+      Cornichons & 4\ll
+      Thon & 1 boîte\ll
+      Fromage frais & 1 boîte\ll
+      Citrons & 1\ll
+      Piment & \ll
+      Sel & \ll
       Poivre &
     ]],
     etapes = [[

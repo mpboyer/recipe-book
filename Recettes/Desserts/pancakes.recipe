@@ -8,11 +8,11 @@ return {
     frigo = "",
     robots = "",
     ingredients = [[
-      \OE ufs & 2\\
-      Beurre demi-sel & 50g\\
-      Lait & 35cl\\
-      Farine & 300g\\
-      Sucre & 50g\\
+      \OE ufs & 2\ll
+      Beurre demi-sel & 50g\ll
+      Lait & 35cl\ll
+      Farine & 300g\ll
+      Sucre & 50g\ll
       Levure & 2 sachets
     ]],
     etapes = [[

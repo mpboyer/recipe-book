@@ -5,21 +5,21 @@ return {
     cuisson = "5mn",
     frigo = "20mn",
     ingredients = [[
-    Onglet de b\oe uf & 240g\\
-    Maïs cuit & 1 boite\\
-    Piment oiseau & 1 \\
-    Citron vert & 2\\
-    Citron jaune & 1\\
-    Tomates cerises & 100g\\
-    Radis & 1 botte\\
-    Mâche & 4 poignées\\
-    Noix de Cajou salées & 25g\\
-    Moutarde & 2 c.à.c.\\
-    Ail & \\
-    Coriandre & \\
-    Vinaigre balsamique rouge & 2 c.à.s. \\
-    Huile d'Olive & 25cl\\
-    Sel & \\
+    Onglet de b\oe uf & 240g\ll
+    Maïs cuit & 1 boite\ll
+    Piment oiseau & 1 \ll
+    Citrons Verts & 2\ll
+    Citrons jaune & 1\ll
+    Tomates cerises & 100g\ll
+    Radis & 1 botte\ll
+    Mâche & 4 poignées\ll
+    Noix de Cajou salées & 25g\ll
+    Moutarde & 2 c.à.c.\ll
+    Ail & \ll
+    Coriandre & \ll
+    Vinaigre balsamique rouge & 2 c.à.s. \ll
+    Huile d'Olive & 25cl\ll
+    Sel & \ll
     Poivre & 
     ]],
     etapes = [[

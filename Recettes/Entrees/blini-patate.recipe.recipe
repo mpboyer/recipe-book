@@ -4,15 +4,15 @@ return {
     prep = "20mn",
     cuisson = "20mn",
     ingredients = [[
-    Pommes de Terre & 150g\\
-    Truite Fumée & 4 tranches\\
-    \OE ufs & 2\\
-    Muscade & \\
-    Échalote & 1\\
-    Crème Fraîche & 10cl\\
-    Ciboulette & \\
-    Huile d'Olive & \\
-    Citron & 1
+    Pommes de Terre & 150g\ll
+    Truite Fumée & 4 tranches\ll
+    \OE ufs & 2\ll
+    Muscade & \ll
+    Échalote & 1\ll
+    Crème Fraîche & 10cl\ll
+    Ciboulette & \ll
+    Huile d'Olive & \ll
+    Citrons & 1
     ]],
     etapes = [[
     \item Préparer les pommes de terre en dés et les faire cuire dans l'eau bouillante. Les écraser à la fourchette dans un saladier.

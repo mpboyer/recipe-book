@@ -7,12 +7,12 @@ return {
     frigo = "",
     robots = "Batteur à \\oe ufs, caissettes",
     ingredients = [[
-      Beurre Salé & 200g\\
-      Sucre Glace & 200g\\
-      Farine & 150g\\
-      Cacao sans Sucre & 50g\\
-      \OE ufs & 2\\
-      Lait Tiède & 160g\\
+      Beurre Salé & 200g\ll
+      Sucre Glace & 200g\ll
+      Farine & 150g\ll
+      Cacao sans Sucre & 50g\ll
+      \OE ufs & 2\ll
+      Lait Tiède & 160g\ll
       Chocolat & 150g
     ]],
     etapes = [[

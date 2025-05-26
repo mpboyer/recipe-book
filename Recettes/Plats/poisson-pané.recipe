@@ -5,18 +5,18 @@ return {
     prep = "20mn",
     cuisson = "20mn",
     ingredients = [[
-      Poisson blanc & 4 morceaux\\
-      Citrons & 2\\
-      Farine & 150g\\
-      Blancs d'\oe ufs & 2\\
-      Chapelure & \\
-      Beurre & 10g\\
-      Herbes & \\
-      Tomates concassées & 500g\\
-      Sucre & 30g\\
-      Miel & 35g\\
-      Vinaigre balsamique & 70g\\
-      Ail & 1 gousse \\
+      Poisson blanc & 4 morceaux\ll
+      Citrons & 2\ll
+      Farine & 150g\ll
+      Blancs d'\oe ufs & 2\ll
+      Chapelure & \ll
+      Beurre & 10g\ll
+      Herbes & \ll
+      Tomates concassées & 500g\ll
+      Sucre & 30g\ll
+      Miel & 35g\ll
+      Vinaigre balsamique & 70g\ll
+      Ail & 1 gousse \ll
       Gingembre & 100g
     ]],
     etapes = [[

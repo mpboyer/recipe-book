@@ -5,13 +5,13 @@ return {
     prep = "15mn",
     four = "20mn",
     ingredients = [[
-      Farine & 150g\\
-      Levure & 1 sachet\\
-      Sucre Glace & 150g + 50g\\
-      \OE ufs & 2\\
-      Beurre & 90g\\
-      Chocolat Blanc & 50g\\
-      Cream Cheese & 150g\\
+      Farine & 150g\ll
+      Levure & 1 sachet\ll
+      Sucre Glace & 150g + 50g\ll
+      \OE ufs & 2\ll
+      Beurre & 90g\ll
+      Chocolat Blanc & 50g\ll
+      Cream Cheese & 150g\ll
       Sucre Vanillé & 1 sachet
     ]],
     etapes = [[

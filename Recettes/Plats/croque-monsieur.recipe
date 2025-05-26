@@ -5,9 +5,9 @@ return {
     prep = "15mn",
     cuisson = "5mn",
     ingredients = [[
-      Pain de mie & 2 tranches\\
-      Beurre & \\
-      Jambon blanc & 1 tranche\\
+      Pain de mie & 2 tranches\ll
+      Beurre & \ll
+      Jambon blanc & 1 tranche\ll
       Fromage rapé & 
     ]],
     etapes = [[

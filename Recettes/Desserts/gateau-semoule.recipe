@@ -6,14 +6,16 @@ return {
     cuisson = "5mn",
     frigo = "6h",
     ingredients = [[
-      Semoule & 150g\\
-      Lait & 75cl\\
-      Crème Fraîche & 10cl\\
-      Sucre Semoule & 125g\\
-      Sucre Vanillé & 2 sachets\\
-      Canelle & 1/2 bâton\\
-      Vanille & 1 gousse\\
-      Miel & 200g\\
+    \parthead{Gâteau}\ll
+      Semoule & 150g\ll
+      Lait & 75cl\ll
+      Crème Fraîche & 10cl\ll
+      Sucre Semoule & 125g\ll
+      Sucre Vanillé & 2 sachets\ll
+      Canelle & 1/2 bâton\ll
+      Vanille & 1 gousse\ll
+      \parthead{Coulis}\ll
+      Miel & 200g\ll
       Noix de Muscade & 
     ]],
     etapes = [[

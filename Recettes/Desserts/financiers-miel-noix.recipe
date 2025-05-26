@@ -4,11 +4,11 @@ return {
     prep = "15mn",
     four = "20mn",
     ingredients = [[
-      Miel Liquide & 100g\\
-      Beurre & 200g\\
-      Blancs d'\OE ufs & 6\\
-      Sucre Glace & 100g\\
-      Farine & 80g\\
+      Miel Liquide & 100g\ll
+      Beurre & 200g\ll
+      Blancs d'\OE ufs & 6\ll
+      Sucre Glace & 100g\ll
+      Farine & 80g\ll
       Cerneaux de Noix & 100g
     ]],
     etapes = [[

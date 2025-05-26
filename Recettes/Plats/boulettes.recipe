@@ -4,14 +4,14 @@ return {
     prep = "30mn",
     cuisson = "15mn",
     ingredients = [[
-      Viande Hachée & 500g\\
-      Chair à Saucisse & 500g\\
-      Oignon & 1\\
-      Ail & 1 gousse\\
-      Lait & 20cl\\
-      Pain de Mie & 2 tranches\\
-      Parmesan & 30g\\
-      \OE uf & 1\\
+      Viande Hachée & 500g\ll
+      Chair à Saucisse & 500g\ll
+      Oignon & 1\ll
+      Ail & 1 gousse\ll
+      Lait & 20cl\ll
+      Pain de Mie & 2 tranches\ll
+      Parmesan & 30g\ll
+      \OE uf & 1\ll
       Herbes & 
     ]],
     etapes = [[

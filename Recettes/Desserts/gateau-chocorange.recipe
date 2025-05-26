@@ -3,12 +3,12 @@ return {
     prep = "20mn",
     four = "45mn",
     ingredients = [[
-      Chocolat Noir & 140g\\
-      Sucre en Poudre & 150g\\
-      Beurre & 125g\\
-      Poudre d'Amandes & 80g\\
-      Farine & 60g\\
-      \OE ufs & 3\\
+      Chocolat Noir & 140g\ll
+      Sucre en Poudre & 150g\ll
+      Beurre & 125g\ll
+      Poudre d'Amandes & 80g\ll
+      Farine & 60g\ll
+      \OE ufs & 3\ll
       Oranges Confites
     ]],
     etapes = [[

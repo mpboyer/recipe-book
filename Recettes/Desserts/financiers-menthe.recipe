@@ -3,12 +3,12 @@ return {
     prep = "20mn",
     four = "15mn",
     ingredients = [[
-      Menthe & 3 branches\\
-      Sirop de Menthe & 1 c.à.s.\\
-      Beurre & 80g\\
-      Blancs d'\OE ufs & 3\\
-      Poudre d'Amande & 75g\\
-      Sucre Glace & 75g\\
+      Menthe & 3 branches\ll
+      Sirop de Menthe & 1 c.à.s.\ll
+      Beurre & 80g\ll
+      Blancs d'\OE ufs & 3\ll
+      Poudre d'Amande & 75g\ll
+      Sucre Glace & 75g\ll
       Farine & 80g
     ]],
     etapes = [[

@@ -5,18 +5,18 @@ return {
     prep = "30mn",
     cuisson = "35mn",
     ingredients = [[
-      Quinoa & 100g\\
-      Oignon & 1\\
-      Carottes & 2\\
-      Pommes de terre & 2\\
-      Broccoli & 1\\
-      Salade & 1\\
-      Sauce Soja & 1 c.à.s.\\
-      Miel & 1 c.à.s.\\
-      Vinaigre & 1 c.à.s.\\
-      \OE ufs & 2\\
-      Cacahuètes grillées salées & \\
-      Coriandre & \\
+      Quinoa & 100g\ll
+      Oignon & 1\ll
+      Carottes & 2\ll
+      Pommes de terre & 2\ll
+      Broccoli & 1\ll
+      Salade & 1\ll
+      Sauce Soja & 1 c.à.s.\ll
+      Miel & 1 c.à.s.\ll
+      Vinaigre & 1 c.à.s.\ll
+      \OE ufs & 2\ll
+      Cacahuètes grillées salées & \ll
+      Coriandre & \ll
       Huile d'olive & 
     ]],
     etapes = [[

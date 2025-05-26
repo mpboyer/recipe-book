@@ -32,6 +32,7 @@
 \RequirePackage{minitoc}
 
 \RequirePackage{nicematrix}
+\RequirePackage{booktabs}
 \RequirePackage{fancyhdr}
 \pagestyle{fancy}
 \renewcommand{\chaptermark}[1]{\markboth{\normalsize\bfseries\ #1}{}}
@@ -70,6 +71,7 @@
 
 \RequirePackage{expl3}
 \ExplSyntaxOn
+
 \NewDocumentCommand{\tabletoindex}{m}
 {
 	\seq_set_split:Nnn \l_tmpa_seq { \\ } { #1 }
@@ -81,12 +83,27 @@
 
 \cs_new_protected:Nn \__process_table_line:n
 {
-	\tl_if_blank:nTF { #1 } { }
+	\tl_if_in:nnTF { #1 } { \CodeAfter }
 	{
-		\seq_set_split:Nnn \l_tmpb_seq { & } { #1 }
-		\index{Ingrédient!\seq_item:Nn \l_tmpb_seq {1}!\seq_item:Nn \l_tmpb_seq {2}}
+		\seq_clear:N \l_tmpa_seq
+	}
+	{
+		\tl_if_blank:nTF { #1 } { }
+		{
+			\tl_if_in:nnTF { #1 } { \midrule }
+			{ }
+			{
+				\tl_if_in:nnTF { #1 } { \parthead }
+				{ }
+				{
+					\seq_set_split:Nnn \l_tmpb_seq { & } { #1 }
+					\index{Ingrédient!\seq_item:Nn \l_tmpb_seq {1}!\seq_item:Nn \l_tmpb_seq {2}}
+				}
+			}
+		}
 	}
 }
+
 \ExplSyntaxOff
 
 
@@ -261,8 +278,38 @@
 	right=12pt,
 	before skip=14pt,
 	after skip=14pt,
-	shadow={1mm}{-1mm}{1mm}{black!30}, % soft shadow
+	shadow={1mm}{-1mm}{1mm}{black!30},
 }
+
+\def\drawoneline#1{
+	\tikz[remember picture]{
+		\draw[vulm] (1|-#1) -- (3|-#1);
+	}
+}
+
+\newcounter{linenos}
+\def\ll{\addtocounter{linenos}{1}\\}
+
+\ExplSyntaxOn
+\seq_new:N \g_headers_seq
+\NewDocumentCommand{\parthead}{m}
+{
+	\seq_gput_right:Nx \g_headers_seq {\thelinenos}
+	\Block{1-2}{#1}
+}
+\NewDocumentCommand{\resetblock}{}
+{
+	\seq_gclear:N \g_headers_seq
+}
+
+\NewDocumentCommand{\drawlines}{}
+{
+	\seq_map_inline:Nn \g_headers_seq
+	{
+		\drawoneline{##1}
+	}
+}
+\ExplSyntaxOff
 
 \def\recipe#1#2{%
 	\begin{memelenebox}
@@ -271,9 +318,11 @@
 			\textbf{Les ingrédients}
 			\\[1em]
 			\def\arraystretch{1.2}
-			\begin{NiceTabular}[width=\linewidth]{X[r, m]X[l, m]}
+			\setcounter{linenos}{2}
+			\resetblock
+			\begin{NiceTabular}[width=\linewidth, code-after={\drawlines}]{X[r, m]X[l, m]}
 				#1
-			\end{NiceTabular}
+			\end{NiceTabular}%
 			\tabletoindex{#1}
 		\end{minipage}
 		\begin{minipage}[t]{.01\textwidth}

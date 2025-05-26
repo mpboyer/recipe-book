@@ -8,9 +8,11 @@ return {
     frigo = "2h",
     robots = "",
     ingredients = [[
-      Lait & 15cl\\
-      Lait de Coco & 40cl\\
-      Cassonnade & 30g\\
+      \parthead{Test}\ll
+      Lait & 15cl\ll
+      Lait de Coco & 40cl\ll
+      \parthead{Test2}\ll
+      Cassonnade & 30g\ll
       Perles du Japon & 50g
     ]],
     etapes = [[

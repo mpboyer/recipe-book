@@ -1,0 +1,26 @@
+return {
+    titre = "Quiche Lorraine",
+    image = "",
+    portions = "4",
+    prep = "15mn",
+    four = "45mn",
+    ingredients = [[
+      \OE ufs & 3 \ll
+      Lardons & 200g\ll
+      Lait & 20cl\ll
+      Crème & 20cl\ll
+      Pâte Brisée & \ll
+      Gruyère Rapé & 
+    ]],
+    etapes = [[
+    \item Sortir la pâte brisée du réfrigérateur à l'avance pour éviter de la casser en la déroulant.
+    \item Préchauffer le four à 180°C. 
+    \item Dans un moule à tarte, dérouler la pâte. Piquer le fond avec une fourchette, et découper les bords qui dépassent trop. 
+    \item Faire dorer les lardons à la poêle. 
+    \item Dans un bol, mélanger les \oe ufs, la crème et le lait à la fourchette. 
+    \item Verser l'appareil sur la pâte et ajouter les lardons. Saupoudrer de gruyère et ajouter des croissillons avec la pâte restante. 
+    \item Enfourner 45mn. 
+    ]],
+    note = [[
+    ]]
+  }

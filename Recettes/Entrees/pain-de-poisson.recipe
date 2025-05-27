@@ -1,6 +1,5 @@
 return {
     titre = "Pain de Poisson",
-    image = "pain-poisson.jpg",
     portions = "12",
     prep = "20 mn",
     cuisson = "",

@@ -23,8 +23,8 @@
 \RequirePackage[hidelinks, colorlinks=false]{hyperref}
 \RequirePackage{etoolbox}
 \RequirePackage{xcolor}
-\definecolor{vulm}{HTML}{c73426}
-\definecolor{yulm}{HTML}{ddac87}
+\definecolor{vulm}{HTML}{7d1dd3}
+\definecolor{yulm}{HTML}{ffe500}
 \definecolor{offwhite}{HTML}{f9f9f9}
 \colorlet{pagecolor}{yulm!2}
 \pagecolor{pagecolor}
@@ -406,7 +406,7 @@
 
 		% \draw[fill=vulm, draw=none] (0, -\gap) rectangle (3pt, -\nlines\gap-2\gap);
 
-		\draw[fill=yulm!20] (0pt, -.75\gap) rectangle (\textwidth, -1.75\gap - \nlines\gap);
+		\draw[fill=yulm!10] (0pt, -.75\gap) rectangle (\textwidth, -1.75\gap - \nlines\gap);
 
 		% Line loop
 		\foreach \i in {1,...,\nlines} {

@@ -1,0 +1,23 @@
+return {
+    titre = "Clafoutis",
+    prep = "15mn",
+    four = "40mn",
+    ingredients = [[
+      \OE ufs & 4\\
+      Sucre & 60g\\
+      Beurre & \\
+      Farine & 100g\\
+      Lait & 15cl\\
+      Crème & 10cl\\
+      Cerises & 1kg
+    ]],
+    etapes = [[
+    \item Préchauffer le four à 180°C. 
+    \item Préparer une pâte avec tous les ingrédients. 
+    \item Beurrer et sucrer un moule à gâteau, y placer les cerises.
+    \item Verser l'appareil, et enfourner 30mn. 
+    \item Sortir le claftouis, le saupoudrer de sucre et le remettre à cuire 10mn. 
+    ]],
+    note = [[
+    ]]
+  }

@@ -1,0 +1,30 @@
+return {
+    titre = "Moelleux au Chocolat, Coulis Choco-Noisette",
+    prep = "25mn",
+    four = "35mn",
+    ingredients = [[
+    \parthead{Pâte} \ll
+    Chocolat Noir & 170g\ll
+    Chocolat au Lait & 30g\ll
+    \OE ufs & 3\ll
+    Sucre en Poudre & 110g\ll
+    Beurre & 120g\ll
+    Farine & 1 c.à.s.\ll
+    \parthead{Coulis}\ll
+    Chocolat au Lait & 100g\ll
+    Lait & 15cl\ll
+    Pâte de Noisettes & 3 c.à.c.
+    ]],
+    etapes = [[
+    \item Préchauffer le four à 180°C 
+    \item Faire fondre le chocolat en morceaux avec le beurre.
+    \item Mixer les jaunes avec le sucre jusqu'à ce que le mélange épaississe. Fouetter les blancs en ajoutant graduellement le reste du sucre. 
+    \item Mélanger les trois préparations, en ajoutant la farine. 
+    \item Enfourner 2/3 de la préparation pendant 25mn.
+    \item Préparer un coulis avec le lait, le chocolat fondu et la pâte de noisettes. 
+    \item Ajouter le coulis sur le moule, puis verser le restant de pâte par dessus. 
+    \item Laisser cuire environ 10mn pour qu'une croûte se forme sur le dessus.
+    ]], -- TODO: Fix this
+    note = [[
+    ]]
+  }

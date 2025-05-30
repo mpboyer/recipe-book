@@ -1,0 +1,34 @@
+return {
+    titre = "Cheesepacke Spéculoos, Coulis de Fraises",
+    prep = "30mn",
+    four = "30mn",
+    frigo = "2h",
+    ingredients = [[
+    \parthead{Biscuit}\ll
+    Spéculoos & 200g\ll
+    Beurre & 60g\ll
+    \parthead{Appareil}\ll
+    Philadelphia & 350g\ll
+    Sucre en Poudre & 70g\ll 
+    \OE ufs & 2\ll 
+    Crème Fraîche & 10cl\ll 
+    Vanille & 1 c.à.c.\ll
+    Zeste de Citron & 1\ll
+    \parthead{Coulis}\ll
+    Fraises & 200g\ll
+    Jus de Citron & 1/2\ll
+    Gélatine & 1 feuille\ll
+    Sucre en Poudre & 20g
+    ]],
+    etapes = [[
+    \item Préchauffer le four à 160°C.
+    \item Mélanger les spéculoos brisés et le beurre fondu, et les étaler au fond d'un moule.
+    \item Préparer l'appareil en mélangeant au fouet les \oe ufs, le sucre, le zeste de citron, la vanille, le fromage et la crème.
+    \item Étaler sur le biscuit et enfourner 30mn.
+    \item Mixer les fraises avec le sucre et le jus de citron.
+    \item Faire chauffer avec la gélatine.
+    \item Verser sur le cheescake une fois tout refroidi.
+    ]],
+    note = [[
+    ]]
+  }

@@ -312,7 +312,7 @@
 % Body of the recipe
 
 \RequirePackage[most]{tcolorbox}
-\newtcolorbox{memelenebox}{
+\newtcolorbox{recipebox}{
 	enhanced,
 	colback = pagecolor,
 	boxrule=1.2pt,
@@ -370,10 +370,10 @@
 \ExplSyntaxOff
 
 \def\recipe#1#2{%
-	\begin{memelenebox}
+	\begin{recipebox}
 		\noindent
 		\begin{minipage}[t]{0.33\textwidth}
-			\textbf{Les ingrédients}
+			\texthead{Les ingrédients}
 			\\[1em]
 			\def\arraystretch{1.2}
 			\setcounter{linenos}{2}
@@ -387,12 +387,12 @@
 
 		\end{minipage}
 		\begin{minipage}[t]{.66\textwidth}
-			\textbf{La recette}
+			\texthead{La recette}
 			\begin{enumerate}[label=\color{vulm}\theenumi, font=\bfseries]
 				#2
 			\end{enumerate}
 		\end{minipage}
-	\end{memelenebox}
+	\end{recipebox}
 }
 
 
@@ -483,7 +483,7 @@
 \RequirePackage{calligra}
 \RequirePackage{pgfplots}
 
-\newcommand{\memeleneTitle}{
+\newcommand{\bookcover}{
 	\begin{titlepage}
 		\MarbledBackground
 
@@ -513,7 +513,7 @@
 
 \AfterBeginDocument{%
 	\frontmatter
-	\memeleneTitle\dominitoc
+	\bookcover\dominitoc
 	\tableofcontents
 	\listoftables
 	\makeindex[options= -s index_style]

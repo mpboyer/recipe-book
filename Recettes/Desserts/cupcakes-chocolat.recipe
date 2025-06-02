@@ -5,6 +5,7 @@ return {
     prep = "30mn",
     cuisson = "20mn",
     ingredients = [[
+    \parthead{Appareil}\ll
       Yaourt Nature & 1\ll
       \OE ufs & 3\ll
       Farine & 170g\ll
@@ -12,10 +13,11 @@ return {
       Sucre Roux & 150g\ll
       Beurre Fondu & 150g\ll
       Cacao & 3 c.à.c.\ll
+      \parthead{Décoration}\ll
+      Chocolat Noir & 100g\ll
+      Crème Liquide & 25cl\ll
       Vermicelles Colorés & \ll
       Myrtilles & 18\ll
-      Chocolat Noir & 100g\ll
-      Crème Liquide & 25cl 
     ]],
     etapes = [[
     \item Préchauffer le four à 180°C. 

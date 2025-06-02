@@ -5,11 +5,13 @@ return {
     cuisson = "10mn",
     robots = "Hachoir",
     ingredients = [[
+    \parthead{Pâtes}\ll
       Penne & 350g\ll
+      Parmesan Râpé & 50g\ll
+      \parthead{Pesto}\ll
       Poudre d'Amandes & 55g\ll
       Ail & 1 gousse\ll
       Basilic & 40g \ll
-      Parmesan Râpé & 50g\ll
       Huile d'Olive & 8 c.à.s.\ll
       Citrons & 1\ll
       Sel & \ll

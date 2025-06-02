@@ -5,14 +5,16 @@ return {
     prep = "45mn",
     cuisson = "40mn",
     ingredients = [[
+    \parthead{Viande}\ll
       Poitrine de Porc & 1kg\ll
       Échalotes & 2\ll
       Ail & 2 gousses\ll
       Gingembre & 1 noix\ll
+      Huile d'Olive & 1 c.à.s.\ll
+      \parthead{Sauce}\ll
       Cassonade & 7 c.à.s.\ll
       Nuoc Mam & 3 c.à.s.\ll
       Sauce Soja & 1 c.à.s.\ll
-      Huile d'Olive & 1 c.à.s.\ll
       Coriandre & \ll
       Cacahuètes & \ll
       Sel & \ll

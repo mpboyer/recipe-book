@@ -5,18 +5,22 @@ return {
     prep = "20mn",
     four = "1h",
     ingredients = [[
+    \parthead{Plat}\ll
+      Lasagnes & $\simeq$ 10\ll
+      Gruyère Râpé & 125g\ll
+      \parthead{Sauce Bolognaise}\ll
       Viande Hachée & 400g\ll
       Coulis de Tomate & 500g\ll
       Champignons de Paris & 150g\ll
       Carotte & 1 \ll
-      Beurre & 40g\ll
-      Farine & 40g\ll
-      Lait & 50cl\ll
-      Gruyère Râpé & 125g\ll
       Ail & 1 gousse\ll
       Oignon & 1/2\ll
       Basilic & \ll
-      Thym & 
+      Thym & \ll
+      \parthead{Sauce Béchamel}\ll
+      Beurre & 40g\ll
+      Farine & 40g\ll
+      Lait & 50cl\ll
     ]],
     etapes = [[
     \item Dans une casserole/grande poêle, verser un trait d'huile d'olive, ajouter l'oignon ciselé, faire revenir puis ajouter les carottes et les champignons. Mélanger.

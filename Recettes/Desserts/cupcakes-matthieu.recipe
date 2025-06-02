@@ -5,14 +5,17 @@ return {
     prep = "15mn",
     four = "20mn",
     ingredients = [[
+    \parthead{Appareil}\ll
       Farine & 150g\ll
       Levure & 1 sachet\ll
-      Sucre Glace & 150g + 50g\ll
+      Sucre Glace & 150g \ll
       \OE ufs & 2\ll
       Beurre & 90g\ll
       Chocolat Blanc & 50g\ll
+      \parthead{Glaçage}\ll
       Cream Cheese & 150g\ll
-      Sucre Vanillé & 1 sachet
+      Sucre Glace & 50g\ll
+      Sucre Vanillé & 1 sachet\ll
     ]],
     etapes = [[
     \item Préchauffer le four à 180°C. 

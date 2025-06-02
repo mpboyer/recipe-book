@@ -7,8 +7,12 @@ return {
     four = "2h",
     robots = "Batteur",
     ingredients = [[
+    \parthead{Meringue}\ll
       Blancs d'\OE ufs & 7\ll
-      Sucre & 350g + 6 c.à.s.\ll
+      Sucre & 350g \ll
+      \parthead{Crème Anglaise}\ll
+      Jaunes d'\OE ufs & 7\ll
+      Sucre & 6 c.à.s.\ll
       Lait Entier & 1l
     ]],
     etapes = [[

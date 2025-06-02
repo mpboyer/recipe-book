@@ -5,6 +5,7 @@ return {
     prep = "20mn",
     cuisson = "20mn",
     ingredients = [[
+    \parthead{Poissons Panés}\ll
       Poisson blanc & 4 morceaux\ll
       Citrons & 2\ll
       Farine & 150g\ll
@@ -12,6 +13,7 @@ return {
       Chapelure & \ll
       Beurre & 10g\ll
       Herbes & \ll
+      \parthead{Ketchup}\ll
       Tomates concassées & 500g\ll
       Sucre & 30g\ll
       Miel & 35g\ll

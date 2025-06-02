@@ -29,6 +29,10 @@
 \colorlet{pagecolor}{yulm!2}
 \pagecolor{pagecolor}
 
+\RequirePackage{luacolor}
+\RequirePackage{lua-ul}
+\def\texthead#1{\textbf{\underLine[color=vulm, height=1pt]{\large #1}}}
+
 \RequirePackage{graphicx}
 \graphicspath{{Images/}}
 \RequirePackage{wrapfig}
@@ -40,6 +44,7 @@
 \RequirePackage{imakeidx}
 \RequirePackage{titletoc}
 \RequirePackage{minitoc}
+\counterwithout{table}{chapter}
 
 \def\indexnumbermacro#1{\textcolor{darkgray!80}{\textit{#1}}}
 \newcommand{\indrule}[3][.]{%
@@ -328,10 +333,11 @@
 	\sbox0{#1}
 	\wdctl=\wd0
 	\htctl=\ht0
+	\advance \wdctl by 12pt
 	\advance \htctl by 3pt
 	\begin{tikzpicture}[remember picture]
-		\draw[vulm, line width=1.5pt] ($(1|-#2) + (0, 2pt)$) -- ($(1|-#2) + (1.4\wdctl, 2pt)$);
-		\draw[vulm, line width=1.5pt] ($(1|-#2) + (1.4\wdctl, 1.25pt)$) -- ($(1|-#2) + (1.4\wdctl, 1.4\htctl)$);
+		\draw[vulm, line width=1.5pt] ($(1|-#2) + (0, 2pt)$) -- ($(1|-#2) + (\wdctl, 2pt)$);
+		\draw[vulm, line width=1.5pt] ($(1|-#2) + (\wdctl, 1.25pt)$) -- ($(1|-#2) + (\wdctl, \htctl)$);
 	\end{tikzpicture}
 }
 

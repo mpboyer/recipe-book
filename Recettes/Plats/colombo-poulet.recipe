@@ -4,20 +4,25 @@ return {
     prep = "45mn",
     cuisson = "40mn",
     ingredients = [[
+    \parthead{Plat}\ll
       Poulet & 1 gros\ll
       Aubergine & 1\ll
       Courgette & 1\ll
       Pommes de Terre & 3\ll
-      Oignon & 1\ll
       Citrons & 2\ll
+      \parthead{Marinade}\ll
       Piment & 1\ll
-      Ail & 5-6 gousses\ll
-      Poudre de Colombo & 2 c.à.s.\ll
-      Cives & \ll
-      Coriandre & \ll
-      Thym & \ll
+      Ail & 3 gousses\ll
       Clous de Girofle & \ll
       Vinaigre & \ll
+      \parthead{Colombo}\ll
+      Oignon & 1\ll
+      Cives & \ll
+      Persil & \ll
+      Ail & 3 gousses\ll
+      Poudre de Colombo & 2 c.à.s.\ll
+      Coriandre & \ll
+      Thym & \ll
       Huile & \ll
       Sel & \ll
       Poivre 
@@ -25,7 +30,7 @@ return {
     etapes = [[
     \item Découper le poulet en morceaux et faire macérer pendant 3/4 d'heure dans un mélange de sel, poivre, ail écrasé, piment haché, clous de girofle et vinaigre.
     \item Hacher les cives, l'oignon, le persil et l'ail. 
-    \item Faire revenir légèrementdans une cocotte avec un peu d'huile, de coriandre et de thym. 
+    \item Faire revenir légèrement dans une cocotte avec un peu d'huile, de coriandre et de thym. 
     \item Ajouter les morceaux de viande et faire roussir en remuant. 
     \item Couper les légumes en morceaux et les verser dans la cocotte. 
     \item Délayer la poudre de colombo dans un peu d'eau, l'ajouter à la viande et remuer.

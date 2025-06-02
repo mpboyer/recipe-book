@@ -5,19 +5,21 @@ return {
     prep = "30mn",
     cuisson = "35mn",
     ingredients = [[
+    \parthead{Plat}\ll
       Quinoa & 100g\ll
       Oignon & 1\ll
       Carottes & 2\ll
       Pommes de terre & 2\ll
       Broccoli & 1\ll
       Salade & 1\ll
-      Sauce Soja & 1 c.à.s.\ll
-      Miel & 1 c.à.s.\ll
-      Vinaigre & 1 c.à.s.\ll
       \OE ufs & 2\ll
       Cacahuètes grillées salées & \ll
       Coriandre & \ll
-      Huile d'olive & 
+      Huile d'olive & \ll
+      \parthead{Sauce} \ll
+      Sauce Soja & 1 c.à.s.\ll
+      Miel & 1 c.à.s.\ll
+      Vinaigre & 1 c.à.s.\ll
     ]],
     etapes = [[
     \item Dans une casserole d'eau salée froide, verser le quinoa et laisser cuire 15mn à feu moyen. 

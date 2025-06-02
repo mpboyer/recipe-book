@@ -3,12 +3,15 @@ return {
     prep = "20mn",
     four = "20mn",
     ingredients = [[
-      Chocolat & 250g + 200g\ll
+    \parthead{Appareil}\ll
+      Chocolat & 250g\ll
       Sucre & 100g\ll
       Beurre & 125g\ll
       Noix de Coco Râpée & 125g\ll
       \OE ufs & 3\ll
       Farine & 50g\ll
+      \parthead{Glaçage}\ll
+      Chocolat & 200g\ll
       Lait de Coco & 1l
     ]],
     etapes = [[

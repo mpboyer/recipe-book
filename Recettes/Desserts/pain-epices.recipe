@@ -1,0 +1,38 @@
+return {
+    titre = "Pain d'Épices",
+    image = "",
+    portions = "",
+    prep = "30mn",
+    four = "40mn",
+    frigo = "",
+    robots = "",
+    ingredients = [[
+      Beurre & 70g\ll
+      Farine & 250g\ll
+      Miel & 300g\ll
+      Jus d'Orange & 10cl $\simeq 1$\ll
+      Zeste d'Orange & 1/2\ll
+      Lait & 10cl\ll
+      \OE ufs & 2\ll
+      Levure Chimique & 1 sachet \ll
+      Bicarbonate & 1 c.à.c.\ll
+      Cannelle & 1 c.à.c.\ll 
+      4 Épices & 1 c.à.c.\ll
+      Muscade & 1/2 c.à.c.\ll
+      Gingembre & 1/2 c.à.c.\ll
+      Cardamome & 1/2 c.à.c.\ll
+      Cassonade & 50g\ll
+      Sel & 1 pincée
+    ]],
+    etapes = [[
+    \item Préchauffer le four à 160°C.
+    \item Chauffer le miel, le jus d'orange, le lait et le zeste à ébullition. 
+    \item Stopper et ajouter le beurre.
+    \item Tiédir et ajouter les \oe ufs un à un.
+    \item Mélanger la farine, la levure, le bicarbonate, les épices et la cassonade. 
+    \item Ajouter le mélange liquide. 
+    \item Enfourner 40mn.
+    ]],
+    note = [[
+    ]]
+  }

@@ -1,0 +1,26 @@
+return {
+    titre = "Tiramisu au Citron",
+    prep = "",
+    cuisson = "",
+    four = "",
+    frigo = "",
+    robots = "",
+    ingredients = [[
+      Biscuits à la Cuiller & \ll
+      Limoncello & \ll
+      \parthead{Mousse}\ll
+      Mascarpone & 250g\ll
+      Sucre & 100g\ll
+      Citrons & 2 \ll
+      Crème Fraîche & 20cl\ll
+      Citrons Verts & \ll
+    ]],
+    etapes = [[
+    \item Mouiller les biscuits à la cuiller avec du limoncello et les placer dans le plat.
+    \item Mélanger le mascarpone avec le sucre et le jus des citrons après avoir rapé le zeste dans la préparation.
+    \item Fouetter la crème fraîche et incorporer au mélange précédent.
+    \item Recouvrir les biscuits. Décorer avec des rondelles de citron vert
+    ]],
+    note = [[
+    ]]
+  }

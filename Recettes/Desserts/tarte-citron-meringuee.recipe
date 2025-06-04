@@ -1,0 +1,46 @@
+return {
+    titre = "Tarte au Citron Meringuée",
+    portions = "",
+    prep = "45mn",
+    four = "45mn",
+    frigo = "2h",
+    ingredients = [[
+      \parthead{Pâte}\ll
+      Farine & 250g\ll
+      Beurre & 140g\ll
+      \OE uf & 1\ll
+      Sucre Glace & 75g\ll
+      Poudre d'Amandes & 25g\ll
+      Citron & 1 zeste\ll
+      \parthead{Crème}\ll
+      Sucre en Poudre & 100g\ll
+      \OE ufs & 2\ll
+      Beurre Pommade & 100g\ll
+      Jus de Citron & 8cl\ll
+      Citron & 1.5 zeste\ll
+      \parthead{Meringue}\ll
+      Blancs d'\oe ufs & 100g $\simeq$ 3\ll
+      Sucre & 115g\ll
+      Citron & 1 zeste
+    ]],
+    etapes = [[
+    \item Préparer la pâte: 
+    \begin{enumerate}
+    \item Préchauffer le four à 180°C.
+    \item Mélanger à la spatule le beurre et le sucre, ajouter l'\oe uf, la poudre d'amandes, le sel et la farine. 
+    \item Étaler dans un moule à tarte, enfourner 20mn et badigeonner d'un blanc d'\oe uf 5mn avant la fin de la cuisson.
+    \end{enumerate}
+    \item Préparer la crème: 
+    \begin{enumerate}
+    \item Infuser le sucre des zestes pendant 10mn. 
+    \item Ajouter le jus de citron et les \oe ufs, mettre au bain marie. Fouetter sans cesse jusqu'à épaississement.
+    \item Laisser refroidir, ajouter le beurre et laisser reposer 2h au frais. 
+    \end{enumerate}
+    \item Préparer la meringue en une pièce à base circulaire.
+    \item Préchauffer le four à 250°C
+    \item Placer la crème sur la tarte et lisser.
+    \item Étaler la meringue sur la tarte, et saupoudrer de sucre glace. Enfourner $\simeq 2$ mn.
+    ]],
+    note = [[
+    ]]
+  }

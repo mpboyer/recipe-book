@@ -1,0 +1,29 @@
+return {
+    titre = "Bûche Chocolat-Marron Légère",
+    image = "",
+    portions = "",
+    prep = "",
+    cuisson = "",
+    frigo = "1j",
+    ingredients = [[
+      Bon chocolat noir & 200g\ll
+      \OE ufs & 2\ll
+      Purée de marrons non sucrée & 200g\ll
+      Beurre & 50g\ll
+      Rhum & 1 c.à.s.\ll
+      Cacao non sucré & 1 c.à.s.\ll
+    ]],
+    etapes = [[
+    \item Faire fondre le chocolat.
+    \item Casser les \oe ufs en séparant les jaunes des blancs.
+    \item Ajouter les jaunes au chocolat.
+    \item Tiédir et assouplir la purée de marrons avec le beurre et le rhum.
+    \item Ajouter le mélange au chocolat. 
+    \item Battre les blancs en neige.
+    \item Les mélanger délicatement au chocolat.
+    \item Mettre dans un moule à cake au frais.
+    \item Le lendemain, démouler et saupoudrer de cacao.
+    ]],
+    note = [[
+    ]]
+  }

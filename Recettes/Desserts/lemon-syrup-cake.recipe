@@ -1,0 +1,28 @@
+return {
+    titre = "Lemon Syrup Cake",
+    image = "",
+    portions = "",
+    prep = "",
+    cuisson = "35-40mn",
+    frigo = "",
+    ingredients = [[
+      Beurre & 125g\ll
+      Sucre & 175g\ll
+      Zeste & 1 citron\ll
+      \OE ufs & 2\ll
+      Farine & 175g\ll
+      Poudre à pâte & 2 c.à.c.\ll
+      Jus de citron & 2 c.à.s.\ll
+      Lait & 2 c.à.s.\ll
+    ]],
+    etapes = [[
+    \item Préchauffer le four à 180°C.
+    \item Mixer le beurre et le sucre.
+    \item Ajouter le zeste de citron et les \oe ufs et mixer le tout. 
+    \item Retirer la pâte du mixeur et incorporer la farine. 
+    \item Ajouter la poudre à pâte, le jus de citron et le lait. 
+    \item Enfourner 35 à 40 minutes.
+    ]],
+    note = [[
+    ]]
+  }

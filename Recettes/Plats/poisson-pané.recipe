@@ -1,5 +1,5 @@
 return {
-    titre = "Poisson Pané aux Herbes, Ketchup Maison",
+    titre = "Poisson pané aux herbes, ketchup maison",
     image = "",
     portions = "4",
     prep = "20mn",

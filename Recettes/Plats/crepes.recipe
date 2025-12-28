@@ -1,0 +1,20 @@
+return {
+    titre = "Crêpes",
+    image = "",
+    portions = "4",
+    prep = "15mn",
+    cuisson = "30mn",
+    frigo = "30mn",
+    ingredients = [[
+      Oeuf & 3\ll
+      Lait & 500mL\ll
+    ]],
+    etapes = [[
+    \item Mélanger dans un grand bol les oeufs, le lait et la farine jusqu'à obtenir une pâte homogène. 
+    \item Laisser reposer une demie heure (optionnel). 
+    \item Dans la crêpière, faire fondre une noix de beurre et l'ajouter à la pâte. 
+    \item Faire cuire les crêpes en ne lésinant pas sur le beurre.
+    ]],
+    note = [[
+    ]]
+  }

@@ -1,5 +1,5 @@
 return {
-    titre = "Penne au Pesto d'Amande",
+    titre = "Penne au pesto d'amande",
     portions = "4",
     prep = "12mn",
     cuisson = "10mn",

@@ -1,5 +1,5 @@
 return {
-    titre = "Chutney de Poires",
+    titre = "Chutney de poires",
     prep = "15mn",
     cuisson = "1h",
     ingredients = [[

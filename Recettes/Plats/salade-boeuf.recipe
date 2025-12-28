@@ -1,5 +1,5 @@
 return {
-    titre = "Salade de B\\oe uf",
+    titre = "Salade de b\\oe uf",
     portions = "4",
     prep = "15mn",
     cuisson = "5mn",

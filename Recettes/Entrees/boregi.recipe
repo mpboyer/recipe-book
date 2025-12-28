@@ -1,5 +1,5 @@
 return {
-    titre = "Sigara Böre\\u{g}i",
+    titre = "Sigara böre\\u{g}i",
     image = "",
     portions = "4",
     prep = "15mn",

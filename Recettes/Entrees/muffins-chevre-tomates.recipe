@@ -1,5 +1,5 @@
 return {
-    titre = "Muffins au Chèvre Frais",
+    titre = "Muffins au chèvre frais",
     image = "",
     portions = "6",
     prep = "20mn",

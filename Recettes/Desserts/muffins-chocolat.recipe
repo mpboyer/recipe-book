@@ -1,5 +1,5 @@
 return {
-    titre = "Muffins Chocolat",
+    titre = "Muffins chocolat",
     image = "",
     portions = "",
     prep = "30mn",

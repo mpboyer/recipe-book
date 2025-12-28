@@ -1,5 +1,5 @@
 return {
-    titre = "Pâte Sablée",
+    titre = "Pâte sablée",
     portions = "2",
     prep = "20mn",
     frigo = "2h",

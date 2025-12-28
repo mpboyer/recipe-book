@@ -1,5 +1,5 @@
 return {
-    titre = "Légumes Cuisinés aux Épices, \\OE uf cassé",
+    titre = "Légumes cuisinés aux épices, \\oe uf cassé",
     portions = "4",
     prep = "20mn",
     cuisson = "25mn",

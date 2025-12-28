@@ -1,5 +1,5 @@
 return {
-    titre = "Colombo de Poulet et Riz à la Créole",
+    titre = "Colombo de poulet et riz à la créole",
     portions = "4",
     prep = "45mn",
     cuisson = "40mn",

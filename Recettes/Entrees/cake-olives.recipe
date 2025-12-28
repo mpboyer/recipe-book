@@ -1,5 +1,5 @@
 return {
-    titre = "Cake aux Olives",
+    titre = "Cake aux olives",
     four = "1h",
     ingredients = [[
       Vin Blanc & 15cl\ll

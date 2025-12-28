@@ -1,5 +1,5 @@
 return {
-    titre = "Carrot Cake",
+    titre = "Carrot cake",
     prep = "30mn",
     cuisson = "",
     four = "40mn",

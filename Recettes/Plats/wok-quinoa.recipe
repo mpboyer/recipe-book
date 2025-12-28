@@ -1,5 +1,5 @@
 return {
-    titre = "Wok de Légumes et Quinoa",
+    titre = "Wok de légumes et quinoa",
     image = "",
     portions = "4",
     prep = "30mn",

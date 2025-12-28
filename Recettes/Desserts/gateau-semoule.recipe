@@ -1,5 +1,5 @@
 return {
-    titre = "Gâteau de Semoule aux Épices",
+    titre = "Gâteau de semoule aux épices",
     image = "",
     portions = "6",
     prep = "20mn",

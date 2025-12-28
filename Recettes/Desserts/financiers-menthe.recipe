@@ -1,5 +1,5 @@
 return {
-    titre = "Financiers à la Menthe",
+    titre = "Financiers à la menthe",
     prep = "20mn",
     four = "15mn",
     ingredients = [[

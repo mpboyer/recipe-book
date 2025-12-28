@@ -1,5 +1,5 @@
 return {
-    titre = "Crème aux Perles du Japon",
+    titre = "Crème aux perles du japon",
     image = "",
     portions = "2",
     prep = "5mn",

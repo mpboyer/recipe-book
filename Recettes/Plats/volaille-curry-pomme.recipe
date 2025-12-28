@@ -1,5 +1,5 @@
 return {
-    titre = "Curry Coco de Volaille, Pomme verte",
+    titre = "Curry coco de volaille, pomme verte",
     portions = "4",
     prep = "40mn",
     cuisson = "1h",

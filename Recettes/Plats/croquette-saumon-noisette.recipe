@@ -1,5 +1,5 @@
 return {
-    titre = "Croquettes de Saumon et Épeautre",
+    titre = "Croquettes de saumon et épeautre",
     image = "",
     portions = "4",
     prep = "30mn",

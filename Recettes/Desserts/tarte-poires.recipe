@@ -1,5 +1,5 @@
 return {
-    titre = "Tarte aux Poires",
+    titre = "Tarte aux poires",
     prep = "20mn",
     four = "30mn",
     ingredients = [[

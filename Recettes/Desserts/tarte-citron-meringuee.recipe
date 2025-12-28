@@ -1,5 +1,5 @@
 return {
-    titre = "Tarte au Citron Meringuée",
+    titre = "Tarte au citron meringuée",
     portions = "",
     prep = "45mn",
     four = "45mn",

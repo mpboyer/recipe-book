@@ -1,5 +1,5 @@
 return {
-    titre = "Boulettes de Viande",
+    titre = "Boulettes de viande",
     portions = "6",
     prep = "30mn",
     cuisson = "15mn",

@@ -1,5 +1,5 @@
 return {
-    titre = "Gâteau au Chocolat et aux Fruits Secs",
+    titre = "Gâteau au chocolat et aux fruits secs",
     image = "",
     portions = "6",
     prep = "15mn",

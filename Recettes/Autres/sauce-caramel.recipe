@@ -1,5 +1,5 @@
 return {
-    titre = "Sauce Caramel",
+    titre = "Sauce caramel",
     prep = "30mn",
     ingredients = [[
       Sucre & 160g \ll

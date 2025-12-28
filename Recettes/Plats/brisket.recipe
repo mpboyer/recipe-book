@@ -1,5 +1,5 @@
 return {
-  titre = "Beef Brisket à l'Américaine",
+  titre = "Beef brisket à l'américaine",
   portions = "6",
   prep = "20min",
   four = "5h30",

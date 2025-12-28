@@ -1,5 +1,5 @@
 return {
-    titre = "Pain de Poisson",
+    titre = "Pain de poisson",
     portions = "12",
     prep = "20 mn",
     cuisson = "",

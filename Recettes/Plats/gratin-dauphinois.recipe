@@ -1,5 +1,5 @@
 return {
-    titre = "Gratin Dauphinois et C\\oe ur de laitue",
+    titre = "Gratin dauphinois et c\\oe ur de laitue",
     image = "",
     portions = "4",
     prep = "20mn",

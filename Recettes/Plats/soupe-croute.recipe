@@ -1,5 +1,5 @@
 return {
-  titre = "Soupe de Foie Gras en Croûte",
+  titre = "Soupe de foie gras en croûte",
   portions = "4",
   prep = "30min",
   four = "20min",

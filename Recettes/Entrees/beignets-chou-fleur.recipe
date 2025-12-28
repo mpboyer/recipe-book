@@ -1,5 +1,5 @@
 return {
-    titre = "Beignets de Chou-Fleur aux Épices",
+    titre = "Beignets de chou-fleur aux épices",
     image = "",
     portions = "4",
     prep = "30mn",
